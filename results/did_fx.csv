@@ -1,0 +1,13 @@
+outcome,exposure,n,firms,coef,se,p
+implied_rate,fx_liab_z,3664,519,-0.1078,0.0214,0.0
+icr,fx_liab_z,3968,523,0.9635,0.2082,0.0
+altman_z,fx_liab_z,4059,524,0.8131,0.278,0.0035
+debt_growth,fx_liab_z,3344,524,-0.084,0.0368,0.0223
+debt_to_assets,fx_liab_z,4059,524,-0.0492,0.0072,0.0
+roa,fx_liab_z,4059,524,-0.0013,0.0039,0.7329
+implied_rate,exp_sh_z,3617,509,-0.0749,0.0215,0.0005
+icr,exp_sh_z,3913,513,-0.0843,0.2287,0.7126
+altman_z,exp_sh_z,3996,514,-0.1435,0.2524,0.5698
+debt_growth,exp_sh_z,3295,514,-0.0192,0.0395,0.6268
+debt_to_assets,exp_sh_z,3996,514,0.0077,0.0071,0.2804
+roa,exp_sh_z,3996,514,-0.0111,0.0037,0.0029

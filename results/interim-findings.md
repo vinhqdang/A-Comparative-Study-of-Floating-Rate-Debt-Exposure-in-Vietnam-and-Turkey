@@ -246,3 +246,85 @@ costs do not.
    statistical power and of the heterogeneity story.
 3. **Reframe to the aggregate comparison** the data does support, accepting a
    more descriptive contribution.
+
+---
+
+# Is the data adequate for a theoretically strong paper?
+
+Short answer: not for the Türkiye-2023 firm-level design. Three independent
+problems compound, and the third is decisive.
+
+## 1. The treatment variable is unobservable
+
+Contractual floating-rate status is not recoverable from published statements.
+This is why Şengül & Çinko needed administrative data, and no econometric
+technique substitutes for it.
+
+## 2. Estimated exposure is noise; measured exposure is not
+
+Persistence across 2018-2022:
+
+| Measure | Correlation | Verdict |
+|---|---|---|
+| Repricing beta (TR / VN) | -0.22 / -0.08 | noise |
+| Short-term debt share (TR / VN) | +0.44 / +0.63 | stable |
+| FX exposure (TR) | +0.52 | stable |
+| Export share (TR) | +0.84 | stable |
+
+Balance-sheet characteristics *are* well-measured firm traits. Only the
+regression-estimated betas fail. So exposure can be measured -- just not
+floating-rate exposure.
+
+## 3. Inflation accounting contaminates every Turkish balance-sheet ratio at
+the treatment date
+
+Turkish median balance-sheet aggregates:
+
+| Year | Equity / assets | Debt / assets |
+|---|---|---|
+| 2017 | 0.472 | 0.217 |
+| 2019 | 0.419 | 0.226 |
+| 2021 | 0.462 | 0.189 |
+| **2022** | **0.558** | **0.138** |
+| **2023** | **0.614** | **0.111** |
+| 2024 | 0.646 | 0.100 |
+
+Leverage more than halves between 2019 and 2024. No real deleveraging of that
+size occurred. TMS-29 indexes non-monetary assets and equity upward while
+monetary debt stays nominal, so the ratios move mechanically -- and the break
+lands on 2022-23, exactly at treatment.
+
+This is fatal for the FX design in a way fixed effects cannot repair. Firms
+differ in their ratio of monetary debt to non-monetary assets, so the
+restatement effect is itself *heterogeneous in the exposure variable*. It
+enters as an exposure-by-post interaction, which is the coefficient of
+interest. Country-by-year effects absorb the common level shift and leave the
+contamination untouched.
+
+The FX results show exactly this signature: highly significant coefficients
+with the wrong sign (FX-indebted firms appearing to *improve* -- implied rate
+-0.108, p < 0.0001; Altman Z'' +0.813, p = 0.004), post-treatment coefficients
+growing monotonically (+0.32, +0.83, +1.18 across 2023-25) as restatement
+compounds, and event studies with large significant pre-trends
+(2017 +0.83***, 2018 +0.54**, 2021 -0.59**). None of it is causal.
+
+## What the data can support
+
+**The 2018 Turkish currency crisis.** The lira fell from 3.8 to 5.3 against the
+dollar in 2018. It is a sharp, well-identified shock; FX exposure is measurable
+and persistent; and it sits entirely *before* TMS-29, so the accounting basis is
+consistent across the window. Our panel starts in 2010, giving ample pre-period.
+The theory is well developed -- original sin, and the Bruno-Shin risk-taking
+channel -- and the prediction is directional and testable.
+
+**Vietnam as the clean laboratory.** No inflation accounting, 693 firms over
+2011-2025, and validated against an independent source. Whatever design is
+chosen, the Vietnamese side is sound.
+
+## Recommendation
+
+Move the treatment event rather than patch the specification. A paper built on
+the 2023 tightening must defend every balance-sheet outcome against a
+mechanical accounting artefact that moves with the treatment; a paper built on
+2018, or on a currency shock in general, does not. The comparative VN/TR
+structure and all the data infrastructure carry over unchanged.
