@@ -1,0 +1,2322 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - button "Menüyü Aç" [ref=e4] [cursor=pointer]
+      - link "Mynet Anasayfa" [ref=e5] [cursor=pointer]:
+        - /url: https://www.mynet.com
+      - generic [ref=e7]:
+        - navigation [ref=e8]:
+          - link "HABER" [ref=e9] [cursor=pointer]:
+            - /url: https://haber.mynet.com
+          - link "SPOR" [ref=e11] [cursor=pointer]:
+            - /url: https://www.mynet.com/spor/
+          - link "FİNANS" [ref=e13] [cursor=pointer]:
+            - /url: https://finans.mynet.com
+          - text: Yeni
+          - link "RESMİ İLANLAR" [ref=e15] [cursor=pointer]:
+            - /url: https://www.mynet.com/resmi-ilanlar
+          - link "TÜMÜ" [ref=e17] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=e19]:
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - link [ref=e23] [cursor=pointer]:
+                - /url: https://www.mynet.com/yemek
+                - img "Yemek" [ref=e24]
+              - link [ref=e25] [cursor=pointer]:
+                - /url: https://www.mynet.com/express
+                - img "Express" [ref=e26]
+              - link [ref=e27] [cursor=pointer]:
+                - /url: https://www.mynet.com/anket
+                - img "Mynet Anket" [ref=e28]
+              - link [ref=e29] [cursor=pointer]:
+                - /url: https://www.mynet.com/aktuel
+                - img "İndirim Broşürleri" [ref=e30]
+              - link [ref=e31] [cursor=pointer]:
+                - /url: https://www.mynet.com/spor/canli-skor
+                - img "Canlı Skor" [ref=e32]
+              - link [ref=e33] [cursor=pointer]:
+                - /url: https://www.mynet.com/kelime-bul
+                - img "Kelime Bul" [ref=e34]
+              - link [ref=e35] [cursor=pointer]:
+                - /url: https://finans.mynet.com/borsa/canliborsa/
+                - img "Canlı Borsa" [ref=e36]
+              - link [ref=e37] [cursor=pointer]:
+                - /url: https://www.mynet.com/haberler/iklim-ve-enerji-cozumleri
+                - img "İklim ve Enerji Çözümleri" [ref=e38]
+              - link [ref=e39] [cursor=pointer]:
+                - /url: https://www.mynet.com/kadin
+                - img "Kadın" [ref=e40]
+              - link [ref=e41] [cursor=pointer]:
+                - /url: https://www.mynet.com/haberler/ing-para-mevzulari
+                - img "ING Para Mevzuları" [ref=e42]
+              - link [ref=e43] [cursor=pointer]:
+                - /url: https://www.mynet.com/mynetin-sesi
+                - img "Mynet'in Sesi" [ref=e44]
+              - link [ref=e45] [cursor=pointer]:
+                - /url: https://www.mynet.com/haberler/philips-ev-aletleri
+                - img "Philips Ev Aletleri" [ref=e46]
+              - link [ref=e47] [cursor=pointer]:
+                - /url: https://www.mynet.com/trend
+                - img "Trend" [ref=e48]
+              - link [ref=e49] [cursor=pointer]:
+                - /url: https://www.mynet.com/vitrin
+                - img "Vitrin" [ref=e50]
+              - link [ref=e51] [cursor=pointer]:
+                - /url: https://www.mynet.com/yemek
+                - img "Yemek" [ref=e52]
+              - link [ref=e53] [cursor=pointer]:
+                - /url: https://www.mynet.com/express
+                - img "Express" [ref=e54]
+              - link [ref=e55] [cursor=pointer]:
+                - /url: https://www.mynet.com/anket
+                - img "Mynet Anket" [ref=e56]
+              - link [ref=e57] [cursor=pointer]:
+                - /url: https://www.mynet.com/aktuel
+                - img "İndirim Broşürleri" [ref=e58]
+              - link [ref=e59] [cursor=pointer]:
+                - /url: https://www.mynet.com/spor/canli-skor
+                - img "Canlı Skor" [ref=e60]
+              - link [ref=e61] [cursor=pointer]:
+                - /url: https://www.mynet.com/kelime-bul
+                - img "Kelime Bul" [ref=e62]
+              - link [ref=e63] [cursor=pointer]:
+                - /url: https://finans.mynet.com/borsa/canliborsa/
+                - img "Canlı Borsa" [ref=e64]
+              - link [ref=e65] [cursor=pointer]:
+                - /url: https://www.mynet.com/haberler/iklim-ve-enerji-cozumleri
+                - img "İklim ve Enerji Çözümleri" [ref=e66]
+              - link [ref=e67] [cursor=pointer]:
+                - /url: https://www.mynet.com/kadin
+                - img "Kadın" [ref=e68]
+              - link [ref=e69] [cursor=pointer]:
+                - /url: https://www.mynet.com/haberler/ing-para-mevzulari
+                - img "ING Para Mevzuları" [ref=e70]
+              - link [ref=e71] [cursor=pointer]:
+                - /url: https://www.mynet.com/mynetin-sesi
+                - img "Mynet'in Sesi" [ref=e72]
+              - link [ref=e73] [cursor=pointer]:
+                - /url: https://www.mynet.com/haberler/philips-ev-aletleri
+                - img "Philips Ev Aletleri" [ref=e74]
+              - link [ref=e75] [cursor=pointer]:
+                - /url: https://www.mynet.com/trend
+                - img "Trend" [ref=e76]
+              - link [ref=e77] [cursor=pointer]:
+                - /url: https://www.mynet.com/vitrin
+                - img "Vitrin" [ref=e78]
+            - button "Next slide" [ref=e79] [cursor=pointer]: next
+            - button "Previous slide" [ref=e80] [cursor=pointer]: prev
+          - button "Arama yap" [ref=e83] [cursor=pointer]: 
+          - generic [ref=e85]:
+            - generic: 
+            - text: 
+            - link " ÜYE GİRİŞİ" [ref=e86] [cursor=pointer]:
+              - /url: javascript:;
+          - img "Mynet Sana Özel" [ref=e88] [cursor=pointer]
+          - link "Mynet Mail":
+            - /url: https://email.mynet.com/
+      - generic [ref=e89]:
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "MYNET ANASAYFA" [ref=e92] [cursor=pointer]:
+              - /url: https://www.mynet.com
+          - listitem [ref=e93]:
+            - link [ref=e94] [cursor=pointer]:
+              - /url: https://www.mymani.net
+              - img "MyMani" [ref=e95]
+            - text: Yeni
+          - listitem [ref=e96]:
+            - link "MYNET'İN SESİ" [ref=e97] [cursor=pointer]:
+              - /url: https://www.mynet.com/mynetin-sesi
+          - listitem [ref=e98]:
+            - link "Mynet Express" [ref=e99] [cursor=pointer]:
+              - /url: https://www.mynet.com/express
+          - listitem [ref=e100]:
+            - link "HABER" [ref=e101] [cursor=pointer]:
+              - /url: https://haber.mynet.com
+          - listitem [ref=e102]:
+            - link "SPOR" [ref=e103] [cursor=pointer]:
+              - /url: https://www.mynet.com/spor/
+          - listitem [ref=e104]:
+            - link "FİNANS" [ref=e105] [cursor=pointer]:
+              - /url: https://finans.mynet.com
+          - listitem [ref=e106]:
+            - link "MAGAZİN" [ref=e107] [cursor=pointer]:
+              - /url: https://www.mynet.com/magazin/
+          - listitem [ref=e108]:
+            - link "YAZARLAR" [ref=e109] [cursor=pointer]:
+              - /url: https://www.mynet.com/yazarlar
+          - listitem [ref=e110]:
+            - link "ASTROLOJİ" [ref=e111] [cursor=pointer]:
+              - /url: https://www.mynet.com/kadin/burclar-astroloji
+          - listitem [ref=e112]:
+            - link "HAVA DURUMU" [ref=e113] [cursor=pointer]:
+              - /url: https://www.mynet.com/hava-durumu
+          - listitem [ref=e114]:
+            - link "SAĞLIK" [ref=e115] [cursor=pointer]:
+              - /url: https://www.mynet.com/saglik-haberler
+          - listitem [ref=e116]:
+            - link "VİDEO" [ref=e117] [cursor=pointer]:
+              - /url: https://www.mynet.com/video
+          - listitem [ref=e118]:
+            - link "YEMEK" [ref=e119] [cursor=pointer]:
+              - /url: https://www.mynet.com/yemek/
+          - listitem [ref=e120]:
+            - link "OYUN" [ref=e121] [cursor=pointer]:
+              - /url: https://oyun.mynet.com
+          - listitem [ref=e122]:
+            - link "KADIN" [ref=e123] [cursor=pointer]:
+              - /url: https://www.mynet.com/kadin/
+          - listitem [ref=e124]:
+            - link "TREND" [ref=e125] [cursor=pointer]:
+              - /url: https://www.mynet.com/trend
+          - listitem [ref=e126]:
+            - link "EĞİTİM" [ref=e127] [cursor=pointer]:
+              - /url: https://www.mynet.com/egitim
+          - listitem [ref=e128]:
+            - link "ANKET" [ref=e129] [cursor=pointer]:
+              - /url: https://www.mynet.com/anket
+          - listitem [ref=e130]:
+            - link "TEST" [ref=e131] [cursor=pointer]:
+              - /url: https://www.mynet.com/test
+          - listitem [ref=e132]:
+            - link "AKTÜEL" [ref=e133] [cursor=pointer]:
+              - /url: https://www.mynet.com/aktuel
+          - listitem [ref=e134]:
+            - link "VİTRİN" [ref=e135] [cursor=pointer]:
+              - /url: https://www.mynet.com/vitrin
+          - listitem [ref=e136]:
+            - link "RESMİ İLANLAR" [ref=e137] [cursor=pointer]:
+              - /url: https://www.mynet.com/resmi-ilanlar
+          - listitem [ref=e138]:
+            - link "CHEF GPT" [ref=e139] [cursor=pointer]:
+              - /url: https://www.mynet.com/yemek/sanal-sef
+          - listitem [ref=e140]:
+            - link "TATİL BULUCU" [ref=e141] [cursor=pointer]:
+              - /url: https://www.mynet.com/trend/tatil-bulucu
+          - listitem [ref=e142]:
+            - link "SORAN ANNE" [ref=e143] [cursor=pointer]:
+              - /url: https://www.mynet.com/kadin/soran-anne-platformu
+          - listitem [ref=e144]:
+            - link "EMAIL" [ref=e145] [cursor=pointer]:
+              - /url: https://eposta.mynet.com/index/mymail.html
+          - listitem [ref=e146]:
+            - link "YEREL HABERLER" [ref=e147] [cursor=pointer]:
+              - /url: https://www.mynet.com/yerel-haberler
+          - listitem [ref=e148]:
+            - link "ŞANS OYUNLARI" [ref=e149] [cursor=pointer]:
+              - /url: https://www.mynet.com/sans-oyunlari
+          - listitem [ref=e150]:
+            - link "KOBİ" [ref=e151] [cursor=pointer]:
+              - /url: https://kobi.mynet.com
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - link [ref=e154] [cursor=pointer]:
+              - /url: https://www.mynet.com/haberler/iklim-ve-enerji-cozumleri
+              - img "İklim ve Enerji Çözümleri" [ref=e155]
+            - link [ref=e156] [cursor=pointer]:
+              - /url: https://www.mynet.com/kadin
+              - img "Kadın" [ref=e157]
+            - link [ref=e158] [cursor=pointer]:
+              - /url: https://www.mynet.com/haberler/ing-para-mevzulari
+              - img "ING Para Mevzuları" [ref=e159]
+            - link [ref=e160] [cursor=pointer]:
+              - /url: https://www.mynet.com/mynetin-sesi
+              - img "Mynet'in Sesi" [ref=e161]
+            - link [ref=e162] [cursor=pointer]:
+              - /url: https://www.mynet.com/haberler/philips-ev-aletleri
+              - img "Philips Ev Aletleri" [ref=e163]
+            - link [ref=e164] [cursor=pointer]:
+              - /url: https://www.mynet.com/trend
+              - img "Trend" [ref=e165]
+            - link [ref=e166] [cursor=pointer]:
+              - /url: https://www.mynet.com/vitrin
+              - img "Vitrin" [ref=e167]
+            - link [ref=e168] [cursor=pointer]:
+              - /url: https://www.mynet.com/yemek
+              - img "Yemek" [ref=e169]
+            - link [ref=e170] [cursor=pointer]:
+              - /url: https://www.mynet.com/express
+              - img "Express" [ref=e171]
+            - link [ref=e172] [cursor=pointer]:
+              - /url: https://www.mynet.com/anket
+              - img "Mynet Anket" [ref=e173]
+            - link [ref=e174] [cursor=pointer]:
+              - /url: https://www.mynet.com/aktuel
+              - img "İndirim Broşürleri" [ref=e175]
+            - link [ref=e176] [cursor=pointer]:
+              - /url: https://www.mynet.com/spor/canli-skor
+              - img "Canlı Skor" [ref=e177]
+            - link [ref=e178] [cursor=pointer]:
+              - /url: https://www.mynet.com/kelime-bul
+              - img "Kelime Bul" [ref=e179]
+            - link [ref=e180] [cursor=pointer]:
+              - /url: https://finans.mynet.com/borsa/canliborsa/
+              - img "Canlı Borsa" [ref=e181]
+          - generic [ref=e182]:
+            - link [ref=e183] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.mynet.android.mynetapp
+              - img "Google Play Store" [ref=e184]
+            - link [ref=e185] [cursor=pointer]:
+              - /url: https://itunes.apple.com/app/id352826080
+              - img "App Store" [ref=e186]
+            - link [ref=e187] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/#/app/C101137113
+              - img "App Store" [ref=e188]
+          - generic [ref=e189]:
+            - link [ref=e190] [cursor=pointer]:
+              - /url: https://www.facebook.com/mynet/
+              - img "Facebook'da Takip Et" [ref=e191]
+            - link [ref=e192] [cursor=pointer]:
+              - /url: https://twitter.com/mynet
+              - img "X'te Takip Et" [ref=e193]
+            - link [ref=e194] [cursor=pointer]:
+              - /url: https://www.instagram.com/mynet/
+              - img "Instagram'da Takip Et" [ref=e195]
+            - link [ref=e196] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/mynet/mycompany/
+              - img "Linkedin'de Takip Et" [ref=e197]
+            - link [ref=e198] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/MynetYoutube
+              - img "Youtube'da Takip Et" [ref=e199]
+            - link [ref=e200] [cursor=pointer]:
+              - /url: https://www.whatsapp.com/channel/0029Va46gZ9EVccT1uBRqX1m
+              - img "Whatsapp'da Takip Et" [ref=e201]
+            - link [ref=e202] [cursor=pointer]:
+              - /url: https://habergonder.mynet.com
+              - img "Haber Gönder" [ref=e203]
+              - text: Haber Gönder
+          - generic [ref=e204]:
+            - link "İLETİŞİM" [ref=e205] [cursor=pointer]:
+              - /url: https://www.mynet.com/iletisim/
+            - link "YARDIM" [ref=e206] [cursor=pointer]:
+              - /url: https://www.mynet.com/yardim/
+            - link "ÜYELİK" [ref=e207] [cursor=pointer]:
+              - /url: https://members.mynet.com
+            - link "YASAL UYARI" [ref=e208] [cursor=pointer]:
+              - /url: https://www.mynet.com/yasal-uyari
+      - generic [ref=e209]:
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - img "Favorilerim" [ref=e212]
+            - text: FAVORİLERİM
+          - paragraph [ref=e213]:
+            - text: Favorilerime ekle (
+            - img "Favorilerime Ekle" [ref=e214]
+            - text: ) ikonuna tıklayarak dilediğin özelliği favorilerine ekleyebilirsin.
+          - generic:
+            - list
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - img "Oyun" [ref=e217]
+            - text: OYUN
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - generic [ref=e220] [cursor=pointer]
+              - link "Tic Tac Toe Tic Tac Toe" [ref=e221] [cursor=pointer]:
+                - /url: https://www.mynet.com/tictactoe
+                - img "Tic Tac Toe" [ref=e222]
+                - generic [ref=e223]: Tic Tac Toe
+            - listitem [ref=e224]:
+              - generic [ref=e225] [cursor=pointer]
+              - link "Kelime Bul Kelime Bul" [ref=e226] [cursor=pointer]:
+                - /url: https://www.mynet.com/kelime-bul
+                - img "Kelime Bul" [ref=e227]
+                - generic [ref=e228]: Kelime Bul
+            - listitem [ref=e229]:
+              - generic [ref=e230] [cursor=pointer]
+              - link "2048 2048" [ref=e231] [cursor=pointer]:
+                - /url: https://www.mynet.com/2048
+                - img "2048" [ref=e232]
+                - generic [ref=e233]: "2048"
+            - listitem [ref=e234]:
+              - generic [ref=e235] [cursor=pointer]
+              - link "Sudoku Sudoku" [ref=e236] [cursor=pointer]:
+                - /url: https://www.mynet.com/sudoku#/
+                - img "Sudoku" [ref=e237]
+                - generic [ref=e238]: Sudoku
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - img "Mynet AI" [ref=e241]
+            - text: MYNET AI
+          - list [ref=e242]:
+            - listitem [ref=e243]:
+              - generic [ref=e244] [cursor=pointer]
+              - link "Chef GPT Chef GPT" [ref=e245] [cursor=pointer]:
+                - /url: https://www.mynet.com/yemek/sanal-sef
+                - img "Chef GPT" [ref=e246]
+                - generic [ref=e247]: Chef GPT
+            - listitem [ref=e248]:
+              - generic [ref=e249] [cursor=pointer]
+              - link "Dini Bilgi Rehberi Dini Bilgi Rehberi" [ref=e250] [cursor=pointer]:
+                - /url: https://www.mynet.com/din-rehberi
+                - img "Dini Bilgi Rehberi" [ref=e251]
+                - generic [ref=e252]: Dini Bilgi Rehberi
+            - listitem [ref=e253]:
+              - generic [ref=e254] [cursor=pointer]
+              - link "Soran Anne Soran Anne" [ref=e255] [cursor=pointer]:
+                - /url: https://www.mynet.com/kadin/soran-anne-platformu
+                - img "Soran Anne" [ref=e256]
+                - generic [ref=e257]: Soran Anne
+            - listitem [ref=e258]:
+              - generic [ref=e259] [cursor=pointer]
+              - link "Tatil Bulucu Tatil Bulucu" [ref=e260] [cursor=pointer]:
+                - /url: https://www.mynet.com/trend/tatil-bulucu
+                - img "Tatil Bulucu" [ref=e261]
+                - generic [ref=e262]: Tatil Bulucu
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - img "Hızlı Erişim" [ref=e265]
+            - text: HIZLI ERİŞİM
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - generic [ref=e268] [cursor=pointer]
+              - link "myMani myMani" [ref=e269] [cursor=pointer]:
+                - /url: https://www.mymani.net/?&utm_source=mynet_sanaozel
+                - img "myMani" [ref=e270]
+                - generic [ref=e271]: myMani
+            - listitem [ref=e272]:
+              - generic [ref=e273] [cursor=pointer]
+              - link "Canlı Borsa Canlı Borsa" [ref=e274] [cursor=pointer]:
+                - /url: https://finans.mynet.com/borsa/canliborsa/
+                - img "Canlı Borsa" [ref=e275]
+                - generic [ref=e276]: Canlı Borsa
+            - listitem [ref=e277]:
+              - generic [ref=e278] [cursor=pointer]
+              - link "Mynet'in Sesi Mynet'in Sesi" [ref=e279] [cursor=pointer]:
+                - /url: https://www.mynet.com/mynetin-sesi
+                - img "Mynet'in Sesi" [ref=e280]
+                - generic [ref=e281]: Mynet'in Sesi
+            - listitem [ref=e282]:
+              - generic [ref=e283] [cursor=pointer]
+              - link "İndirim Broşürleri İndirim Broşürleri" [ref=e284] [cursor=pointer]:
+                - /url: https://www.mynet.com/aktuel
+                - img "İndirim Broşürleri" [ref=e285]
+                - generic [ref=e286]: İndirim Broşürleri
+            - listitem [ref=e287]:
+              - generic [ref=e288] [cursor=pointer]
+              - link "Canlı Skor Canlı Skor" [ref=e289] [cursor=pointer]:
+                - /url: https://www.mynet.com/spor/canli-skor
+                - img "Canlı Skor" [ref=e290]
+                - generic [ref=e291]: Canlı Skor
+            - listitem [ref=e292]:
+              - generic [ref=e293] [cursor=pointer]
+              - link "Fikstür / Puan Durumu Fikstür / Puan Durumu" [ref=e294] [cursor=pointer]:
+                - /url: https://www.mynet.com/spor/turkiye-super-lig-puan-durumu?&utm_source=mynet_sanaozel
+                - img "Fikstür / Puan Durumu" [ref=e295]
+                - generic [ref=e296]: Fikstür / Puan Durumu
+            - listitem [ref=e297]:
+              - generic [ref=e298] [cursor=pointer]
+              - link "Vitrin Vitrin" [ref=e299] [cursor=pointer]:
+                - /url: https://www.mynet.com/vitrin
+                - img "Vitrin" [ref=e300]
+                - generic [ref=e301]: Vitrin
+            - listitem [ref=e302]:
+              - generic [ref=e303] [cursor=pointer]
+              - link "Namaz Vakitleri Namaz Vakitleri" [ref=e304] [cursor=pointer]:
+                - /url: https://www.mynet.com/istanbul/namaz-vakitleri
+                - img "Namaz Vakitleri" [ref=e305]
+                - generic [ref=e306]: Namaz Vakitleri
+            - listitem [ref=e307]:
+              - generic [ref=e308] [cursor=pointer]
+              - link "Hava Durumu Hava Durumu" [ref=e309] [cursor=pointer]:
+                - /url: https://www.mynet.com/hava-durumu
+                - img "Hava Durumu" [ref=e310]
+                - generic [ref=e311]: Hava Durumu
+            - listitem [ref=e312]:
+              - generic [ref=e313] [cursor=pointer]
+              - link "Günlük Gazeteler Günlük Gazeteler" [ref=e314] [cursor=pointer]:
+                - /url: https://www.mynet.com/gazeteler
+                - img "Günlük Gazeteler" [ref=e315]
+                - generic [ref=e316]: Günlük Gazeteler
+            - listitem [ref=e317]:
+              - generic [ref=e318] [cursor=pointer]
+              - link "Astroloji Astroloji" [ref=e319] [cursor=pointer]:
+                - /url: https://www.mynet.com/kadin/burclar-astroloji
+                - img "Astroloji" [ref=e320]
+                - generic [ref=e321]: Astroloji
+            - listitem [ref=e322]:
+              - generic [ref=e323] [cursor=pointer]
+              - link "TV Rehberi TV Rehberi" [ref=e324] [cursor=pointer]:
+                - /url: https://www.mynet.com/tv-rehberi
+                - img "TV Rehberi" [ref=e325]
+                - generic [ref=e326]: TV Rehberi
+            - listitem [ref=e327]:
+              - generic [ref=e328] [cursor=pointer]
+              - link "Mynet Anket Mynet Anket" [ref=e329] [cursor=pointer]:
+                - /url: https://www.mynet.com/anket
+                - img "Mynet Anket" [ref=e330]
+                - generic [ref=e331]: Mynet Anket
+            - listitem [ref=e332]:
+              - generic [ref=e333] [cursor=pointer]
+              - link "Günün Testi Günün Testi" [ref=e334] [cursor=pointer]:
+                - /url: https://www.mynet.com/test
+                - img "Günün Testi" [ref=e335]
+                - generic [ref=e336]: Günün Testi
+            - listitem [ref=e337]:
+              - generic [ref=e338] [cursor=pointer]
+              - link "Şans Oyunları Şans Oyunları" [ref=e339] [cursor=pointer]:
+                - /url: https://www.mynet.com/sans-oyunlari
+                - img "Şans Oyunları" [ref=e340]
+                - generic [ref=e341]: Şans Oyunları
+  - generic [ref=e342]:
+    - generic [ref=e343]:
+      - paragraph [ref=e344]:
+        - link "FİNANS" [ref=e345] [cursor=pointer]:
+          - /url: https://finans.mynet.com/
+      - list [ref=e349]:
+        - listitem [ref=e350]:
+          - link "Borsa" [ref=e351] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/
+        - listitem [ref=e352]:
+          - link "Anlık Borsa" [ref=e353] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/anlikborsaverileri/
+        - listitem [ref=e354]:
+          - link "Döviz" [ref=e355] [cursor=pointer]:
+            - /url: https://finans.mynet.com/doviz/
+        - listitem [ref=e356]:
+          - link "Altın" [ref=e357] [cursor=pointer]:
+            - /url: https://finans.mynet.com/altin/
+        - listitem [ref=e358]:
+          - link "Gümüş" [ref=e359] [cursor=pointer]:
+            - /url: https://finans.mynet.com/gumus/
+        - listitem [ref=e360]:
+          - link "Kripto" [ref=e361] [cursor=pointer]:
+            - /url: https://finans.mynet.com/kripto-para/
+        - listitem [ref=e362]:
+          - link "Haber" [ref=e363] [cursor=pointer]:
+            - /url: https://finans.mynet.com/haber/
+        - listitem [ref=e364]:
+          - link "Faiz" [ref=e365] [cursor=pointer]:
+            - /url: https://finans.mynet.com/faiz/
+        - listitem [ref=e366]:
+          - link "Amerikan Borsaları" [ref=e367] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/amerikan-borsasi/
+        - listitem [ref=e368]:
+          - link "myMani" [ref=e369] [cursor=pointer]:
+            - /url: https://www.mymani.net
+    - textbox "Şirket/Hisse Ara" [ref=e373]
+  - generic [ref=e375]:
+    - text: K
+    - iframe [ref=e377]:
+      
+  - generic [ref=e379]:
+    - list [ref=e381]:
+      - listitem [ref=e382]:
+        - link "BIST 14.132,06 ▼ %-0,28" [ref=e383] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/
+          - generic [ref=e384]:
+            - generic [ref=e385]: BIST
+            - generic [ref=e386]: 14.132,06
+          - generic [ref=e387]: ▼ %-0,28
+      - listitem [ref=e396]:
+        - link "DOLAR 47,9128 ▼ %-0,01" [ref=e397] [cursor=pointer]:
+          - /url: https://finans.mynet.com/doviz/usd-dolar/
+          - generic [ref=e398]:
+            - generic [ref=e399]: DOLAR
+            - generic [ref=e400]: 47,9128
+          - generic [ref=e401]:
+            - generic [ref=e403]: ▼ %-0,01
+            - img [ref=e405]:
+              - generic [ref=e406]:
+                - generic [ref=e407]: Not enough values for Goat1000\SVGGraph\LineGraph
+                - generic [ref=e408]: Not enough values for Goat1000\SVGGraph\LineGraph
+      - listitem [ref=e409]:
+        - link "EURO 55,5223 ▼ %-0,02" [ref=e410] [cursor=pointer]:
+          - /url: https://finans.mynet.com/doviz/eur-euro/
+          - generic [ref=e411]:
+            - generic [ref=e412]: EURO
+            - generic [ref=e413]: 55,5223
+          - generic [ref=e414]:
+            - generic [ref=e416]: ▼ %-0,02
+            - img [ref=e418]:
+              - generic [ref=e419]:
+                - generic [ref=e420]: Not enough values for Goat1000\SVGGraph\LineGraph
+                - generic [ref=e421]: Not enough values for Goat1000\SVGGraph\LineGraph
+      - listitem [ref=e422]:
+        - link "GRAM ALTIN 6.787,3830 ▼ %-0,26" [ref=e423] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/xgld-spot-altin-tl-gr/
+          - generic [ref=e424]:
+            - generic [ref=e425]: GRAM ALTIN
+            - generic [ref=e426]: 6.787,3830
+          - generic [ref=e427]:
+            - generic [ref=e429]: ▼ %-0,26
+            - img [ref=e431]:
+              - generic [ref=e432]:
+                - generic [ref=e433]: Not enough values for Goat1000\SVGGraph\LineGraph
+                - generic [ref=e434]: Not enough values for Goat1000\SVGGraph\LineGraph
+      - listitem [ref=e435]:
+        - link "BİTCOİN 64.140,0000 ▲ %1,70" [ref=e436] [cursor=pointer]:
+          - /url: https://finans.mynet.com/bitcoin-usd-kripto/
+          - generic [ref=e437]:
+            - generic [ref=e438]: BİTCOİN
+            - generic [ref=e439]: 64.140,0000
+          - generic [ref=e440]: ▲ %1,70
+    - list [ref=e447]:
+      - listitem [ref=e448]:
+        - link "Canlı Borsa" [ref=e449] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/canliborsa/?plist=finans-canliborsa-button
+      - listitem [ref=e450]:
+        - link "Teknik Analiz" [ref=e451] [cursor=pointer]:
+          - /url: https://finans.mynet.com/teknikanaliz/XU100/
+      - listitem [ref=e452]:
+        - link "Seans İstatistiği" [ref=e453] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/seansistatistigi/
+      - listitem [ref=e454]:
+        - link "Endeksler" [ref=e455] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/endeks/
+      - listitem [ref=e456]:
+        - link "Hisseler" [ref=e457] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/hisseler/
+      - listitem [ref=e458]:
+        - link "Amerikan Borsaları" [ref=e459] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/amerikan-borsasi/
+      - listitem [ref=e460]:
+        - link "Değişim" [ref=e461] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/degisimanalizleri/
+      - listitem [ref=e462]:
+        - link "KAP Haberleri" [ref=e463] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/kaphaberleri/
+  - generic [ref=e465]:
+    - generic [ref=e466]:
+      - list [ref=e471]:
+        - listitem [ref=e472]:
+          - link "Finans" [ref=e473] [cursor=pointer]:
+            - /url: https://finans.mynet.com/
+        - listitem [ref=e474]:
+          - link "Borsa" [ref=e475] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/
+        - listitem [ref=e476]:
+          - link "Bilanço" [ref=e477] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/hisseler/eregl-eregli-demir-celik/
+      - generic [ref=e480]:
+        - generic [ref=e481]:
+          - heading "eregli demir celik - eregl - Bilanço" [level=2] [ref=e482]
+          - combobox [ref=e484]:
+            - option "A1CAP"
+            - option "A1YEN"
+            - option "AAGYO"
+            - option "ACSEL"
+            - option "ADEL"
+            - option "ADESE"
+            - option "ADGYO"
+            - option "AEFES"
+            - option "AFYON"
+            - option "AGESA"
+            - option "AGHOL"
+            - option "AGROT"
+            - option "AGYO"
+            - option "AHGAZ"
+            - option "AHSGY"
+            - option "AKBNK"
+            - option "AKCNS"
+            - option "AKENR"
+            - option "AKFGY"
+            - option "AKFIS"
+            - option "AKFYE"
+            - option "AKGRT"
+            - option "AKHAN"
+            - option "AKMGY"
+            - option "AKSA"
+            - option "AKSEN"
+            - option "AKSGY"
+            - option "AKSUE"
+            - option "AKYHO"
+            - option "ALARK"
+            - option "ALBRK"
+            - option "ALBTN"
+            - option "ALCAR"
+            - option "ALCTL"
+            - option "ALFAS"
+            - option "ALGYO"
+            - option "ALKA"
+            - option "ALKIM"
+            - option "ALKLC"
+            - option "ALTINS1"
+            - option "ALTNY"
+            - option "ALVES"
+            - option "ANELE"
+            - option "ANGEN"
+            - option "ANHYT"
+            - option "ANSGR"
+            - option "ARASE"
+            - option "ARCLK"
+            - option "ARDYZ"
+            - option "ARENA"
+            - option "ARFYE"
+            - option "ARMGD"
+            - option "ARSAN"
+            - option "ARTMS"
+            - option "ARZUM"
+            - option "ASELS"
+            - option "ASGYO"
+            - option "ASTOR"
+            - option "ASUZU"
+            - option "ATAGY"
+            - option "ATAKP"
+            - option "ATATP"
+            - option "ATATR"
+            - option "ATEKS"
+            - option "ATLAS"
+            - option "ATSYH"
+            - option "AVGYO"
+            - option "AVHOL"
+            - option "AVOD"
+            - option "AVPGY"
+            - option "AVTUR"
+            - option "AYCES"
+            - option "AYDEM"
+            - option "AYEN"
+            - option "AYES"
+            - option "AYGAZ"
+            - option "AZTEK"
+            - option "BAGFS"
+            - option "BAHKM"
+            - option "BAKAB"
+            - option "BALAT"
+            - option "BALSU"
+            - option "BANVT"
+            - option "BARMA"
+            - option "BASCM"
+            - option "BASGZ"
+            - option "BAYRK"
+            - option "BEGYO"
+            - option "BERA"
+            - option "BESLR"
+            - option "BESTE"
+            - option "BETAE"
+            - option "BEYAZ"
+            - option "BFREN"
+            - option "BIENY"
+            - option "BIGCH"
+            - option "BIGEN"
+            - option "BIGTK"
+            - option "BIMAS"
+            - option "BINBN"
+            - option "BINHO"
+            - option "BIOEN"
+            - option "BIZIM"
+            - option "BJKAS"
+            - option "BLCYT"
+            - option "BLUME"
+            - option "BMSCH"
+            - option "BMSTL"
+            - option "BNTAS"
+            - option "BOBET"
+            - option "BORLS"
+            - option "BORSK"
+            - option "BOSSA"
+            - option "BRISA"
+            - option "BRKO"
+            - option "BRKSN"
+            - option "BRKVY"
+            - option "BRLSM"
+            - option "BRMEN"
+            - option "BRSAN"
+            - option "BRYAT"
+            - option "BSOKE"
+            - option "BTCIM"
+            - option "BUCIM"
+            - option "BULGS"
+            - option "BURCE"
+            - option "BURVA"
+            - option "BVSAN"
+            - option "BYDNR"
+            - option "CANTE"
+            - option "CASA"
+            - option "CATES"
+            - option "CCOLA"
+            - option "CELHA"
+            - option "CEMAS"
+            - option "CEMTS"
+            - option "CEMZY"
+            - option "CEOEM"
+            - option "CGCAM"
+            - option "CIMSA"
+            - option "CLEBI"
+            - option "CMBTN"
+            - option "CMENT"
+            - option "CONSE"
+            - option "COSMO"
+            - option "CRDFA"
+            - option "CRFSA"
+            - option "CUSAN"
+            - option "CVKMD"
+            - option "CWENE"
+            - option "DAGI"
+            - option "DAPGM"
+            - option "DARDL"
+            - option "DCTTR"
+            - option "DENGE"
+            - option "DERHL"
+            - option "DERIM"
+            - option "DESA"
+            - option "DESPC"
+            - option "DEVA"
+            - option "DGATE"
+            - option "DGGYO"
+            - option "DGNMO"
+            - option "DIRIT"
+            - option "DITAS"
+            - option "DMLKTG"
+            - option "DMRGD"
+            - option "DMSAS"
+            - option "DNISI"
+            - option "DOAS"
+            - option "DOCO"
+            - option "DOFER"
+            - option "DOFRB"
+            - option "DOGUB"
+            - option "DOHOL"
+            - option "DOKTA"
+            - option "DSTKF"
+            - option "DUNYH"
+            - option "DURDO"
+            - option "DURKN"
+            - option "DYOBY"
+            - option "DZGYO"
+            - option "EBEBK"
+            - option "ECILC"
+            - option "ECOGR"
+            - option "ECZYT"
+            - option "EDATA"
+            - option "EDIP"
+            - option "EFOR"
+            - option "EGEEN"
+            - option "EGEGY"
+            - option "EGEPO"
+            - option "EGGUB"
+            - option "EGPRO"
+            - option "EGSER"
+            - option "EKDMR"
+            - option "EKGYO"
+            - option "EKIM"
+            - option "EKIZ"
+            - option "EKOS"
+            - option "EKSUN"
+            - option "ELITE"
+            - option "EMKEL"
+            - option "EMNIS"
+            - option "EMPAE"
+            - option "ENDAE"
+            - option "ENERY"
+            - option "ENJSA"
+            - option "ENKAI"
+            - option "ENPRA"
+            - option "ENSRI"
+            - option "ENTRA"
+            - option "EPLAS"
+            - option "ERBOS"
+            - option "ERCB"
+            - option "EREGL" [selected]
+            - option "ERSU"
+            - option "ESCAR"
+            - option "ESCOM"
+            - option "ESEN"
+            - option "ETILR"
+            - option "ETYAT"
+            - option "EUHOL"
+            - option "EUKYO"
+            - option "EUPWR"
+            - option "EUREN"
+            - option "EUYO"
+            - option "EYGYO"
+            - option "FADE"
+            - option "FENER"
+            - option "FLAP"
+            - option "FMIZP"
+            - option "FONET"
+            - option "FORMT"
+            - option "FORTE"
+            - option "FRIGO"
+            - option "FRMPL"
+            - option "FROTO"
+            - option "FZLGY"
+            - option "GARAN"
+            - option "GARFA"
+            - option "GATEG"
+            - option "GEDIK"
+            - option "GEDZA"
+            - option "GENIL"
+            - option "GENKM"
+            - option "GENTS"
+            - option "GEREL"
+            - option "GESAN"
+            - option "GIPTA"
+            - option "GLBMD"
+            - option "GLCVY"
+            - option "GLRMK"
+            - option "GLRYH"
+            - option "GLYHO"
+            - option "GMTAS"
+            - option "GOKNR"
+            - option "GOLDA"
+            - option "GOLTS"
+            - option "GOODY"
+            - option "GOZDE"
+            - option "GRNYO"
+            - option "GRSEL"
+            - option "GRTHO"
+            - option "GSDDE"
+            - option "GSDHO"
+            - option "GSRAY"
+            - option "GUBRF"
+            - option "GUNDG"
+            - option "GWIND"
+            - option "GZNMI"
+            - option "HALKB"
+            - option "HATEK"
+            - option "HATSN"
+            - option "HDFGS"
+            - option "HEDEF"
+            - option "HEKTS"
+            - option "HKTM"
+            - option "HLGYO"
+            - option "HOROZ"
+            - option "HRKET"
+            - option "HTTBT"
+            - option "HUBVC"
+            - option "HUNER"
+            - option "HURGZ"
+            - option "ICBCT"
+            - option "ICUGS"
+            - option "IDGYO"
+            - option "IEYHO"
+            - option "IHAAS"
+            - option "IHEVA"
+            - option "IHGZT"
+            - option "IHLAS"
+            - option "IHLGM"
+            - option "IHYAY"
+            - option "IMASM"
+            - option "INDES"
+            - option "INFO"
+            - option "INGRM"
+            - option "INTEK"
+            - option "INTEM"
+            - option "INVEO"
+            - option "INVES"
+            - option "ISATR"
+            - option "ISBIR"
+            - option "ISBTR"
+            - option "ISCTR"
+            - option "ISDMR"
+            - option "ISFIN"
+            - option "ISGSY"
+            - option "ISGYO"
+            - option "ISKPL"
+            - option "ISKUR"
+            - option "ISMEN"
+            - option "ISSEN"
+            - option "ISVEA"
+            - option "ISYAT"
+            - option "IZENR"
+            - option "IZFAS"
+            - option "IZINV"
+            - option "IZMDC"
+            - option "JANTS"
+            - option "KAPLM"
+            - option "KARCL"
+            - option "KAREL"
+            - option "KARSN"
+            - option "KARTN"
+            - option "KATMR"
+            - option "KAYSE"
+            - option "KBORU"
+            - option "KCAER"
+            - option "KCHOL"
+            - option "KENT"
+            - option "KERVN"
+            - option "KFEIN"
+            - option "KGYO"
+            - option "KIMMR"
+            - option "KLGYO"
+            - option "KLKIM"
+            - option "KLMSN"
+            - option "KLNMA"
+            - option "KLRHO"
+            - option "KLSER"
+            - option "KLSYN"
+            - option "KLYPV"
+            - option "KMPUR"
+            - option "KNFRT"
+            - option "KOCMT"
+            - option "KONKA"
+            - option "KONTR"
+            - option "KONYA"
+            - option "KOPOL"
+            - option "KORDS"
+            - option "KOTON"
+            - option "KRDMA"
+            - option "KRDMB"
+            - option "KRDMD"
+            - option "KRGYO"
+            - option "KRONT"
+            - option "KRPLS"
+            - option "KRSTL"
+            - option "KRTEK"
+            - option "KRVGD"
+            - option "KSTUR"
+            - option "KTLEV"
+            - option "KTSKR"
+            - option "KUTPO"
+            - option "KUVVA"
+            - option "KUYAS"
+            - option "KZBGY"
+            - option "KZGYO"
+            - option "LIDER"
+            - option "LIDFA"
+            - option "LILAK"
+            - option "LINK"
+            - option "LKMNH"
+            - option "LMKDC"
+            - option "LOGO"
+            - option "LRSHO"
+            - option "LUKSK"
+            - option "LXGYO"
+            - option "LYDHO"
+            - option "LYDYE"
+            - option "MAALT"
+            - option "MACKO"
+            - option "MAGEN"
+            - option "MAKIM"
+            - option "MAKTK"
+            - option "MANAS"
+            - option "MARBL"
+            - option "MARKA"
+            - option "MARMR"
+            - option "MARTI"
+            - option "MASFN"
+            - option "MAVI"
+            - option "MCARD"
+            - option "MEDTR"
+            - option "MEGAP"
+            - option "MEGMT"
+            - option "MEKAG"
+            - option "MEPET"
+            - option "MERCN"
+            - option "MERIT"
+            - option "MERKO"
+            - option "METEN"
+            - option "METRO"
+            - option "MEYSU"
+            - option "MGROS"
+            - option "MHRGY"
+            - option "MIATK"
+            - option "MMCAS"
+            - option "MNDRS"
+            - option "MNDTR"
+            - option "MOBTL"
+            - option "MOGAN"
+            - option "MOPAS"
+            - option "MPARK"
+            - option "MRGYO"
+            - option "MRSHL"
+            - option "MSGYO"
+            - option "MTRKS"
+            - option "MTRYO"
+            - option "MZHLD"
+            - option "NATEN"
+            - option "NETAS"
+            - option "NETCD"
+            - option "NIBAS"
+            - option "NTGAZ"
+            - option "NTHOL"
+            - option "NUGYO"
+            - option "NUHCM"
+            - option "OBAMS"
+            - option "OBASE"
+            - option "ODAS"
+            - option "ODINE"
+            - option "OFSYM"
+            - option "ONCSM"
+            - option "ONRYT"
+            - option "ORCAY"
+            - option "ORGE"
+            - option "ORMA"
+            - option "ORZAX"
+            - option "OSMEN"
+            - option "OSTIM"
+            - option "OTKAR"
+            - option "OTTO"
+            - option "OYAKC"
+            - option "OYAYO"
+            - option "OYLUM"
+            - option "OYYAT"
+            - option "OZATD"
+            - option "OZGYO"
+            - option "OZKGY"
+            - option "OZRDN"
+            - option "OZSUB"
+            - option "OZYSR"
+            - option "PAGYO"
+            - option "PAHOL"
+            - option "PAMEL"
+            - option "PAPIL"
+            - option "PARSN"
+            - option "PASEU"
+            - option "PATEK"
+            - option "PCILT"
+            - option "PEKGY"
+            - option "PENGD"
+            - option "PENTA"
+            - option "PETKM"
+            - option "PETUN"
+            - option "PGSUS"
+            - option "PINSU"
+            - option "PKART"
+            - option "PKENT"
+            - option "PLTUR"
+            - option "PNLSN"
+            - option "PNSUT"
+            - option "POLHO"
+            - option "POLTK"
+            - option "PRDGS"
+            - option "PRKAB"
+            - option "PRKME"
+            - option "PRZMA"
+            - option "PSDTC"
+            - option "PSGYO"
+            - option "QNBFK"
+            - option "QNBTR"
+            - option "QUAGR"
+            - option "QUICK"
+            - option "RALYH"
+            - option "RAYSG"
+            - option "REEDR"
+            - option "RGYAS"
+            - option "RNPOL"
+            - option "RODRG"
+            - option "RTALB"
+            - option "RUBNS"
+            - option "RUZYE"
+            - option "RYGYO"
+            - option "RYSAS"
+            - option "SAFKR"
+            - option "SAHOL"
+            - option "SAMAT"
+            - option "SANEL"
+            - option "SANFM"
+            - option "SANKO"
+            - option "SARAE"
+            - option "SARKY"
+            - option "SASA"
+            - option "SAYAS"
+            - option "SDTTR"
+            - option "SEGMN"
+            - option "SEGYO"
+            - option "SEKFK"
+            - option "SEKUR"
+            - option "SELEC"
+            - option "SELVA"
+            - option "SERNT"
+            - option "SEYKM"
+            - option "SILVR"
+            - option "SISE"
+            - option "SKBNK"
+            - option "SKTAS"
+            - option "SKYLP"
+            - option "SKYMD"
+            - option "SMART"
+            - option "SMRTG"
+            - option "SMRVA"
+            - option "SNGYO"
+            - option "SNICA"
+            - option "SNPAM"
+            - option "SODSN"
+            - option "SOHOE"
+            - option "SOKE"
+            - option "SOKM"
+            - option "SONME"
+            - option "SRVGY"
+            - option "SSAAT"
+            - option "SUMAS"
+            - option "SUNTK"
+            - option "SURGY"
+            - option "SUWEN"
+            - option "SVGYO"
+            - option "TABGD"
+            - option "TARKM"
+            - option "TATEN"
+            - option "TATGD"
+            - option "TAVHL"
+            - option "TBORG"
+            - option "TCELL"
+            - option "TCKRC"
+            - option "TDGYO"
+            - option "TEHOL"
+            - option "TEKTU"
+            - option "TERA"
+            - option "TEZOL"
+            - option "TGSAS"
+            - option "THYAO"
+            - option "TKFEN"
+            - option "TKNSA"
+            - option "TLMAN"
+            - option "TMPOL"
+            - option "TMSN"
+            - option "TNZTP"
+            - option "TOASO"
+            - option "TRALT"
+            - option "TRCAS"
+            - option "TRENJ"
+            - option "TRGYO"
+            - option "TRHOL"
+            - option "TRILC"
+            - option "TRMET"
+            - option "TSGYO"
+            - option "TSKB"
+            - option "TSPOR"
+            - option "TTKOM"
+            - option "TTRAK"
+            - option "TUCLK"
+            - option "TUKAS"
+            - option "TUPRS"
+            - option "TUREX"
+            - option "TURGG"
+            - option "TURSG"
+            - option "UCAYM"
+            - option "UFUK"
+            - option "ULAS"
+            - option "ULKER"
+            - option "ULUFA"
+            - option "ULUSE"
+            - option "ULUUN"
+            - option "UMPAS"
+            - option "UNLU"
+            - option "USAK"
+            - option "VAKBN"
+            - option "VAKFA"
+            - option "VAKFN"
+            - option "VAKKO"
+            - option "VANGD"
+            - option "VBTYZ"
+            - option "VERTU"
+            - option "VERUS"
+            - option "VESBE"
+            - option "VESTL"
+            - option "VKFYO"
+            - option "VKGYO"
+            - option "VKING"
+            - option "VRGYO"
+            - option "VSNMD"
+            - option "YAPRK"
+            - option "YATAS"
+            - option "YAYLA"
+            - option "YBTAS"
+            - option "YEOTK"
+            - option "YESIL"
+            - option "YGGYO"
+            - option "YIGIT"
+            - option "YKBNK"
+            - option "YKSLN"
+            - option "YONGA"
+            - option "YUNSA"
+            - option "YYAPI"
+            - option "YYLGD"
+            - option "ZEDUR"
+            - option "ZERGY"
+            - option "ZGYO"
+            - option "ZOREN"
+            - option "ZRGYO"
+          - combobox [ref=e486]:
+            - option "2026-6 - Konsolide Olan" [selected]
+            - option "2026-3 - Konsolide Olan"
+            - option "2025-12 - Konsolide Olan"
+            - option "2025-9 - Konsolide Olan"
+            - option "2025-6 - Konsolide Olan"
+            - option "2025-3 - Konsolide Olan"
+            - option "2024-12 - Konsolide Olan"
+            - option "2024-9 - Konsolide Olan"
+            - option "2024-6 - Konsolide Olan"
+            - option "2024-3 - Konsolide Olan"
+            - option "2023-12 - Konsolide Olan"
+            - option "2023-9 - Konsolide Olan"
+            - option "2023-6 - Konsolide Olan"
+            - option "2023-3 - Konsolide Olan"
+            - option "2022-12 - Konsolide Olan"
+            - option "2022-9 - Konsolide Olan"
+            - option "2022-6 - Konsolide Olan"
+            - option "2022-3 - Konsolide Olan"
+            - option "2021-12 - Konsolide Olan"
+            - option "2021-9 - Konsolide Olan"
+            - option "2021-6 - Konsolide Olan"
+            - option "2021-3 - Konsolide Olan"
+            - option "2020-12 - Konsolide Olan"
+            - option "2020-9 - Konsolide Olan"
+            - option "2020-6 - Konsolide Olan"
+            - option "2020-3 - Konsolide Olan"
+            - option "2019-12 - Konsolide Olan"
+            - option "2019-9 - Konsolide Olan"
+            - option "2019-6 - Konsolide Olan"
+            - option "2019-3 - Konsolide Olan"
+            - option "2018-12 - Konsolide Olan"
+            - option "2018-9 - Konsolide Olan"
+            - option "2018-6 - Konsolide Olan"
+            - option "2018-3 - Konsolide Olan"
+            - option "2017-12 - Konsolide Olan"
+            - option "2017-9 - Konsolide Olan"
+            - option "2017-6 - Konsolide Olan"
+            - option "2017-3 - Konsolide Olan"
+            - option "2016-12 - Konsolide Olan"
+            - option "2016-9 - Konsolide Olan"
+            - option "2016-6 - Konsolide Olan"
+            - option "2016-3 - Konsolide Olan"
+            - option "2015-12 - Konsolide Olan"
+            - option "2015-9 - Konsolide Olan"
+            - option "2015-6 - Konsolide Olan"
+            - option "2015-3 - Konsolide Olan"
+            - option "2014-12 - Konsolide Olan"
+            - option "2014-9 - Konsolide Olan"
+            - option "2014-6 - Konsolide Olan"
+            - option "2014-3 - Konsolide Olan"
+            - option "2013-12 - Konsolide Olan"
+            - option "2013-9 - Konsolide Olan"
+            - option "2013-6 - Konsolide Olan"
+            - option "2013-3 - Konsolide Olan"
+        - list [ref=e488]:
+          - listitem [ref=e489]:
+            - strong [ref=e490]: VARLIKLAR
+            - generic [ref=e491]: 0,00
+          - listitem [ref=e492]:
+            - strong [ref=e493]: DÖNEN VARLIKLAR
+            - generic [ref=e494]: 182.856.284.000,00
+          - listitem [ref=e495]:
+            - strong [ref=e496]: Nakit ve Nakit Benzerleri
+            - generic [ref=e497]: 55.259.993.000,00
+          - listitem [ref=e498]:
+            - strong [ref=e499]: Finansal Yatırımlar
+            - generic [ref=e500]: 1.586.209.000,00
+          - listitem [ref=e501]:
+            - strong [ref=e502]: "- Gerçeğe Uygun Değeri Kar/Zarara Yansıtılan Finansal Varlıklar"
+            - generic [ref=e503]: 0,00
+          - listitem [ref=e504]:
+            - strong [ref=e505]: "- Alım Satım Amaçlı Türev Finansal Varlıklar"
+            - generic [ref=e506]: 0,00
+          - listitem [ref=e507]:
+            - strong [ref=e508]: Ticari Alacaklar
+            - generic [ref=e509]: 26.463.914.000,00
+          - listitem [ref=e510]:
+            - strong [ref=e511]: İlişkili Taraflardan Ticari Alacaklar
+            - generic [ref=e512]: 603.847.000,00
+          - listitem [ref=e513]:
+            - strong [ref=e514]: "- İlişkili Olmayan Taraflardan Ticari Alacaklar"
+            - generic [ref=e515]: 25.860.067.000,00
+          - listitem [ref=e516]:
+            - strong [ref=e517]: Finans Sektörü Faaliyetlerinden Alacaklar
+            - generic [ref=e518]: 0,00
+          - listitem [ref=e519]:
+            - strong [ref=e520]: "- Finans Sektörü Faaliyetleri İlişkili Taraflardan Alacaklar"
+            - generic [ref=e521]: 0,00
+          - listitem [ref=e522]:
+            - strong [ref=e523]: "- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflardan Alacaklar"
+            - generic [ref=e524]: 0,00
+          - listitem [ref=e525]:
+            - strong [ref=e526]: Diğer Alacaklar
+            - generic [ref=e527]: 195.675.000,00
+          - listitem [ref=e528]:
+            - strong [ref=e529]: "- İlişkili Taraflardan Diğer Alacaklar"
+            - generic [ref=e530]: 18.767.000,00
+          - listitem [ref=e531]:
+            - strong [ref=e532]: "- İlişkili Olmayan Taraflardan Diğer Alacaklar"
+            - generic [ref=e533]: 176.908.000,00
+          - listitem [ref=e534]:
+            - strong [ref=e535]: Türev Araçlar
+            - generic [ref=e536]: 249.118.000,00
+          - listitem [ref=e537]:
+            - strong [ref=e538]: Stoklar
+            - generic [ref=e539]: 78.762.398.000,00
+          - listitem [ref=e540]:
+            - strong [ref=e541]: Canlı Varlıklar
+            - generic [ref=e542]: 0,00
+          - listitem [ref=e543]:
+            - strong [ref=e544]: Peşin Ödenmiş Giderler
+            - generic [ref=e545]: 3.109.169.000,00
+          - listitem [ref=e546]:
+            - strong [ref=e547]: İlişkili Taraflara Peşin Ödenmiş Giderler
+            - generic [ref=e548]: 24.900.000,00
+          - listitem [ref=e549]:
+            - strong [ref=e550]: Cari Dönem Vergisiyle İlgili Varlıklar
+            - generic [ref=e551]: 0,00
+          - listitem [ref=e552]:
+            - strong [ref=e553]: Diğer Dönen Varlıklar
+            - generic [ref=e554]: 17.229.808.000,00
+          - listitem [ref=e555]:
+            - strong [ref=e556]: ARA TOPLAM
+            - generic [ref=e557]: 182.856.284.000,00
+          - listitem [ref=e558]:
+            - strong [ref=e559]: Satış Amaçlı Sınıflandırılan Duran Varlıklar
+            - generic [ref=e560]: 0,00
+          - listitem [ref=e561]:
+            - strong [ref=e562]: DURAN VARLIKLAR
+            - generic [ref=e563]: 242.302.690.000,00
+          - listitem [ref=e564]:
+            - strong [ref=e565]: Finansal Yatırımlar
+            - generic [ref=e566]: 178.085.000,00
+          - listitem [ref=e567]:
+            - strong [ref=e568]: Ticari Alacaklar
+            - generic [ref=e569]: 0,00
+          - listitem [ref=e570]:
+            - strong [ref=e571]: "- İlişkili Taraflardan Ticari Alacaklar"
+            - generic [ref=e572]: 0,00
+          - listitem [ref=e573]:
+            - strong [ref=e574]: "- İlişkili Olmayan Taraflardan Ticari Alacaklar"
+            - generic [ref=e575]: 0,00
+          - listitem [ref=e576]:
+            - strong [ref=e577]: Finans Sektörü Faaliyetlerinden Alacaklar
+            - generic [ref=e578]: 0,00
+          - listitem [ref=e579]:
+            - strong [ref=e580]: "- Finans Sektörü Faaliyetleri İlişkili Taraflardan Alacaklar"
+            - generic [ref=e581]: 0,00
+          - listitem [ref=e582]:
+            - strong [ref=e583]: "- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflardan Alacaklar"
+            - generic [ref=e584]: 0,00
+          - listitem [ref=e585]:
+            - strong [ref=e586]: Diğer Alacaklar
+            - generic [ref=e587]: 132.211.000,00
+          - listitem [ref=e588]:
+            - strong [ref=e589]: "- İlişkili Taraflardan Diğer Alacaklar"
+            - generic [ref=e590]: 121.006.000,00
+          - listitem [ref=e591]:
+            - strong [ref=e592]: "- İlişkili Olmayan Taraflardan Diğer Alacaklar"
+            - generic [ref=e593]: 11.205.000,00
+          - listitem [ref=e594]:
+            - strong [ref=e595]: Türev Araçlar
+            - generic [ref=e596]: 0,00
+          - listitem [ref=e597]:
+            - strong [ref=e598]: Stoklar
+            - generic [ref=e599]: 0,00
+          - listitem [ref=e600]:
+            - strong [ref=e601]: Özkaynak Yöntemiyle Değerlenen Yatırımlar
+            - generic [ref=e602]: 1.280.062.000,00
+          - listitem [ref=e603]:
+            - strong [ref=e604]: Canlı Varlıklar
+            - generic [ref=e605]: 0,00
+          - listitem [ref=e606]:
+            - strong [ref=e607]: Yatırım Amaçlı Gayrimenkuller
+            - generic [ref=e608]: 5.867.749.000,00
+          - listitem [ref=e609]:
+            - strong [ref=e610]: Maddi Duran Varlıklar
+            - generic [ref=e611]: 206.912.853.000,00
+          - listitem [ref=e612]:
+            - strong [ref=e613]: Diğer Maddi Duran Varlıklar
+            - generic [ref=e614]: 0,00
+          - listitem [ref=e615]:
+            - strong [ref=e616]: Maddi Olmayan Duran Varlıklar
+            - generic [ref=e617]: 9.343.042.000,00
+          - listitem [ref=e618]:
+            - strong [ref=e619]: "- Şerefiye"
+            - generic [ref=e620]: 662.608.000,00
+          - listitem [ref=e621]:
+            - strong [ref=e622]: "-Bilgisayar Yazılımları"
+            - generic [ref=e623]: 0,00
+          - listitem [ref=e624]:
+            - strong [ref=e625]: "- Diğer Maddi Olmayan Duran Varlıklar"
+            - generic [ref=e626]: 8.680.434.000,00
+          - listitem [ref=e627]:
+            - strong [ref=e628]: Peşin Ödenmiş Giderler
+            - generic [ref=e629]: 16.090.669.000,00
+          - listitem [ref=e630]:
+            - strong [ref=e631]: "- İlişkili Taraflara Peşin Ödenmiş Giderler"
+            - generic [ref=e632]: 176.923.000,00
+          - listitem [ref=e633]:
+            - strong [ref=e634]: İlişkili Olmayan Taraflara Peşin Ödenmiş Giderler
+            - generic [ref=e635]: 15.913.746.000,00
+          - listitem [ref=e636]:
+            - strong [ref=e637]: Ertelenmiş Vergi Varlığı
+            - generic [ref=e638]: 255.704.000,00
+          - listitem [ref=e639]:
+            - strong [ref=e640]: Diğer Duran Varlıklar
+            - generic [ref=e641]: 1.279.098.000,00
+          - listitem [ref=e642]:
+            - strong [ref=e643]: TOPLAM VARLIKLAR
+            - generic [ref=e644]: 425.158.974.000,00
+          - listitem [ref=e645]:
+            - strong [ref=e646]: K A Y N A K L A R
+            - generic [ref=e647]: 0,00
+          - listitem [ref=e648]:
+            - strong [ref=e649]: KISA VADELİ YÜKÜMLÜLÜKLER
+            - generic [ref=e650]: 76.288.847.000,00
+          - listitem [ref=e651]:
+            - strong [ref=e652]: Kısa Vadeli Borçlanmalar
+            - generic [ref=e653]: 26.268.031.000,00
+          - listitem [ref=e654]:
+            - strong [ref=e655]: "- Banka Kredileri"
+            - generic [ref=e656]: 26.268.031.000,00
+          - listitem [ref=e657]:
+            - strong [ref=e658]: Uzun Vadeli Borçlanmaların Kısa Vadeli Kısımları
+            - generic [ref=e659]: 10.443.033.000,00
+          - listitem [ref=e660]:
+            - strong [ref=e661]: "- Finansal Kiralama İşlemlerinden Borçlar"
+            - generic [ref=e662]: 330.211.000,00
+          - listitem [ref=e663]:
+            - strong [ref=e664]: Banka Kredileri
+            - generic [ref=e665]: 0,00
+          - listitem [ref=e666]:
+            - strong [ref=e667]: Diğer Finansal Yükümlülükler
+            - generic [ref=e668]: 0,00
+          - listitem [ref=e669]:
+            - strong [ref=e670]: Ticari Borçlar
+            - generic [ref=e671]: 30.023.470.000,00
+          - listitem [ref=e672]:
+            - strong [ref=e673]: "- İlişkili Taraflara Ticari Borçlar"
+            - generic [ref=e674]: 1.837.483.000,00
+          - listitem [ref=e675]:
+            - strong [ref=e676]: "- İlişkili Olmayan Taraflara Ticari Borçlar"
+            - generic [ref=e677]: 28.185.987.000,00
+          - listitem [ref=e678]:
+            - strong [ref=e679]: Finans Sektörü Faaliyetlerinden Borçlar
+            - generic [ref=e680]: 0,00
+          - listitem [ref=e681]:
+            - strong [ref=e682]: "- Finans Sektörü Faaliyetleri İlişkili Taraflara Borçlar"
+            - generic [ref=e683]: 0,00
+          - listitem [ref=e684]:
+            - strong [ref=e685]: "- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflara Borçlar"
+            - generic [ref=e686]: 0,00
+          - listitem [ref=e687]:
+            - strong [ref=e688]: Çalışanlara Sağlanan Faydalar Kapsamında Borçlar
+            - generic [ref=e689]: 4.926.492.000,00
+          - listitem [ref=e690]:
+            - strong [ref=e691]: Diğer Borçlar
+            - generic [ref=e692]: 988.348.000,00
+          - listitem [ref=e693]:
+            - strong [ref=e694]: "- İlişkili Taraflara Diğer Borçlar"
+            - generic [ref=e695]: 0,00
+          - listitem [ref=e696]:
+            - strong [ref=e697]: "- İlişkili Olmayan Taraflara Diğer Borçlar"
+            - generic [ref=e698]: 988.348.000,00
+          - listitem [ref=e699]:
+            - strong [ref=e700]: Türev Araçlar
+            - generic [ref=e701]: 0,00
+          - listitem [ref=e702]:
+            - strong [ref=e703]: Devlet Teşvik ve Yardımları
+            - generic [ref=e704]: 0,00
+          - listitem [ref=e705]:
+            - strong [ref=e706]: Ertelenmiş Gelirler
+            - generic [ref=e707]: 1.161.228.000,00
+          - listitem [ref=e708]:
+            - strong [ref=e709]: Dönem Karı Vergi Yükümlülüğü
+            - generic [ref=e710]: 317.625.000,00
+          - listitem [ref=e711]:
+            - strong [ref=e712]: Kısa Vadeli Karşılıklar
+            - generic [ref=e713]: 1.087.544.000,00
+          - listitem [ref=e714]:
+            - strong [ref=e715]: "- Çalışanlara Sağlanan Faydalara İlişkin Kısa Vadeli Karşılıklar"
+            - generic [ref=e716]: 0,00
+          - listitem [ref=e717]:
+            - strong [ref=e718]: "- Diğer Kısa Vadeli Karşılıklar"
+            - generic [ref=e719]: 0,00
+          - listitem [ref=e720]:
+            - strong [ref=e721]: Diğer Kısa Vadeli Yükümlülükler
+            - generic [ref=e722]: 1.073.076.000,00
+          - listitem [ref=e723]:
+            - strong [ref=e724]: ARA TOPLAM
+            - generic [ref=e725]: 76.288.847.000,00
+          - listitem [ref=e726]:
+            - strong [ref=e727]: Satış Amaçlı Sınıflandırılan Varlık Gruplarına İlişkin Yükümlülükler
+            - generic [ref=e728]: 0,00
+          - listitem [ref=e729]:
+            - strong [ref=e730]: UZUN VADELİ YÜKÜMLÜLÜKLER
+            - generic [ref=e731]: 104.445.716.000,00
+          - listitem [ref=e732]:
+            - strong [ref=e733]: Uzun Vadeli Borçlanmalar
+            - generic [ref=e734]: 84.577.132.000,00
+          - listitem [ref=e735]:
+            - strong [ref=e736]: Banka Kredileri
+            - generic [ref=e737]: 51.957.630.000,00
+          - listitem [ref=e738]:
+            - strong [ref=e739]: Diğer Finansal Yükümlülükler
+            - generic [ref=e740]: 0,00
+          - listitem [ref=e741]:
+            - strong [ref=e742]: Finansal Kiralama İşlemlerinden Borçlar
+            - generic [ref=e743]: 582.706.000,00
+          - listitem [ref=e744]:
+            - strong [ref=e745]: Ticari Borçlar
+            - generic [ref=e746]: 0,00
+          - listitem [ref=e747]:
+            - strong [ref=e748]: "- İlişkili Taraflara Ticari Borçlar"
+            - generic [ref=e749]: 0,00
+          - listitem [ref=e750]:
+            - strong [ref=e751]: "- İlişkili Olmayan Taraflara Ticari Borçlar"
+            - generic [ref=e752]: 0,00
+          - listitem [ref=e753]:
+            - strong [ref=e754]: Finans Sektörü Faaliyetlerinden Borçlar
+            - generic [ref=e755]: 0,00
+          - listitem [ref=e756]:
+            - strong [ref=e757]: "- Finans Sektörü Faaliyetlerinden İlişkili Taraflara Borçlar"
+            - generic [ref=e758]: 0,00
+          - listitem [ref=e759]:
+            - strong [ref=e760]: "- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflara Borçlar"
+            - generic [ref=e761]: 0,00
+          - listitem [ref=e762]:
+            - strong [ref=e763]: Diğer Borçlar
+            - generic [ref=e764]: 0,00
+          - listitem [ref=e765]:
+            - strong [ref=e766]: "- İlişkili Taraflara Diğer Borçlar"
+            - generic [ref=e767]: 0,00
+          - listitem [ref=e768]:
+            - strong [ref=e769]: "- İlişkili Olmayan Taraflara Diğer Borçlar"
+            - generic [ref=e770]: 0,00
+          - listitem [ref=e771]:
+            - strong [ref=e772]: Türev Araçlar
+            - generic [ref=e773]: 0,00
+          - listitem [ref=e774]:
+            - strong [ref=e775]: Devlet Teşvik ve Yardımları
+            - generic [ref=e776]: 0,00
+          - listitem [ref=e777]:
+            - strong [ref=e778]: Ertelenmiş Gelirler
+            - generic [ref=e779]: 0,00
+          - listitem [ref=e780]:
+            - strong [ref=e781]: Uzun Vadeli Karşılıklar
+            - generic [ref=e782]: 6.171.382.000,00
+          - listitem [ref=e783]:
+            - strong [ref=e784]: "- Çalışanlara Sağlanan Faydalara İlişkin Uzun Vadeli Karşılıklar"
+            - generic [ref=e785]: 6.171.382.000,00
+          - listitem [ref=e786]:
+            - strong [ref=e787]: "- Diğer Uzun Vadeli Karşılıklar"
+            - generic [ref=e788]: 0,00
+          - listitem [ref=e789]:
+            - strong [ref=e790]: Cari Dönem Vergisiyle İlgili Borçlar
+            - generic [ref=e791]: 0,00
+          - listitem [ref=e792]:
+            - strong [ref=e793]: Ertelenmiş Vergi Yükümlülüğü
+            - generic [ref=e794]: 13.674.548.000,00
+          - listitem [ref=e795]:
+            - strong [ref=e796]: Diğer Uzun Vadeli Yükümlülükler
+            - generic [ref=e797]: 22.654.000,00
+          - listitem [ref=e798]:
+            - strong [ref=e799]: TOPLAM YÜKÜMLÜLÜKLER
+            - generic [ref=e800]: 180.734.563.000,00
+          - listitem [ref=e801]:
+            - strong [ref=e802]: Ö Z K A Y N A K L A R
+            - generic [ref=e803]: 244.424.411.000,00
+          - listitem [ref=e804]:
+            - strong [ref=e805]: ANA ORTAKLIĞA AİT ÖZKAYNAKLAR
+            - generic [ref=e806]: 236.947.401.000,00
+          - listitem [ref=e807]:
+            - strong [ref=e808]: Ödenmiş Sermaye
+            - generic [ref=e809]: 7.000.000.000,00
+          - listitem [ref=e810]:
+            - strong [ref=e811]: Ortak Kontrole Tabi Teşebbüs veya İşletmeleri İçeren Birleşmelerin Etkisi (-)
+            - generic [ref=e812]: 0,00
+          - listitem [ref=e813]:
+            - strong [ref=e814]: Sermaye Düzeltme Farkları
+            - generic [ref=e815]: 0,00
+          - listitem [ref=e816]:
+            - strong [ref=e817]: Geri Alınmış Paylar (-)
+            - generic [ref=e818]: 1.315.022.000,00
+          - listitem [ref=e819]:
+            - strong [ref=e820]: Karşılıklı İştirak Sermaye Düzeltmesi (-)
+            - generic [ref=e821]: 0,00
+          - listitem [ref=e822]:
+            - strong [ref=e823]: Paylara İlişkin Primler/İskontolar
+            - generic [ref=e824]: 106.447.000,00
+          - listitem [ref=e825]:
+            - strong [ref=e826]: Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler veya Giderler
+            - generic [ref=e827]: 95.552.077.000,00
+          - listitem [ref=e828]:
+            - strong [ref=e829]: "- Yeniden Değerleme ve Ölçüm Kazanç/Kayıpları"
+            - generic [ref=e830]: "-2.961.205.000,00"
+          - listitem [ref=e831]:
+            - strong [ref=e832]: "- Tanımlanmış fayda planları yeniden ölçüm kazanç/(kayıpları)"
+            - generic [ref=e833]: "-2.961.205.000,00"
+          - listitem [ref=e834]:
+            - strong [ref=e835]: "- Yabancı Para Çevirim Farkları"
+            - generic [ref=e836]: 98.513.282.000,00
+          - listitem [ref=e837]:
+            - strong [ref=e838]: "- Diğer Kazanç/Kayıplar"
+            - generic [ref=e839]: 0,00
+          - listitem [ref=e840]:
+            - strong [ref=e841]: Kar veya Zararda Yeniden Sınıflandırılacak Birikmiş Diğer Kapsamlı Gelirler veya Giderler
+            - generic [ref=e842]: "-9.724.549.000,00"
+          - listitem [ref=e843]:
+            - strong [ref=e844]: "- Yabancı Para Çevirim Farkları"
+            - generic [ref=e845]: "-9.772.072.000,00"
+          - listitem [ref=e846]:
+            - strong [ref=e847]: "- Riskten Korunma Kazanç/Kayıpları"
+            - generic [ref=e848]: 47.523.000,00
+          - listitem [ref=e849]:
+            - strong [ref=e850]: "- Yeniden Değerleme ve Sınıflandırma Kazanç/Kayıpları"
+            - generic [ref=e851]: 0,00
+          - listitem [ref=e852]:
+            - strong [ref=e853]: "- Diğer Kazanç/Kayıplar"
+            - generic [ref=e854]: 0,00
+          - listitem [ref=e855]:
+            - strong [ref=e856]: Kardan Ayrılan Kısıtlanmış Yedekler
+            - generic [ref=e857]: 10.973.470.000,00
+          - listitem [ref=e858]:
+            - strong [ref=e859]: Geçmiş Yıllar Karları/Zararları
+            - generic [ref=e860]: 120.873.630.000,00
+          - listitem [ref=e861]:
+            - strong [ref=e862]: Net Dönem Karı/Zararı
+            - generic [ref=e863]: 13.481.348.000,00
+          - listitem [ref=e864]:
+            - strong [ref=e865]: Diğer Yedekler
+            - generic [ref=e866]: 0,00
+          - listitem [ref=e867]:
+            - strong [ref=e868]: KONTROL GÜCÜ OLMAYAN PAYLAR
+            - generic [ref=e869]: 7.477.010.000,00
+          - listitem [ref=e870]:
+            - strong [ref=e871]: TOPLAM KAYNAKLAR
+            - generic [ref=e872]: 425.158.974.000,00
+      - list [ref=e874]:
+        - listitem [ref=e875]:
+          - link "***HLGYO ** KZGYO ** TRILC ** TCELL ** ARCLK ** SISE ** TRALT ** CWENE ** THYAO ** VAKFN ** CRFSA ** OSTIM ** ENKAI ** HALKB ** IEYHO ** AKBNK ** ORGE ** YKBNK ** SAHOL ** ISFIN ** OYAKC ** ARDYZ ** TTKOM ** DZGYO ** TSKB ** ISKPL ** OTKAR ** TRMET ** CEMTS ** SASA ** TEKTU ** ISCTR ** BUCIM ** EUREN ** DAPGM ** TRENJ ** TOASO ** ECILC ** BULGS ** CEMAS ** ALVES ** BRISA ** PGSUS ** KRDMD ** SNGYO ** BIOEN ** EKGYO ** GUBRF ** KLGYO ** TNZTP ** DOHOL ** GENIL ** BTCIM ** KAREL ** EGGUB ** GARAN ** AEFES ** AKSA ** ULUUN ** CIMSA ** RUZYE ** CCOLA ** EREGL ** USAK ** TAVHL ** HEKTS ** GOZDE ** ASTOR*** MERKEZİ KAYIT KURULUŞU A.Ş. (SPK İşlem Yasağı Nedeniyle Pay Duyurusu) 14 Ağu 2026 18:12" [ref=e876] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a7f306a3defa45fccd77b64/
+            - emphasis [ref=e877]: "***HLGYO ** KZGYO ** TRILC ** TCELL ** ARCLK ** SISE ** TRALT ** CWENE ** THYAO ** VAKFN ** CRFSA ** OSTIM ** ENKAI ** HALKB ** IEYHO ** AKBNK ** ORGE ** YKBNK ** SAHOL ** ISFIN ** OYAKC ** ARDYZ ** TTKOM ** DZGYO ** TSKB ** ISKPL ** OTKAR ** TRMET ** CEMTS ** SASA ** TEKTU ** ISCTR ** BUCIM ** EUREN ** DAPGM ** TRENJ ** TOASO ** ECILC ** BULGS ** CEMAS ** ALVES ** BRISA ** PGSUS ** KRDMD ** SNGYO ** BIOEN ** EKGYO ** GUBRF ** KLGYO ** TNZTP ** DOHOL ** GENIL ** BTCIM ** KAREL ** EGGUB ** GARAN ** AEFES ** AKSA ** ULUUN ** CIMSA ** RUZYE ** CCOLA ** EREGL ** USAK ** TAVHL ** HEKTS ** GOZDE ** ASTOR*** MERKEZİ KAYIT KURULUŞU A.Ş. (SPK İşlem Yasağı Nedeniyle Pay Duyurusu)"
+            - generic [ref=e878]: 14 Ağu 2026 18:12
+        - listitem [ref=e879]:
+          - link "***EREGL*** BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi) 10 Ağu 2026 11:06" [ref=e880] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a79869b3defa45fccd74dd9/
+            - emphasis [ref=e881]: "***EREGL*** BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)"
+            - generic [ref=e882]: 10 Ağu 2026 11:06
+        - listitem [ref=e883]:
+          - link "***EREGL*** BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi) 07 Ağu 2026 11:28" [ref=e884] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a75971f9bc2263791e79dfe/
+            - emphasis [ref=e885]: "***EREGL*** BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)"
+            - generic [ref=e886]: 07 Ağu 2026 11:28
+        - listitem [ref=e887]:
+          - link "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Katılım Finansı İlkeleri Bilgi Formu ) 06 Ağu 2026 18:16" [ref=e888] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a74a5653defa45fccd733e1/
+            - emphasis [ref=e889]: "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Katılım Finansı İlkeleri Bilgi Formu )"
+            - generic [ref=e890]: 06 Ağu 2026 18:16
+        - listitem [ref=e891]:
+          - link "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Sorumluluk Beyanı (Konsolide)) 06 Ağu 2026 18:16" [ref=e892] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a74a55b9bc2263791e7949c/
+            - emphasis [ref=e893]: "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Sorumluluk Beyanı (Konsolide))"
+            - generic [ref=e894]: 06 Ağu 2026 18:16
+        - listitem [ref=e895]:
+          - link "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Faaliyet Raporu (Konsolide)) 06 Ağu 2026 18:16" [ref=e896] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a74a5503defa45fccd733dd/
+            - emphasis [ref=e897]: "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Faaliyet Raporu (Konsolide))"
+            - generic [ref=e898]: 06 Ağu 2026 18:16
+        - listitem [ref=e899]:
+          - link "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Finansal Rapor) 06 Ağu 2026 18:16" [ref=e900] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a74a5473defa45fccd733d9/
+            - emphasis [ref=e901]: "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Finansal Rapor)"
+            - generic [ref=e902]: 06 Ağu 2026 18:16
+        - listitem [ref=e903]:
+          - link "***EREGL*** BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi) 03 Ağu 2026 17:20" [ref=e904] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a70a3b89bc2263791e76dc2/
+            - emphasis [ref=e905]: "***EREGL*** BORSA İSTANBUL BISTECH DEVRE KESİCİ UYGULAMASI (Pay Bazında Devre Kesici Bildirimi)"
+            - generic [ref=e906]: 03 Ağu 2026 17:20
+        - listitem [ref=e907]:
+          - link "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Kurumsal Yönetim İlkelerine Uyum Derecelendirmesi) 24 Tem 2026 09:30" [ref=e908] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a63067d9bc2263791e713c9/
+            - emphasis [ref=e909]: "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Kurumsal Yönetim İlkelerine Uyum Derecelendirmesi)"
+            - generic [ref=e910]: 24 Tem 2026 09:30
+        - listitem [ref=e911]:
+          - link "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren)) 23 Tem 2026 18:31" [ref=e912] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/haberdetay/6a6233b43defa45fccd6ad83/
+            - emphasis [ref=e913]: "***EREGL*** EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş. (Pay Dışında Sermaye Piyasası Aracı İşlemlerine İlişkin Bildirim (Faiz İçeren))"
+            - generic [ref=e914]: 23 Tem 2026 18:31
+      - generic [ref=e915]:
+        - heading "Borsa Haberleri" [level=2] [ref=e918]
+        - generic [ref=e919]:
+          - generic [ref=e920]:
+            - link [ref=e921] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-karisik-seyirle-acildi-17-agustos-2026/568530/
+              - img "New York borsası karışık seyirle açıldı (17 Ağustos 2026)" [ref=e922]
+            - heading [level=3] [ref=e924]:
+              - link "New York borsası karışık seyirle açıldı (17 Ağustos 2026)" [ref=e925] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-karisik-seyirle-acildi-17-agustos-2026/568530/
+          - generic [ref=e926]:
+            - link [ref=e927] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kaybetti-17-agustos-2026/568487/
+              - img "Borsa günün ilk yarısında değer kaybetti (17 Ağustos 2026)" [ref=e928]
+            - heading [level=3] [ref=e930]:
+              - link "Borsa günün ilk yarısında değer kaybetti (17 Ağustos 2026)" [ref=e931] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kaybetti-17-agustos-2026/568487/
+          - generic [ref=e932]:
+            - link [ref=e933] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-yukselisle-basladi-17-agustos-2026-bist-100/568444/
+              - 'img "CANLI BORSA | Borsa güne yükselişle başladı: 17 Ağustos 2026 BIST 100" [ref=e934]'
+            - heading [level=3] [ref=e936]:
+              - link "CANLI BORSA | Borsa güne yükselişle başladı" [ref=e937] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-yukselisle-basladi-17-agustos-2026-bist-100/568444/
+          - generic [ref=e938]:
+            - link [ref=e939] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/viop-ta-endeks-kontrati-gune-yukselisle-basladi/568425/
+              - img "VİOP'ta endeks kontratı güne yükselişle başladı" [ref=e940]
+            - heading [level=3] [ref=e942]:
+              - link "VİOP'ta endeks kontratı güne yükselişle başladı" [ref=e943] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/viop-ta-endeks-kontrati-gune-yukselisle-basladi/568425/
+          - generic [ref=e944]:
+            - link [ref=e945] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/bitcoin-de-dusus-baskisi-devam-ediyor-faiz-iyimserligi-yetmedi/568194/
+              - img "Bitcoin'de düşüş baskısı devam ediyor! Faiz iyimserliği yetmedi" [ref=e946]
+            - heading [level=3] [ref=e948]:
+              - 'link "Bitcoin''de hesaplar şaştı: Faiz beklentisi yetmedi" [ref=e949] [cursor=pointer]':
+                - /url: https://finans.mynet.com/haber/detay/borsa/bitcoin-de-dusus-baskisi-devam-ediyor-faiz-iyimserligi-yetmedi/568194/
+          - generic [ref=e950]:
+            - link [ref=e951] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-yatay-seyirle-acildi-14-agustos-2026/568175/
+              - img "New York borsası yatay seyirle açıldı (14 Ağustos 2026)" [ref=e952]
+            - heading [level=3] [ref=e954]:
+              - link "New York borsası yatay seyirle açıldı (14 Ağustos 2026)" [ref=e955] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-yatay-seyirle-acildi-14-agustos-2026/568175/
+          - generic [ref=e956]:
+            - link [ref=e957] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kazandi-14-agustos-2026/568158/
+              - img "Borsa günün ilk yarısında değer kazandı (14 Ağustos 2026)" [ref=e958]
+            - heading [level=3] [ref=e960]:
+              - link "Borsa günün ilk yarısında değer kazandı (14 Ağustos 2026)" [ref=e961] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kazandi-14-agustos-2026/568158/
+          - generic [ref=e962]:
+            - link [ref=e963] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-yatay-seyirle-basladi-14-agustos-2026-bist-100/568112/
+              - 'img "CANLI BORSA | Borsa yatay seyirle başladı: 14 Ağustos 2026 BIST 100" [ref=e964]'
+            - heading [level=3] [ref=e966]:
+              - link "CANLI BORSA | Borsa güne yatay seyirle başladı" [ref=e967] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-yatay-seyirle-basladi-14-agustos-2026-bist-100/568112/
+          - generic [ref=e968]:
+            - link [ref=e969] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/viop-ta-endeks-kontrati-gune-dususle-basladi/568088/
+              - img "VİOP'ta endeks kontratı güne düşüşle başladı" [ref=e970]
+            - heading [level=3] [ref=e972]:
+              - link "VİOP'ta endeks kontratı güne düşüşle başladı" [ref=e973] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/viop-ta-endeks-kontrati-gune-dususle-basladi/568088/
+          - generic [ref=e974]:
+            - link [ref=e975] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kazandi/567935/
+              - img "Borsa günün ilk yarısında değer kazandı" [ref=e976]
+            - heading [level=3] [ref=e978]:
+              - link "Borsa günün ilk yarısında değer kazandı" [ref=e979] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kazandi/567935/
+          - generic [ref=e980]:
+            - link [ref=e981] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-yukselisle-basladi-13-agustos-2026-bist-100/567902/
+              - 'img "CANLI BORSA | Borsa güne yükselişle başladı: 13 Ağustos 2026 BIST 100" [ref=e982]'
+            - heading [level=3] [ref=e984]:
+              - link "CANLI BORSA | Borsa güne yükselişle başladı" [ref=e985] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-yukselisle-basladi-13-agustos-2026-bist-100/567902/
+          - generic [ref=e986]:
+            - link [ref=e987] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-yatay-seyirle-basladi-12-agustos-2026-bist-100/567710/
+              - 'img "CANLI BORSA | Borsa yatay seyirle başladı: 12 Ağustos 2026 BIST 100" [ref=e988]'
+            - heading [level=3] [ref=e990]:
+              - link "CANLI BORSA | Borsa güne yatay seyirle başladı" [ref=e991] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-yatay-seyirle-basladi-12-agustos-2026-bist-100/567710/
+          - generic [ref=e992]:
+            - link [ref=e993] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kaybetti-11-agustos-2026/567573/
+              - img "Borsa günün ilk yarısında değer kaybetti (11 Ağustos 2026)" [ref=e994]
+            - heading [level=3] [ref=e996]:
+              - link "Borsa günün ilk yarısında değer kaybetti (11 Ağustos 2026)" [ref=e997] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kaybetti-11-agustos-2026/567573/
+          - generic [ref=e998]:
+            - link [ref=e999] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-dususle-basladi-11-agustos-2026-bist-100/567549/
+              - img "CANLI BORSA | Borsa güne düşüşle başladı 11 Ağustos 2026 BIST 100" [ref=e1000]
+            - heading [level=3] [ref=e1002]:
+              - link "CANLI BORSA | Borsa güne düşüşle başladı" [ref=e1003] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-dususle-basladi-11-agustos-2026-bist-100/567549/
+          - generic [ref=e1004]:
+            - link [ref=e1005] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-yatay-seyirle-acildi-10-agustos-2026/567417/
+              - img "New York borsası yatay seyirle açıldı (10 Ağustos 2026)" [ref=e1006]
+            - heading [level=3] [ref=e1008]:
+              - link "New York borsası yatay seyirle açıldı (10 Ağustos 2026)" [ref=e1009] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-yatay-seyirle-acildi-10-agustos-2026/567417/
+          - generic [ref=e1010]:
+            - link [ref=e1011] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kazandi-10-agustos-2026/567371/
+              - img "Borsa günün ilk yarısında değer kazandı (10 Ağustos 2026)" [ref=e1012]
+            - heading [level=3] [ref=e1014]:
+              - link "Borsa günün ilk yarısında değer kazandı (10 Ağustos 2026)" [ref=e1015] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kazandi-10-agustos-2026/567371/
+          - generic [ref=e1016]:
+            - link [ref=e1017] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-yukselisle-basladi/567336/
+              - img "CANLI BORSA| Borsa güne yükselişle başladı" [ref=e1018]
+            - heading [level=3] [ref=e1020]:
+              - link "Borsa güne yükselişle başladı" [ref=e1021] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/canli-borsa-borsa-gune-yukselisle-basladi/567336/
+          - generic [ref=e1022]:
+            - link [ref=e1023] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/viop-ta-endeks-kontrati-haftaya-yukselisle-basladi-10-agustos-2026/567314/
+              - img "VİOP'ta endeks kontratı haftaya yükselişle başladı (10 Ağustos 2026)" [ref=e1024]
+            - heading [level=3] [ref=e1026]:
+              - link "VİOP'ta endeks kontratı haftaya yükselişle başladı (10 Ağustos 2026)" [ref=e1027] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/viop-ta-endeks-kontrati-haftaya-yukselisle-basladi-10-agustos-2026/567314/
+          - generic [ref=e1028]:
+            - link [ref=e1029] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-abd-nin-istihdam-verilerinin-ardindan-yukselisle-acildi/567046/
+              - img "New York borsası ABD'nin istihdam verilerinin ardından yükselişle açıldı" [ref=e1030]
+            - heading [level=3] [ref=e1032]:
+              - link "New York borsası ABD'nin istihdam verilerinin ardından yükselişle açıldı" [ref=e1033] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/new-york-borsasi-abd-nin-istihdam-verilerinin-ardindan-yukselisle-acildi/567046/
+          - generic [ref=e1034]:
+            - link [ref=e1035] [cursor=pointer]:
+              - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kaybetti-07-agustos-2026/567020/
+              - img "Borsa günün ilk yarısında değer kaybetti (07 Ağustos 2026)" [ref=e1036]
+            - heading [level=3] [ref=e1038]:
+              - link "Borsa günün ilk yarısında değer kaybetti (07 Ağustos 2026)" [ref=e1039] [cursor=pointer]:
+                - /url: https://finans.mynet.com/haber/detay/borsa/borsa-gunun-ilk-yarisinda-deger-kaybetti-07-agustos-2026/567020/
+    - generic [ref=e1043]:
+      - generic [ref=e1045]:
+        - text: K
+        - iframe [ref=e1047]:
+          
+      - generic [ref=e1048]:
+        - generic [ref=e1050]:
+          - generic [ref=e1051]:
+            - generic [ref=e1052] [cursor=pointer]: Artan
+            - generic [ref=e1054] [cursor=pointer]: Azalan
+            - generic [ref=e1056] [cursor=pointer]: İşlem
+          - table [ref=e1060]:
+            - rowgroup [ref=e1061]:
+              - row [ref=e1062]:
+                - columnheader "Hisse" [ref=e1063]
+                - columnheader "Fiyat" [ref=e1064]
+                - columnheader "Fark%" [ref=e1065]
+                - columnheader "Hacim (TL)" [ref=e1066]
+            - rowgroup [ref=e1067]:
+              - row [ref=e1068]:
+                - cell [ref=e1069]:
+                  - link "HEDEF" [ref=e1070] [cursor=pointer]:
+                    - /url: https://finans.mynet.com/borsa/hisseler/hedef-hedef-holding/
+                - cell "173,80" [ref=e1071]
+                - cell "▲ %10,00" [ref=e1072]
+                - cell "1.054,89 Mn" [ref=e1073]
+              - row [ref=e1074]:
+                - cell [ref=e1075]:
+                  - link "PRZMA" [ref=e1076] [cursor=pointer]:
+                    - /url: https://finans.mynet.com/borsa/hisseler/przma-prizma-press-matbaacilik/
+                - cell "79,20" [ref=e1077]
+                - cell "▲ %10,00" [ref=e1078]
+                - cell "174,21 Mn" [ref=e1079]
+              - row [ref=e1080]:
+                - cell [ref=e1081]:
+                  - link "CEMZY" [ref=e1082] [cursor=pointer]:
+                    - /url: https://finans.mynet.com/borsa/hisseler/cemzy-cem-zeytin/
+                - cell "14,63" [ref=e1083]
+                - cell "▲ %10,00" [ref=e1084]
+                - cell "256,47 Mn" [ref=e1085]
+              - row [ref=e1086]:
+                - cell [ref=e1087]:
+                  - link "KRDMA" [ref=e1088] [cursor=pointer]:
+                    - /url: https://finans.mynet.com/borsa/hisseler/krdma-kardemir-a/
+                - cell "46,44" [ref=e1089]
+                - cell "▲ %10,00" [ref=e1090]
+                - cell "584,85 Mn" [ref=e1091]
+              - row [ref=e1092]:
+                - cell [ref=e1093]:
+                  - link "AYDEM" [ref=e1094] [cursor=pointer]:
+                    - /url: https://finans.mynet.com/borsa/hisseler/aydem-aydem-enerji/
+                - cell "27,72" [ref=e1095]
+                - cell "▲ %10,00" [ref=e1096]
+                - cell "313,18 Mn" [ref=e1097]
+          - link "Tüm Artan Hisseler" [ref=e1099] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/en-cok-artan-hisseler/
+            - generic [ref=e1101]: ">"
+        - list [ref=e1104]:
+          - listitem [ref=e1105]:
+            - link "ANLIK BORSA" [ref=e1106] [cursor=pointer]:
+              - /url: https://finans.mynet.com/borsa/anlikborsaverileri-abone/
+          - listitem [ref=e1111]:
+            - link "CANLI BORSA" [ref=e1112] [cursor=pointer]:
+              - /url: https://finans.mynet.com/borsa/canliborsa/
+          - listitem [ref=e1116]:
+            - link "HİSSELER" [ref=e1117] [cursor=pointer]:
+              - /url: https://finans.mynet.com/borsa/hisseler/
+          - listitem [ref=e1121]:
+            - link "EKONOMİK TAKVİM" [ref=e1122] [cursor=pointer]:
+              - /url: https://finans.mynet.com/ekonomiktakvim/
+        - link [ref=e1128] [cursor=pointer]:
+          - /url: javascript:;
+          - img "Canlı Borsa" [ref=e1129]
+      - generic [ref=e1131]:
+        - generic [ref=e1132]: Mynet’te En Çok Takip Edilen Hisseler
+        - generic [ref=e1136]:
+          - generic [ref=e1137]: Hisse
+          - generic [ref=e1138]:  İzleyen Kişi
+        - generic [ref=e1140]:
+          - link "HEDEF HOLDING" [ref=e1143] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/hisseler/hedef-hedef-holding/
+          - link "ASELSAN" [ref=e1149] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/hisseler/asels-aselsan/
+          - link "KARDEMIR (D)" [ref=e1155] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/hisseler/krdmd-kardemir-d/
+          - link "TUPRAS" [ref=e1161] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/hisseler/tuprs-tupras/
+      - generic [ref=e1166]:
+        - generic [ref=e1167]: finans bülteni
+        - generic [ref=e1171]:
+          - img "Mynet Finans Bülteni" [ref=e1173]
+          - generic [ref=e1174]:
+            - paragraph [ref=e1175]: Günlük para ve sermaye piyasaları hareketleri, günün beklentileri, analizler, uzman görüşlerini öğrenmek için
+            - link "Abone Olun" [ref=e1176] [cursor=pointer]:
+              - /url: javascript:;
+      - generic [ref=e1178]:
+        - link "Döviz Çevirici" [ref=e1184] [cursor=pointer]:
+          - /url: https://finans.mynet.com/doviz/doviz-cevirici/
+        - generic [ref=e1185]:
+          - generic [ref=e1186]:
+            - text: ₺
+            - spinbutton "Türk Lirası" [ref=e1187]
+          - generic [ref=e1188]:
+            - text: $
+            - spinbutton "Amerikan Doları" [ref=e1189]
+          - generic [ref=e1190]:
+            - text: €
+            - spinbutton "Euro" [ref=e1191]
+          - generic [ref=e1192]:
+            - text: £
+            - spinbutton "İngiliz Sterlini" [ref=e1193]
+          - generic [ref=e1194]:
+            - text: ₣
+            - spinbutton "İsviçre Frangı" [ref=e1195]
+          - generic [ref=e1196]:
+            - text: ¥
+            - spinbutton "Japon Yeni (100)" [ref=e1197]
+          - generic [ref=e1198]:
+            - text: ₽
+            - spinbutton "Rus Rublesi" [ref=e1199]
+      - generic [ref=e1200]:
+        - list [ref=e1202]:
+          - listitem [ref=e1203]:
+            - link "Akaryakıt Fiyatları" [ref=e1204] [cursor=pointer]:
+              - /url: https://finans.mynet.com/akaryakit-fiyatlari/
+          - listitem [ref=e1208]:
+            - link "Benzin Ne Kadar" [ref=e1209] [cursor=pointer]:
+              - /url: https://finans.mynet.com/kursunsuz-benzin-95-oktan-fiyati/
+          - listitem [ref=e1213]:
+            - link "Motorin Ne Kadar" [ref=e1214] [cursor=pointer]:
+              - /url: https://finans.mynet.com/motorin-fiyati/
+        - list [ref=e1219]:
+          - listitem [ref=e1220]:
+            - link "Çeyrek Altın Ne Kadar" [ref=e1221] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-ceyrek-altin-ne-kadar/
+          - listitem [ref=e1225]:
+            - link "Gram Altın Ne Kadar" [ref=e1226] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-gram-altin-ne-kadar/
+          - listitem [ref=e1230]:
+            - link "Tam Altın Ne Kadar" [ref=e1231] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-tam-altin-ne-kadar/
+          - listitem [ref=e1235]:
+            - link "Yarım Altın Ne Kadar" [ref=e1236] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-yarim-altin-ne-kadar/
+          - listitem [ref=e1240]:
+            - link "Cumhuriyet Altını Ne Kadar" [ref=e1241] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-cumhuriyet-altini-ne-kadar/
+          - listitem [ref=e1245]:
+            - link "Dolar Ne Kadar" [ref=e1246] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-dolar-ne-kadar/
+          - listitem [ref=e1250]:
+            - link "Euro Ne Kadar" [ref=e1251] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-euro-ne-kadar/
+          - listitem [ref=e1255]:
+            - link "Sterlin Ne Kadar" [ref=e1256] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-sterlin-ne-kadar/
+          - listitem [ref=e1260]:
+            - link "Yuan Ne Kadar" [ref=e1261] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-yuan-ne-kadar/
+          - listitem [ref=e1265]:
+            - link "Ruble Ne Kadar" [ref=e1266] [cursor=pointer]:
+              - /url: https://finans.mynet.com/1-ruble-ne-kadar/
+  - generic [ref=e1271]:
+    - paragraph [ref=e1272]: BIST piyasalarında oluşan tüm verilere ait telif hakları tamamen BIST'e ait olup, bu veriler tekrar yayınlanamaz. Pay Piyasası, Borçlanma Araçları Piyasası, Vadeli İşlem ve Opsiyon Piyasası verileri BIST kaynaklı en az 15 dakika gecikmeli verilerdir.
+    - paragraph [ref=e1273]: "SPK'nın 22 Nisan 2002 tarihli Resmi Gazete'de yayımlanan tebliği uyarınca yayımlanması istenen uyarı:"
+    - paragraph [ref=e1274]: "\"Burada yer alan yatırım bilgi, yorum ve tavsiyeleri yatırım danışmanlığı kapsamında değildir. Yatırım danışmanlığı hizmeti, aracı kurumlar, portföy yönetim şirketleri, mevduat kabul etmeyen bankalar ile müşteri arasında imzalanacak yatırım danışmanlığı sözleşmesi çerçevesinde sunulmaktadır. Burada yer alan yorum ve tavsiyeler, yorum ve tavsiyede bulunanların kişisel görüşlerine dayanmaktadır. Bu görüşler, mali durumunuz ile risk ve getiri tercihlerinize uygun olmayabilir. Bu nedenle, sadece burada yer alan bilgilere dayanılarak yatırım kararı verilmesi, beklentilerinize uygun sonuçlar doğurmayabilir.\""
+    - paragraph [ref=e1275]: Finansal veriler Forinvest A.Ş. tarafından sağlanmaktadır.
+    - paragraph [ref=e1276]: Mynet, yayınlanan verilerin doğruluğu ve tamlığı konusunda herhangi bir garanti vermez. Veri yayınında oluşabilecek aksaklıklardan, verinin eksik ve yanlış yayınlanmasından meydana gelebilecek herhangi bir zarardan Mynet sorumlu değildir.
+  - generic [ref=e1277]:
+    - generic [ref=e1278]:
+      - link [ref=e1279] [cursor=pointer]:
+        - /url: https://www.mynet.com
+        - img "Mynet" [ref=e1280]
+      - generic [ref=e1281]:
+        - link [ref=e1282] [cursor=pointer]:
+          - /url: https://www.facebook.com/mynet/
+          - img "Facebook'da Takip Et" [ref=e1283]
+        - link [ref=e1284] [cursor=pointer]:
+          - /url: https://twitter.com/mynet
+          - img "X'te Takip Et" [ref=e1285]
+        - link [ref=e1286] [cursor=pointer]:
+          - /url: https://www.instagram.com/mynet/
+          - img "Instagram'da Takip Et" [ref=e1287]
+        - link [ref=e1288] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/mynet/mycompany/
+          - img "Linkedin'de Takip Et" [ref=e1289]
+        - link [ref=e1290] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/MynetYoutube
+          - img "Youtube'da Takip Et" [ref=e1291]
+        - link [ref=e1292] [cursor=pointer]:
+          - /url: https://www.whatsapp.com/channel/0029Va46gZ9EVccT1uBRqX1m
+          - img "Whatsapp'da Takip Et" [ref=e1293]
+        - link [ref=e1294] [cursor=pointer]:
+          - /url: https://habergonder.mynet.com
+          - img "Haber Gönder" [ref=e1295]
+          - text: Haber Gönder
+    - generic [ref=e1296]:
+      - generic [ref=e1298]:
+        - link [ref=e1299] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.mynet.android.mynetapp
+          - img "Google Play Store" [ref=e1300]
+        - link [ref=e1301] [cursor=pointer]:
+          - /url: https://itunes.apple.com/app/id352826080
+          - img "App Store" [ref=e1302]
+        - link [ref=e1303] [cursor=pointer]:
+          - /url: https://appgallery.huawei.com/#/app/C101137113
+          - img "App Store" [ref=e1304]
+      - list [ref=e1305]:
+        - listitem [ref=e1306]:
+          - link "Son Dakika Haberleri" [ref=e1307] [cursor=pointer]:
+            - /url: https://www.mynet.com/son-dakika-haberleri
+        - listitem [ref=e1308]:
+          - link "Haberler" [ref=e1309] [cursor=pointer]:
+            - /url: https://haber.mynet.com
+        - listitem [ref=e1310]:
+          - link "Finans" [ref=e1311] [cursor=pointer]:
+            - /url: https://finans.mynet.com
+        - listitem [ref=e1312]:
+          - link "Yemek" [ref=e1313] [cursor=pointer]:
+            - /url: https://www.mynet.com/yemek/
+        - listitem [ref=e1314]:
+          - link "Kadın" [ref=e1315] [cursor=pointer]:
+            - /url: https://www.mynet.com/kadin/
+        - listitem [ref=e1316]:
+          - link "Magazin" [ref=e1317] [cursor=pointer]:
+            - /url: https://www.mynet.com/magazin/
+        - listitem [ref=e1318]:
+          - link "Trend" [ref=e1319] [cursor=pointer]:
+            - /url: https://www.mynet.com/trend
+        - listitem [ref=e1320]:
+          - link "Eğitim" [ref=e1321] [cursor=pointer]:
+            - /url: https://www.mynet.com/egitim
+        - listitem [ref=e1322]:
+          - link "Spor" [ref=e1323] [cursor=pointer]:
+            - /url: https://www.mynet.com/spor/
+        - listitem [ref=e1324]:
+          - link "Video" [ref=e1325] [cursor=pointer]:
+            - /url: https://www.mynet.com/video
+        - listitem [ref=e1326]:
+          - link "Yerel Haberler" [ref=e1327] [cursor=pointer]:
+            - /url: https://www.mynet.com/yerel-haberler
+      - list [ref=e1328]:
+        - listitem [ref=e1329]:
+          - link "Teknoloji" [ref=e1330] [cursor=pointer]:
+            - /url: https://www.mynet.com/teknoloji-haberler
+        - listitem [ref=e1331]:
+          - link "Sağlık" [ref=e1332] [cursor=pointer]:
+            - /url: https://www.mynet.com/saglik-haberler
+        - listitem [ref=e1333]:
+          - link "Astroloji" [ref=e1334] [cursor=pointer]:
+            - /url: https://www.mynet.com/kadin/burclar-astroloji
+        - listitem [ref=e1335]:
+          - link "Vitrin" [ref=e1336] [cursor=pointer]:
+            - /url: https://www.mynet.com/vitrin
+        - listitem [ref=e1337]:
+          - link "Seçim Haberleri" [ref=e1338] [cursor=pointer]:
+            - /url: https://www.mynet.com/secim-haberler
+        - listitem [ref=e1339]:
+          - link "Canlı Maç Anlatımı" [ref=e1340] [cursor=pointer]:
+            - /url: https://www.mynet.com/spor/canli-mac-anlatimi-ve-sonuclari
+        - listitem [ref=e1341]:
+          - link "Gazeteler" [ref=e1342] [cursor=pointer]:
+            - /url: https://www.mynet.com/gazeteler
+        - listitem [ref=e1343]:
+          - link "E-mail" [ref=e1344] [cursor=pointer]:
+            - /url: https://eposta.mynet.com/index/mymail.html
+        - listitem [ref=e1345]:
+          - link "Şans Oyunları" [ref=e1346] [cursor=pointer]:
+            - /url: https://www.mynet.com/sans-oyunlari
+        - listitem [ref=e1347]:
+          - link "Kobi" [ref=e1348] [cursor=pointer]:
+            - /url: https://kobi.mynet.com
+        - listitem [ref=e1349]:
+          - link "myMani" [ref=e1350] [cursor=pointer]:
+            - /url: https://www.mymani.net
+      - list [ref=e1351]:
+        - listitem [ref=e1352]:
+          - link "Borsa Seans İstatistiği" [ref=e1353] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/seansistatistigi/
+        - listitem [ref=e1354]:
+          - link "Canlı Borsa" [ref=e1355] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/canliborsa/
+        - listitem [ref=e1356]:
+          - link "Finansal Sözlük" [ref=e1357] [cursor=pointer]:
+            - /url: https://finans.mynet.com/finansal-terimler-sozlugu/
+        - listitem [ref=e1358]:
+          - link "Hisseler" [ref=e1359] [cursor=pointer]:
+            - /url: https://finans.mynet.com/borsa/hisseler/
+        - listitem [ref=e1360]:
+          - link "Kripto Para" [ref=e1361] [cursor=pointer]:
+            - /url: https://finans.mynet.com/kripto-para/
+        - listitem [ref=e1362]:
+          - link "Altın Fiyatları" [ref=e1363] [cursor=pointer]:
+            - /url: https://finans.mynet.com/altin/
+        - listitem [ref=e1364]:
+          - link "Dolar Kuru" [ref=e1365] [cursor=pointer]:
+            - /url: https://finans.mynet.com/doviz/usd-dolar/
+        - listitem [ref=e1366]:
+          - link "Euro Kuru" [ref=e1367] [cursor=pointer]:
+            - /url: https://finans.mynet.com/doviz/eur-euro/
+        - listitem [ref=e1368]:
+          - link "Rüya Tabirleri" [ref=e1369] [cursor=pointer]:
+            - /url: https://www.mynet.com/trend/ruya-tabirleri
+        - listitem [ref=e1370]:
+          - link "Hava Durumu" [ref=e1371] [cursor=pointer]:
+            - /url: https://www.mynet.com/hava-durumu
+        - listitem [ref=e1372]:
+          - link "Keşfet" [ref=e1373] [cursor=pointer]:
+            - /url: https://www.mynet.com/kesfet
+      - list [ref=e1374]:
+        - listitem [ref=e1375]:
+          - link "Oyun" [ref=e1376] [cursor=pointer]:
+            - /url: https://oyun.mynet.com
+        - listitem [ref=e1377]:
+          - link "Kelime Bul" [ref=e1378] [cursor=pointer]:
+            - /url: https://www.mynet.com/kelime-bul
+        - listitem [ref=e1379]:
+          - link "Soran Anne" [ref=e1380] [cursor=pointer]:
+            - /url: https://www.mynet.com/kadin/soran-anne-platformu
+        - listitem [ref=e1381]:
+          - link "Tatil Bulucu" [ref=e1382] [cursor=pointer]:
+            - /url: https://www.mynet.com/trend/tatil-bulucu
+        - listitem [ref=e1383]:
+          - link "Milli Piyango Sonuçları" [ref=e1384] [cursor=pointer]:
+            - /url: https://www.mynet.com/sans-oyunlari/milli-piyango-sonuclari
+        - listitem [ref=e1385]:
+          - link "E-Okul Giriş" [ref=e1386] [cursor=pointer]:
+            - /url: https://www.mynet.com/e-okul-veli-bilgilendirme-sistemi
+        - listitem [ref=e1387]:
+          - link "Instagram Dondurma" [ref=e1388] [cursor=pointer]:
+            - /url: https://www.mynet.com/instagram-dondurma-linki-2022-instagram-hesap-dondurma-nasil-yapilir-110106948391
+        - listitem [ref=e1389]:
+          - link "Instagram Silme" [ref=e1390] [cursor=pointer]:
+            - /url: https://www.mynet.com/instagram-hesap-silme-ve-kapatma-linki-instagram-hesabi-kalici-olarak-nasil-silinir-110106943468
+        - listitem [ref=e1391]:
+          - link "TDK Sözlük" [ref=e1392] [cursor=pointer]:
+            - /url: https://www.mynet.com/egitim/tdk-anlami
+        - listitem [ref=e1393]:
+          - link "Ayetel Kürsi" [ref=e1394] [cursor=pointer]:
+            - /url: https://www.mynet.com/ayetel-kursi-okunusu-turkce-anlami-ve-ayetel-kursi-faydalari-110106594139
+        - listitem [ref=e1395]:
+          - link "Nazar Duası" [ref=e1396] [cursor=pointer]:
+            - /url: https://www.mynet.com/nazar-duasi-arapca-ve-turkce-okunusu-en-etkili-nazar-duasi-110106610686
+    - list [ref=e1397]:
+      - listitem [ref=e1398]:
+        - link "Türk Lirası mevduat faizi üç haftada 5,1 puan arttı" [ref=e1399] [cursor=pointer]:
+          - /url: ""
+      - listitem [ref=e1400]:
+        - link "Asgari ücret %30 arttı kiracılar kara kara düşünüyor! Ev sahipleri apartta bekliyor, zammın nedeni buymuş" [ref=e1401] [cursor=pointer]:
+          - /url: ""
+      - listitem [ref=e1402]:
+        - link "Boğaz'ın simgesi Feyyaz Tokar Yalısı satılıyor! Değeri dudak uçuklattı! Yeni sahibi bakın kimmiş..." [ref=e1403] [cursor=pointer]:
+          - /url: ""
+      - listitem [ref=e1404]:
+        - link "Finans Haberleri" [ref=e1405] [cursor=pointer]:
+          - /url: https://finans.mynet.com/haber/
+      - listitem [ref=e1406]:
+        - link "Yerel Seçim 2024" [ref=e1407] [cursor=pointer]:
+          - /url: https://www.mynet.com/yerel-secim-2024
+      - listitem [ref=e1408]:
+        - link "Gram Altın" [ref=e1409] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/xgld-spot-altin-tl-gr/
+      - listitem [ref=e1410]:
+        - link "Ata Altın" [ref=e1411] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/gata-hrm-ata-altin/
+      - listitem [ref=e1412]:
+        - link "Gremse Altın" [ref=e1413] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/ggremse-hrm-gremse-altin/
+      - listitem [ref=e1414]:
+        - link "Ziynet Altın" [ref=e1415] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/xgziynet-ziynet-altin/
+      - listitem [ref=e1416]:
+        - link "14 Ayar Bilezik" [ref=e1417] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/g14bil-14-ayar-bilezik/
+      - listitem [ref=e1418]:
+        - link "18 Ayar Bilezik" [ref=e1419] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/g18bil-18-ayar-bilezik/
+      - listitem [ref=e1420]:
+        - link "22 Ayar Bilezik" [ref=e1421] [cursor=pointer]:
+          - /url: https://finans.mynet.com/altin/g22bil-22-ayar-bilezik/
+      - listitem [ref=e1422]:
+        - link "1 Çeyrek Altın Ne Kadar?" [ref=e1423] [cursor=pointer]:
+          - /url: https://finans.mynet.com/1-ceyrek-altin-ne-kadar/
+      - listitem [ref=e1424]:
+        - link "1 Yarım Altın Ne Kadar?" [ref=e1425] [cursor=pointer]:
+          - /url: https://finans.mynet.com/1-yarim-altin-ne-kadar/
+      - listitem [ref=e1426]:
+        - link "1 Cumhuriyet Altını Ne Kadar?" [ref=e1427] [cursor=pointer]:
+          - /url: https://finans.mynet.com/1-cumhuriyet-altini-ne-kadar/
+      - listitem [ref=e1428]:
+        - link "1 Dolar Ne Kadar?" [ref=e1429] [cursor=pointer]:
+          - /url: https://finans.mynet.com/1-dolar-ne-kadar/
+      - listitem [ref=e1430]:
+        - link "1 Euro Ne Kadar?" [ref=e1431] [cursor=pointer]:
+          - /url: https://finans.mynet.com/1-euro-ne-kadar/
+      - listitem [ref=e1432]:
+        - link "1 Ruble Ne Kadar?" [ref=e1433] [cursor=pointer]:
+          - /url: https://finans.mynet.com/1-ruble-ne-kadar/
+      - listitem [ref=e1434]:
+        - link "En Çok Düşen Hisseler" [ref=e1435] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/en-cok-dusen-hisseler/
+      - listitem [ref=e1436]:
+        - link "En Çok Artan Hisseler" [ref=e1437] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/en-cok-artan-hisseler/
+      - listitem [ref=e1438]:
+        - link "En Çok İşlem Gören Hisseler" [ref=e1439] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/en-cok-islem-goren-hisseler/
+      - listitem [ref=e1440]:
+        - link "Anlık Borsa" [ref=e1441] [cursor=pointer]:
+          - /url: https://finans.mynet.com/borsa/anlikborsaverileri/
+      - listitem [ref=e1442]:
+        - link "Döviz Kuru" [ref=e1443] [cursor=pointer]:
+          - /url: https://finans.mynet.com/doviz/
+      - listitem [ref=e1444]:
+        - link "Pariteler" [ref=e1445] [cursor=pointer]:
+          - /url: https://finans.mynet.com/parite/
+      - listitem [ref=e1446]:
+        - link "Faiz Oranları" [ref=e1447] [cursor=pointer]:
+          - /url: https://finans.mynet.com/faiz/
+    - generic [ref=e1448]:
+      - generic [ref=e1449]:
+        - link "İletişim" [ref=e1450] [cursor=pointer]:
+          - /url: https://www.mynet.com/iletisim/
+        - link "Yardım" [ref=e1451] [cursor=pointer]:
+          - /url: https://www.mynet.com/yardim/
+        - link "Üyelik" [ref=e1452] [cursor=pointer]:
+          - /url: https://members.mynet.com
+        - link "Gizlilik Politikası" [ref=e1453] [cursor=pointer]:
+          - /url: https://www.mynet.com/gizlilik-politikasi
+        - link "Yasal Uyarı" [ref=e1454] [cursor=pointer]:
+          - /url: https://www.mynet.com/yasal-uyari
+        - link "RSS" [ref=e1455] [cursor=pointer]:
+          - /url: https://www.mynet.com/rss.html
+      - generic [ref=e1456]: Son Dakika haber, spor, astroloji ve magazinden siyasete, ekonomiden finansa, seyahatten televizyon dünyasına bütün konuların tek adresi mynet.com; mynet.com haber içerikleri kaynak gösterilmeden alıntı yapılamaz, kanuna aykırı ve izinsiz olarak kopyalanamaz, başka yerde yayınlanamaz.
+      - paragraph [ref=e1457]: Copyright © MYNET A.Ş. Telif Hakları MYNET A.Ş.'ye Aittir.
+      - generic [ref=e1458]:
+        - generic [ref=e1459]:
+          - generic [ref=e1460]: Bir
+          - link [ref=e1461] [cursor=pointer]:
+            - /url: https://mediazonehq.com/?utm_source=mynet&utm_medium=footer
+          - generic [ref=e1462]: markasıdır.
+        - generic [ref=e1463]:
+          - link "Mackolik" [ref=e1464] [cursor=pointer]:
+            - /url: https://www.mackolik.com/canli-sonuclar?utm_source=mynet&utm_medium=footer
+          - link "Matchendirect" [ref=e1465] [cursor=pointer]:
+            - /url: https://www.matchendirect.fr/?utm_source=mynet&utm_medium=footer
+          - link "Mynet" [ref=e1466] [cursor=pointer]:
+            - /url: https://www.mynet.com
+          - link "Onedio" [ref=e1467] [cursor=pointer]:
+            - /url: https://onedio.com/?utm_source=mynet&utm_medium=footer
+          - link "Webtekno" [ref=e1468] [cursor=pointer]:
+            - /url: https://www.webtekno.com/?utm_source=mynet&utm_medium=footer
+          - link "Yemek.com" [ref=e1469] [cursor=pointer]:
+            - /url: https://yemek.com/?utm_source=mynet&utm_medium=footer
+          - link "Hissenet" [ref=e1470] [cursor=pointer]:
+            - /url: https://www.hisse.net/?utm_source=mynet&utm_medium=footer
+  - generic [ref=e1471]:
+    - paragraph [ref=e1473]:
+      - text: Sitemizde, size ilgi alanınıza göre Mynet'e veya anlaşmalı üçüncü taraflara ait size özel reklamların sunulabilmesi amacıyla çerez kullanmak istemekteyiz. Bunun yanı sıra, ilişki içerisinde bulunduğumuz reklam verenler ve üçüncü tarafların da cihazınızda çerez konumlandırmasına aşağıda yer alan "Kabul Et" butonunu tıklayarak izin verebilirsiniz. İzin vermemeniz halinde, sitede yalnızca sitenin işleyişi için gerekli olan çerezler kullanılacaktır. "Ayarlar" butonuna basarak çerezlerinizi yönetebilirsiniz. Detaylı bilgi için
+      - link [ref=e1474] [cursor=pointer]:
+        - /url: https://nocache.mynet.com/html/privacy-notification-page.html
+        - strong [ref=e1475]: Çerez Politikamızı
+      - text: inceleyebilirsiniz.
+    - generic [ref=e1476]:
+      - generic [ref=e1477] [cursor=pointer]: Reddet
+      - generic [ref=e1478] [cursor=pointer]: Ayarlar
+      - generic [ref=e1479] [cursor=pointer]: Kabul Et
