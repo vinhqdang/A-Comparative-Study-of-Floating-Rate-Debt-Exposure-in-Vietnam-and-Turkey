@@ -120,36 +120,61 @@ The transmission from policy to firm cost of funds to debt-servicing capacity
 is legible in ordinary audited statements. That is the methodological bridge
 that makes a registry-free comparison credible.
 
-### 4.1 A measurement problem specific to Türkiye, found in the pilot
+### 4.1 Two independent sources per country, and what disagreement taught us
 
-Running measure (a) on the first Turkish firms fetched produces implied rates
-of 18–50% that peak in **2018 and 2021** — the two lira crisis years — rather
-than in 2023–24, when the policy rate actually peaked near 50%. The cause is
-structural, not a bug: İş Yatırım's `4BB` *Financial Expenses* is a broad line
-that bundles FX revaluation losses together with interest. For a Turkish firm
-with unhedged FX debt, a lira depreciation inflates "financial expense"
-without any change in the policy rate.
+Each country panel is built from a national source and cross-checked against an
+independent Yahoo Finance pull of the same filings (`src/validate.py`). Yahoo
+retains only four to five annual periods, so it cannot replace the national
+sources, but it normalises the same statements independently — which makes
+agreement evidence that our item mapping is right, and disagreement a precise
+diagnostic.
 
-This does not appear on the Vietnamese side, where the implied rate tracks the
-SBV path cleanly, and it means the exposure measure cannot be applied
-symmetrically without correction. Three responses, to be settled once the full
-panel lands:
+**Where they agree, they agree exactly.** Total assets reconcile at a median
+relative difference of 0.0000 in both countries (Vietnam corr 1.0000, Türkiye
+0.9960); revenue likewise (0.9999 / 0.9935). Total debt agrees to 0.000%
+median in Vietnam and −2.9% in Türkiye, the latter a lease-classification
+difference. Equity differs by about −4% in Vietnam because Yahoo reports
+parent-only stockholders' equity where the national source includes minority
+interest. EBIT differs by roughly +21-23% in both countries because Yahoo
+derives EBIT from pretax income plus interest rather than taking reported
+operating profit. These are definitional and documented, not errors.
 
-1. **Condition on FX exposure.** `4BE` net FX position is populated for ~95% of
-   firm-years, so the implied rate can be estimated on the low-FX-exposure
-   subsample, or FX position can enter the pass-through regression directly as
-   a control.
-2. **Lean harder on FX-immune exposure proxies for Türkiye** — the
-   short-maturity share (b) and bank-loan share (c), neither of which is
-   affected by revaluation.
-3. **Treat the FX channel as a finding rather than a nuisance.** Türkiye's
-   corporate sector transmits monetary conditions through *two* balance-sheet
-   channels — repricing and FX mismatch — while Vietnam's transmits mainly
-   through the first. That is a substantive cross-country result, and `4BE`
-   lets us measure it rather than assume it.
+**Where they disagree, the disagreement is the finding.** On absolute values,
+Vietnamese interest expense reconciles almost perfectly — corr 0.991, median
+difference 0.00%, 78% of firm-years within 2%. (The two sources use opposite
+sign conventions, which is why raw correlations appear negative; the
+construction takes absolute values.) Türkiye does not reconcile: corr 0.727 and
+a median difference of **−68.8%**, meaning İş Yatırım's `4BB` runs roughly
+three times Yahoo's interest expense. `4BB` is *Financial Expenses*, a bundled
+line that carries FX revaluation losses and other financing charges alongside
+interest.
 
-Option 3 is the more interesting paper and the data supports it; options 1 and
-2 remain necessary for the identification to be clean either way.
+That is not a nuisance to be footnoted, because it changes the numbers that
+matter. Built on `4BB`, the Turkish implied rate peaks in **2018 and 2021** —
+the two lira crisis years. Built on Yahoo's interest expense, it tracks the
+CBRT path monotonically:
+
+| Year | Implied rate | CBRT 1-week repo (year-end) | Median ICR |
+|---|---|---|---|
+| 2022 | 17.8% | 9.0% | 3.36 |
+| 2023 | 25.4% | 42.5% | 3.16 |
+| 2024 | **31.2%** | **47.5%** | 1.84 |
+| 2025 | 25.8% | ~39.5% | 1.66 |
+
+The implied rate peaks in 2024, exactly when policy peaked, and median interest
+coverage halves from 3.36 to 1.66 across the tightening. The pass-through is
+incomplete — a 38-point policy move produces a 13-point move in realised
+borrowing costs — which is itself informative about repricing frictions and
+maturity structure.
+
+**Resulting source strategy.** Yahoo interest expense is primary for the
+Turkish implied rate over 2021-2025, the identification window. İş Yatırım
+supplies the long pre-trend history (2010-2020) and the Türkiye-specific items
+that Yahoo does not carry — export sales `4BD` and net FX position `4BE` — which
+drive the exporter and FX-mismatch heterogeneity. `4BB` is retained as a
+*measure of total financing cost including FX*, which lets us decompose the two
+channels rather than conflate them.
+
 
 ## 5. Identification
 
@@ -223,9 +248,10 @@ identification even though Turkish data is available quarterly.
 
 - [x] Vietnam panel built and validated — 9,893 firm-years, 693 firms
 - [x] Turkish data access solved; taxonomy mapped; fetch running
-- [x] Turkish parser written and validated on pilot (100% field coverage)
-- [ ] Full Turkish fetch (resumable; ~31% of calls rate-limited per pass)
-- [ ] Resolve FX contamination of the Turkish implied rate (see 4.1)
+- [x] Turkish panel via Yahoo: 2,762 firm-years, 586 firms, 2021-2025
+- [x] Both panels cross-validated against an independent source (src/validate.py)
+- [x] Turkish implied rate resolved and validated against the CBRT path
+- [ ] Full Is Yatirim fetch for 2010-2020 pre-trends (running, resumable)
 - [ ] Policy-rate series (SBV; CBRT via EVDS)
 - [ ] Exposure estimation, DiD, triple difference
 - [ ] Robustness: TMS-29, survivorship, placebo
