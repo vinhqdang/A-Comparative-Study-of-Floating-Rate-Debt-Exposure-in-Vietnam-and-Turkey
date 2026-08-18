@@ -328,3 +328,64 @@ the 2023 tightening must defend every balance-sheet outcome against a
 mechanical accounting artefact that moves with the treatment; a paper built on
 2018, or on a currency shock in general, does not. The comparative VN/TR
 structure and all the data infrastructure carry over unchanged.
+
+---
+
+# Main specification, flow outcomes only
+
+Implemented as recommended: treatment at 2023, exposure measured at 2021
+(pre-treatment and pre-restatement), outcomes restricted to flows. Turkish
+interest-based outcomes come from Yahoo; EBIT margin and debt growth use the
+İş Yatırım history, since neither needs an interest figure and the `4BB`
+bundling is therefore irrelevant to them. That buys a 2015-2025 window and a
+genuinely testable event study.
+
+## Result: no treatment effect on any flow outcome, in either country
+
+All twelve difference-in-differences coefficients are insignificant
+(`results/did_flow.csv`); the smallest p-value is 0.15. This holds for both
+exposure measures and both countries.
+
+## The long pre-period is what makes the result interpretable
+
+With only 2021 available as a pre-year the event studies looked flat and the
+nulls looked underpowered. Extending to 2015 shows something different: the
+exposure-outcome relationships are *persistent level differences* that predate
+treatment by years and do not shift at 2023.
+
+Türkiye, short-term-debt share to debt growth:
+
+| Year | Coef | | Year | Coef |
+|---|---|---|---|---|
+| 2015 | -0.138** | | 2021 | -0.232*** |
+| 2016 | -0.187*** | | 2022 | base |
+| 2017 | -0.162*** | | **2023** | **-0.220*** |
+| 2019 | -0.252*** | | 2024 | -0.069 |
+| 2020 | -0.211*** | | 2025 | -0.191*** |
+
+Firms with more short-term debt persistently grow debt more slowly, in every
+year from 2015 onward, and nothing happens at treatment. The same pattern holds
+for Turkish FX exposure (2020 +0.180***, 2021 +0.279*** before treatment) and
+for Vietnamese EBIT margin, where a downward drift begins well before 2023.
+
+These are pre-existing differences between firm types, not responses to
+monetary tightening. A specification with one pre-year would have reported some
+of them as treatment effects.
+
+## Conclusion
+
+With contaminated outcomes removed, exposure measured before restatement, and a
+pre-period long enough to test the identifying assumption, there is no
+detectable firm-level exposure gradient in listed non-financial firms in either
+country. The earlier significant coefficients were, in order: small-sample
+noise, inflation-accounting artefact, and pre-existing trend.
+
+The honest reading is that the listed-firm universe cannot deliver the result
+Şengül & Çinko obtain from administrative data, for reasons that are now
+documented rather than suspected: the contractual treatment is unobservable,
+regression-estimated proxies are noise, stock-based outcomes are mechanically
+contaminated in Türkiye, and the flow-based outcomes that survive show only
+persistent heterogeneity.
+
+Limitations that qualify the null: annual frequency, listed firms only, and
+survivorship in a sample whose outcome is distress.
