@@ -154,3 +154,95 @@ matching on pre-period trajectories, or restricting the exposure window.
 Half the design is established. The Vietnamese null is clean and its event
 study supports the identifying assumption. The Turkish side is not yet
 identified, and the claim cannot be asserted until it is.
+
+---
+
+# Re-check on the expanded Turkish sample: the exposure measure fails validation
+
+Rebuilding with 1,979 cached files (489 Turkish firms in the panel, 172 with
+estimated betas, up from 83) overturns both of the previous Turkish readings.
+
+## Both earlier Turkish results were small-sample artefacts
+
+| | 83-firm sample | 158-firm sample |
+|---|---|---|
+| DiD, Altman Z'' | **+0.886 (p = 0.045)** | +0.151 (p = 0.53) |
+| Event study 2018 | **-1.437 (p < 0.05)** | -0.170 (ns) |
+| Event study 2019 | **-1.555 (p < 0.05)** | -0.130 (ns) |
+| Event study 2021 | **-1.343 (p < 0.10)** | +0.098 (ns) |
+
+The apparent effect and the apparent parallel-trends violation both vanish.
+Neither was real. Türkiye now looks like Vietnam: a null with a flat event
+study.
+
+## But the null is uninformative, because the measure does not work
+
+Three diagnostics, each independently damning.
+
+**First stage.** Does the repricing beta predict the firm's *actual* change in
+borrowing cost across the tightening? Türkiye, against the clean Yahoo-based
+implied rate, 2022 to 2024: coefficient -0.036 (p = 0.27), R^2 = 0.035, and the
+top beta tercile records the *smallest* increase (+0.04) against the bottom
+tercile's +0.19. Vietnam, 2022 to 2023: coefficient 0.001 (p = 0.54),
+R^2 = 0.002. The measure has no out-of-sample predictive content in either
+country.
+
+**Split-half reliability.** Betas estimated on 2012-2017 versus 2018-2022, for
+firms present in both windows. A stable firm characteristic should correlate
+strongly across halves:
+
+| | Repricing beta | FX beta |
+|---|---|---|
+| Türkiye (n = 77) | **-0.219** | +0.147 |
+| Vietnam (n = 390) | **-0.080** | +0.094 |
+
+Zero or negative. The betas do not measure a persistent firm trait.
+
+**R-squared against a noise benchmark.** With a median of six usable annual
+observations and two regressors, pure noise yields an expected R^2 of about
+0.40. Vietnam's median observed R^2 is 0.396 -- indistinguishable from noise.
+
+## No observable proxy passes either
+
+Regressing the actual change in borrowing cost on standardised pre-period
+characteristics:
+
+| Predictor | Türkiye R^2 | Vietnam R^2 |
+|---|---|---|
+| Short-term debt share | 0.000 | 0.002 |
+| Debt to assets | 0.005 | 0.017 |
+| Current ratio | 0.003 | 0.002 |
+| Log assets | 0.005 | 0.001 |
+| Interest coverage | 0.007 | 0.004 |
+
+Nothing reaches an R^2 of 0.02. Cross-firm variation in how much a firm's
+borrowing cost actually reprices is close to unpredictable from annual
+financial statements.
+
+## What this means
+
+The paper's firm-level design cannot be executed with annual accounting data.
+Both nulls reflect a measurement failure, not the absence of a transmission
+channel. This is also the honest reason Şengül & Çinko needed administrative
+data: a contractual floating-rate flag is not recoverable from published
+statements, and accounting proxies do not stand in for it. That is a finding
+worth stating plainly rather than a gap to paper over.
+
+What survives untouched: the aggregate comparison (Turkish median coverage
+halving from 3.36 to 1.66 while Vietnam dips and recovers), the demonstration
+that `4BB` bundles FX revaluation, and the cross-country channel contrast in
+which Turkish borrowing costs load heavily on the exchange rate and Vietnamese
+costs do not.
+
+## Options
+
+1. **Quarterly estimation.** İş Yatırım serves periods 3/6/9/12, so the Turkish
+   beta window grows from ~11 annual observations to ~44. This is the direct
+   fix for the noise problem, but Vietnam has no quarterly source at comparable
+   scale, so it breaks the symmetry the comparison rests on.
+2. **Portfolio sorting.** Aggregate firms into portfolios on observables and
+   analyse portfolio-level repricing. Averaging is exactly what kills the
+   idiosyncratic noise that defeats firm-level betas, at the cost of
+   statistical power and of the heterogeneity story.
+3. **Reframe to the aggregate comparison** the data does support, accepting a
+   more descriptive contribution.
