@@ -1,0 +1,817 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#journal-title"
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - banner [ref=e8]:
+        - generic [ref=e9]:
+          - link "ScienceDirect home page" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=e11]
+          - generic [ref=e20]:
+            - navigation "links" [ref=e21]:
+              - list [ref=e22]:
+                - listitem [ref=e23]:
+                  - link "Journals & Books" [ref=e24] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+            - navigation "utilities" [ref=e26]:
+              - list [ref=e27]:
+                - listitem [ref=e28]:
+                  - button "Help" [ref=e32] [cursor=pointer]
+                - listitem [ref=e36]:
+                  - button "Search" [ref=e38] [cursor=pointer]
+          - link "My account" [ref=e43] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fjournal%2Fborsa-istanbul-review%2Fpublish%2Fguide-for-authors&from=globalheader
+          - link "Sign in" [ref=e47] [cursor=pointer]:
+            - /url: /user/institution/login?targetURL=%2Fjournal%2Fborsa-istanbul-review%2Fpublish%2Fguide-for-authors
+      - main [ref=e52]:
+        - generic [ref=e55]:
+          - generic [ref=e57]:
+            - link [ref=e60] [cursor=pointer]:
+              - /url: /journal/borsa-istanbul-review
+              - img "Go to journal home page - Borsa Istanbul Review" [ref=e63]
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - heading [level=1] [ref=e66]:
+                  - link "Borsa Istanbul Review" [ref=e67] [cursor=pointer]:
+                    - /url: /journal/borsa-istanbul-review
+                - button "Open access" [ref=e71] [cursor=pointer]:
+                  - generic "Open access" [ref=e74]
+              - generic [ref=e75]:
+                - button "13.1 CiteScore" [ref=e77] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - generic [ref=e80]: "13.1"
+                    - text: CiteScore
+                - button "5.7 Impact Factor" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e84]:
+                    - generic [ref=e85]: "5.7"
+                    - text: Impact Factor
+          - generic [ref=e87]:
+            - navigation "journal" [ref=e88]:
+              - list [ref=e89]:
+                - listitem [ref=e90]:
+                  - button "Articles & Issues" [ref=e92] [cursor=pointer]
+                - listitem [ref=e99]:
+                  - button "About" [ref=e101] [cursor=pointer]
+                - listitem [ref=e108]:
+                  - button "Publish" [ref=e110] [cursor=pointer]
+            - search "Search in this journal" [ref=e119]:
+              - searchbox "Search in this journal" [ref=e122]
+              - button "search" [ref=e123] [cursor=pointer]
+          - generic [ref=e126]:
+            - link [ref=e127] [cursor=pointer]:
+              - /url: https://submit.elsevier.com/BIR
+              - generic [ref=e128]:
+                - text: Submit your article
+                - img "Opens in new window" [ref=e129]
+            - link "Guide for authors" [ref=e131] [cursor=pointer]:
+              - /url: /journal/borsa-istanbul-review/publish/guide-for-authors
+        - generic [ref=e133]:
+          - generic [ref=e135]:
+            - heading "Guide for authors" [level=2] [ref=e136]
+            - generic [ref=e137]:
+              - list [ref=e138]:
+                - listitem [ref=e139]:
+                  - link [ref=e140] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - strong [ref=e142]: Introduction
+                - list [ref=e143]:
+                  - listitem [ref=e144]:
+                    - link "Types of paper" [ref=e145] [cursor=pointer]:
+                      - /url: "#introduction-types-of-paper"
+                  - listitem [ref=e146]:
+                    - link "Submission checklist" [ref=e147] [cursor=pointer]:
+                      - /url: "#introduction-submission-checklist"
+              - list [ref=e148]:
+                - listitem [ref=e149]:
+                  - link [ref=e150] [cursor=pointer]:
+                    - /url: "#before-you-begin"
+                    - strong [ref=e152]: Before you begin
+                - list [ref=e153]:
+                  - listitem [ref=e154]:
+                    - link "Ethics in publishing" [ref=e155] [cursor=pointer]:
+                      - /url: "#before-you-begin-ethics-in-publishing"
+                  - listitem [ref=e156]:
+                    - link "Declaration of interest" [ref=e157] [cursor=pointer]:
+                      - /url: "#before-you-begin-declaration-of-interest"
+                  - listitem [ref=e158]:
+                    - link "Declaration of generative AI in scientific writing" [ref=e159] [cursor=pointer]:
+                      - /url: "#before-you-begin-declaration-of-generative-ai-in-scientific-writing"
+                  - listitem [ref=e160]:
+                    - link "Submission declaration and verification" [ref=e161] [cursor=pointer]:
+                      - /url: "#before-you-begin-submission-declaration-and-verification"
+                  - listitem [ref=e162]:
+                    - link "Use of inclusive language" [ref=e163] [cursor=pointer]:
+                      - /url: "#before-you-begin-use-of-inclusive-language"
+                  - listitem [ref=e164]:
+                    - link "Reporting sex- and gender-based analyses" [ref=e165] [cursor=pointer]:
+                      - /url: "#before-you-begin-reporting-sex-and-gender-based-analyses"
+                  - listitem [ref=e166]:
+                    - link "Changes to authorship" [ref=e167] [cursor=pointer]:
+                      - /url: "#before-you-begin-changes-to-authorship"
+                  - listitem [ref=e168]:
+                    - link "Copyright" [ref=e169] [cursor=pointer]:
+                      - /url: "#before-you-begin-copyright"
+                  - listitem [ref=e170]:
+                    - link "Responsible sharing" [ref=e171] [cursor=pointer]:
+                      - /url: "#before-you-begin-responsible-sharing"
+                  - listitem [ref=e172]:
+                    - link "Funding source" [ref=e173] [cursor=pointer]:
+                      - /url: "#before-you-begin-funding-source"
+                  - listitem [ref=e174]:
+                    - link "Open access" [ref=e175] [cursor=pointer]:
+                      - /url: "#before-you-begin-open-access"
+                  - listitem [ref=e176]:
+                    - link "Elsevier Researcher Academy" [ref=e177] [cursor=pointer]:
+                      - /url: "#before-you-begin-elsevier-researcher-academy"
+                  - listitem [ref=e178]:
+                    - link "Language" [ref=e179] [cursor=pointer]:
+                      - /url: "#before-you-begin-language"
+                  - listitem [ref=e180]:
+                    - link "Submission" [ref=e181] [cursor=pointer]:
+                      - /url: "#before-you-begin-submission"
+                  - listitem [ref=e182]:
+                    - link "Submit your article" [ref=e183] [cursor=pointer]:
+                      - /url: "#before-you-begin-submit-your-article"
+                  - listitem [ref=e184]:
+                    - link "Additional information" [ref=e185] [cursor=pointer]:
+                      - /url: "#before-you-begin-additional-information"
+              - list [ref=e186]:
+                - listitem [ref=e187]:
+                  - link [ref=e188] [cursor=pointer]:
+                    - /url: "#preparation"
+                    - strong [ref=e190]: Preparation
+                - list [ref=e191]:
+                  - listitem [ref=e192]:
+                    - link "Queries" [ref=e193] [cursor=pointer]:
+                      - /url: "#preparation-queries"
+                  - listitem [ref=e194]:
+                    - link "Peer Review" [ref=e195] [cursor=pointer]:
+                      - /url: "#preparation-peer-review"
+                  - listitem [ref=e196]:
+                    - link "Double anonymized review" [ref=e197] [cursor=pointer]:
+                      - /url: "#preparation-double-anonymized-review"
+                  - listitem [ref=e198]:
+                    - link "Use of word processing software" [ref=e199] [cursor=pointer]:
+                      - /url: "#preparation-use-of-word-processing-software"
+                  - listitem [ref=e200]:
+                    - link "LaTeX" [ref=e201] [cursor=pointer]:
+                      - /url: "#preparation-latex"
+                  - listitem [ref=e202]:
+                    - link "Article structure" [ref=e203] [cursor=pointer]:
+                      - /url: "#preparation-article-structure"
+                  - listitem [ref=e204]:
+                    - link "Sections" [ref=e205] [cursor=pointer]:
+                      - /url: "#preparation-sections"
+                  - listitem [ref=e206]:
+                    - link "Introduction" [ref=e207] [cursor=pointer]:
+                      - /url: "#preparation-introduction"
+                  - listitem [ref=e208]:
+                    - link "Material and methods" [ref=e209] [cursor=pointer]:
+                      - /url: "#preparation-material-and-methods"
+                  - listitem [ref=e210]:
+                    - link "Theory/calculation" [ref=e211] [cursor=pointer]:
+                      - /url: "#preparation-theory-calculation"
+                  - listitem [ref=e212]:
+                    - link "Results" [ref=e213] [cursor=pointer]:
+                      - /url: "#preparation-results"
+                  - listitem [ref=e214]:
+                    - link "Discussion" [ref=e215] [cursor=pointer]:
+                      - /url: "#preparation-discussion"
+                  - listitem [ref=e216]:
+                    - link "Conclusions" [ref=e217] [cursor=pointer]:
+                      - /url: "#preparation-conclusions"
+                  - listitem [ref=e218]:
+                    - link "Appendices" [ref=e219] [cursor=pointer]:
+                      - /url: "#preparation-appendices"
+                  - listitem [ref=e220]:
+                    - link "Essential title page information" [ref=e221] [cursor=pointer]:
+                      - /url: "#preparation-essential-title-page-information"
+                  - listitem [ref=e222]:
+                    - link "Abstract" [ref=e223] [cursor=pointer]:
+                      - /url: "#preparation-abstract"
+                  - listitem [ref=e224]:
+                    - link "Keywords" [ref=e225] [cursor=pointer]:
+                      - /url: "#preparation-keywords"
+                  - listitem [ref=e226]:
+                    - link "Abbreviations" [ref=e227] [cursor=pointer]:
+                      - /url: "#preparation-abbreviations"
+                  - listitem [ref=e228]:
+                    - link "Acknowledgements" [ref=e229] [cursor=pointer]:
+                      - /url: "#preparation-acknowledgements"
+                  - listitem [ref=e230]:
+                    - link "Formatting of funding sources" [ref=e231] [cursor=pointer]:
+                      - /url: "#preparation-formatting-of-funding-sources"
+                  - listitem [ref=e232]:
+                    - link "Nomenclature and units" [ref=e233] [cursor=pointer]:
+                      - /url: "#preparation-nomenclature-and-units"
+                  - listitem [ref=e234]:
+                    - link "Math formulae" [ref=e235] [cursor=pointer]:
+                      - /url: "#preparation-math-formulae"
+                  - listitem [ref=e236]:
+                    - link "Footnotes" [ref=e237] [cursor=pointer]:
+                      - /url: "#preparation-footnotes"
+                  - listitem [ref=e238]:
+                    - link "Artwork" [ref=e239] [cursor=pointer]:
+                      - /url: "#preparation-artwork"
+                  - listitem [ref=e240]:
+                    - link "Electronic artwork" [ref=e241] [cursor=pointer]:
+                      - /url: "#preparation-electronic-artwork"
+                  - listitem [ref=e242]:
+                    - link "Color artwork" [ref=e243] [cursor=pointer]:
+                      - /url: "#preparation-color-artwork"
+                  - listitem [ref=e244]:
+                    - link "Figure captions" [ref=e245] [cursor=pointer]:
+                      - /url: "#preparation-figure-captions"
+                  - listitem [ref=e246]:
+                    - link "Tables" [ref=e247] [cursor=pointer]:
+                      - /url: "#preparation-tables"
+                  - listitem [ref=e248]:
+                    - link "References" [ref=e249] [cursor=pointer]:
+                      - /url: "#preparation-references"
+                  - listitem [ref=e250]:
+                    - link "Citation in text" [ref=e251] [cursor=pointer]:
+                      - /url: "#preparation-citation-in-text"
+                  - listitem [ref=e252]:
+                    - link "Reference links" [ref=e253] [cursor=pointer]:
+                      - /url: "#preparation-reference-links"
+                  - listitem [ref=e254]:
+                    - link "Web references" [ref=e255] [cursor=pointer]:
+                      - /url: "#preparation-web-references"
+                  - listitem [ref=e256]:
+                    - link "Data references" [ref=e257] [cursor=pointer]:
+                      - /url: "#preparation-data-references"
+                  - listitem [ref=e258]:
+                    - link "Preprint references" [ref=e259] [cursor=pointer]:
+                      - /url: "#preparation-preprint-references"
+                  - listitem [ref=e260]:
+                    - link "References in a special issue" [ref=e261] [cursor=pointer]:
+                      - /url: "#preparation-references-in-a-special-issue"
+                  - listitem [ref=e262]:
+                    - link "Reference management software" [ref=e263] [cursor=pointer]:
+                      - /url: "#preparation-reference-management-software"
+                  - listitem [ref=e264]:
+                    - link "Reference style" [ref=e265] [cursor=pointer]:
+                      - /url: "#preparation-reference-style"
+                  - listitem [ref=e266]:
+                    - link "Journal abbreviations" [ref=e267] [cursor=pointer]:
+                      - /url: "#preparation-journal-abbreviations"
+              - list [ref=e268]:
+                - listitem [ref=e269]:
+                  - link [ref=e270] [cursor=pointer]:
+                    - /url: "#after-acceptance"
+                    - strong [ref=e272]: After acceptance
+                - list [ref=e273]:
+                  - listitem [ref=e274]:
+                    - link "Proofs" [ref=e275] [cursor=pointer]:
+                      - /url: "#after-acceptance-proofs"
+                  - listitem [ref=e276]:
+                    - link "Offprints" [ref=e277] [cursor=pointer]:
+                      - /url: "#after-acceptance-offprints"
+              - list [ref=e278]:
+                - listitem [ref=e279]:
+                  - link [ref=e280] [cursor=pointer]:
+                    - /url: "#author-inquiries"
+                    - strong [ref=e282]: Author inquiries
+                - list [ref=e283]:
+                  - listitem [ref=e284]:
+                    - link "Author Inquiries" [ref=e285] [cursor=pointer]:
+                      - /url: "#author-inquiries-author-inquiries"
+          - generic [ref=e287]:
+            - button "Print Guide as PDF" [ref=e289] [cursor=pointer]
+            - generic [ref=e291]:
+              - heading "Introduction" [level=3] [ref=e292]
+              - generic [ref=e293]:
+                - heading "Types of paper" [level=4] [ref=e294]
+                - generic [ref=e295]:
+                  - paragraph [ref=e296]: "Contributions falling into the following categories will be considered for publications: Original research papers, review of literature or survey articles, special issue papers."
+                  - paragraph [ref=e297]: Please ensure that you select the appropriate article type from the list of options when making your submission. Authors contributing to special issues should ensure that they select the special issue article type from this list.
+              - generic [ref=e298]:
+                - heading "Submission checklist" [level=4] [ref=e299]
+                - generic [ref=e300]:
+                  - paragraph [ref=e301]: You can use this list to carry out a final check of your submission before you send it to the journal for review. Please check the relevant section in this Guide for Authors for more details.
+                  - heading "Ensure that the following items are present:" [level=5] [ref=e302]
+                  - paragraph [ref=e303]: "One author has been designated as the corresponding author with contact details:"
+                  - list [ref=e304]:
+                    - listitem [ref=e305]:
+                      - paragraph [ref=e306]: E-mail address
+                    - listitem [ref=e307]:
+                      - paragraph [ref=e308]: Full postal address
+                  - paragraph [ref=e309]: "All necessary files have been uploaded:"
+                  - paragraph [ref=e310]: Manuscript
+                  - list [ref=e311]:
+                    - listitem [ref=e312]:
+                      - paragraph [ref=e313]: Include keywords
+                    - listitem [ref=e314]:
+                      - paragraph [ref=e315]: All figures (include relevant captions)
+                    - listitem [ref=e316]:
+                      - paragraph [ref=e317]: All tables (including titles, description, footnotes)
+                    - listitem [ref=e318]:
+                      - paragraph [ref=e319]: Ensure all figure and table citations in the text match the files provided; Indicate clearly if color should be used for any figures in print
+                  - paragraph [ref=e320]: Graphical Abstracts / Highlights files (where applicable)
+                  - paragraph [ref=e321]: Supplemental files (where applicable)
+                  - paragraph [ref=e322]: "Further considerations:"
+                  - list [ref=e323]:
+                    - listitem [ref=e324]:
+                      - paragraph [ref=e325]: Manuscript has been 'spell checked' and 'grammar checked'
+                    - listitem [ref=e326]:
+                      - paragraph [ref=e327]: All references mentioned in the Reference List are cited in the text, and vice versa
+                    - listitem [ref=e328]:
+                      - paragraph [ref=e329]: Permission has been obtained for use of copyrighted material from other sources (including the Internet)
+                    - listitem [ref=e330]:
+                      - paragraph [ref=e331]: A competing interests statement is provided, even if the authors have no competing interests to declare
+                    - listitem [ref=e332]:
+                      - paragraph [ref=e333]: Journal policies detailed in this guide have been reviewed
+                  - paragraph [ref=e334]:
+                    - text: For further information, visit our
+                    - link "Support Center" [ref=e335] [cursor=pointer]:
+                      - /url: https://service.elsevier.com/app/home/supporthub/publishing/
+                    - text: .
+                  - paragraph
+            - generic [ref=e336]:
+              - heading "Before you begin" [level=3] [ref=e337]
+              - generic [ref=e338]:
+                - heading "Ethics in publishing" [level=4] [ref=e339]
+                - paragraph [ref=e341]:
+                  - text: Please see our information on
+                  - link "Ethics in publishing" [ref=e342] [cursor=pointer]:
+                    - /url: https://www.elsevier.com/about/policies-and-standards/publishing-ethics#4-duties-of-authors
+                  - text: .
+              - generic [ref=e343]:
+                - heading "Declaration of interest" [level=4] [ref=e344]
+                - paragraph [ref=e346]:
+                  - text: "All authors must disclose any financial and personal relationships with other people or organizations that could inappropriately influence (bias) their work. Examples of potential competing interests include employment, consultancies, stock ownership, honoraria, paid expert testimony, patent applications/registrations, and grants or other funding. Authors must disclose any interests in two places: 1. A summary declaration of interest statement in the title page file (if double anonymized) or the manuscript file (if single anonymized). If there are no interests to declare then please state this: 'Declarations of interest: none'. 2. Detailed disclosures as part of a separate Declaration of Interest form, which forms part of the journal's official records. It is important for potential interests to be declared in both places and that the information matches."
+                  - link "More information" [ref=e347] [cursor=pointer]:
+                    - /url: https://service.elsevier.com/app/answers/detail/a_id/286/supporthub/publishing/
+                  - text: .
+              - generic [ref=e348]:
+                - heading "Declaration of generative AI in scientific writing" [level=4] [ref=e349]
+                - generic [ref=e350]:
+                  - paragraph [ref=e351]: Authors must declare the use of generative AI tools in the manuscript preparation process upon submission of the paper.
+                  - paragraph [ref=e352]: Generative AI and AI-assisted technologies (“AI tools”) have been rapidly adopted in research and scholarly publishing, offering significant benefits while requiring clear standards for responsible and transparent use.
+                  - paragraph [ref=e353]: Authors preparing a manuscript for this journal may use AI tools to support them. However, these tools must never be used as a substitute for human critical thinking, expertise and evaluation. AI tools may only be applied with human oversight and control.
+                  - paragraph [ref=e354]:
+                    - text: Please read Elsevier’s detailed author policy on the use of AI tools, as stated in
+                    - link "Elsevier’s generative AI policies for journals" [ref=e355] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals
+                    - text: .
+                  - paragraph [ref=e356]: "Ultimately, authors are responsible and accountable for the contents of their work. This includes accountability for:"
+                  - list [ref=e357]:
+                    - listitem [ref=e358]:
+                      - paragraph [ref=e359]: Carefully reviewing and verifying the accuracy, comprehensiveness, and impartiality of all AI-generated output (including checking the sources, as AI-generated references can be incorrect or fabricated).
+                    - listitem [ref=e360]:
+                      - paragraph [ref=e361]: Editing and adapting all material thoroughly to ensure the manuscript represents the author’s authentic and original contribution and reflects their own analysis, interpretation, insights and ideas.
+                    - listitem [ref=e362]:
+                      - paragraph [ref=e363]: Ensuring accuracy and originality of any AI generated images and provide appropriate attribution where relevant.
+                    - listitem [ref=e364]:
+                      - paragraph [ref=e365]: Ensuring the use of any tools or sources, AI-based or otherwise, is made clear and transparent to readers. If AI tools have been used, we require a disclosure statement upon submission; please see example below.
+                    - listitem [ref=e366]:
+                      - paragraph [ref=e367]: Ensuring the manuscript is developed in a way that safeguards data privacy, intellectual property and other rights, by checking the terms and conditions of any AI tool that is used.
+                  - paragraph [ref=e368]: Finally, authors must not list or cite AI tools as an author or co-author on the manuscript since authorship implies responsibilities and tasks that can only be attributed to, and performed by, humans.
+                  - paragraph [ref=e369]: "The use of AI tools in the manuscript preparation process must be declared by adding a statement at the end of the manuscript when the paper is first submitted.The statement will appear in the published work and should be placed in a new section before the references list. An example:"
+                  - paragraph [ref=e370]: "Title of new section: Declaration of generative AI and AI-assisted technologies in the manuscript preparation process.Statement: During the preparation of this work the author(s) used [NAME OF TOOL / SERVICE] in order to [REASON]. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the published article."
+                  - paragraph [ref=e371]: The declaration does not apply to the use of basic tools, such as tools used to check grammar, spelling and references. In addition, authors are not required to disclose the use of AI tools or features within specialist disability-related assistive technology, provided these are used solely for accessibility purposes.
+                  - paragraph [ref=e372]: If you have nothing to disclose, you do not need to add a statement.
+                  - paragraph [ref=e373]:
+                    - text: "Please note: to protect authors’ rights and the confidentiality of their research, this journal does not currently allow academic editors and reviewers to upload an unpublished manuscript into a generative AI tool, as is stated in"
+                    - link "Elsevier’s generative AI policies for journals" [ref=e374] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals
+                    - text: . However, AI tools may be used in a supportive capacity by editors and reviewers to improve structure and language of the review report or editorial decision letter or to conduct a background literature search. Elsevier is actively evaluating compliant AI tools and may revise this policy in the future.
+              - generic [ref=e375]:
+                - heading "Submission declaration and verification" [level=4] [ref=e376]
+                - paragraph [ref=e378]:
+                  - text: Submission of an article implies that the work described has not been published previously (except in the form of an abstract, a published lecture or academic thesis, see '
+                  - link "Multiple, redundant or concurrent publication" [ref=e379] [cursor=pointer]:
+                    - /url: https://www.elsevier.com/about/policies/publishing-ethics#Authors
+                  - text: "' for more information), that it is not under consideration for publication elsewhere, that its publication is approved by all authors and tacitly or explicitly by the responsible authorities where the work was carried out, and that, if accepted, it will not be published elsewhere in the same form, in English or in any other language, including electronically without the written consent of the copyright-holder. To verify compliance, your article may be checked by"
+                  - link "Crossref Similarity Check" [ref=e380] [cursor=pointer]:
+                    - /url: https://www.elsevier.com/editors/perk/plagiarism-complaints/plagiarism-detection
+                  - text: and other originality or duplicate checking software.
+              - generic [ref=e381]:
+                - heading "Use of inclusive language" [level=4] [ref=e382]
+                - paragraph [ref=e384]: Inclusive language acknowledges diversity, conveys respect to all people, is sensitive to differences, and promotes equal opportunities. Content should make no assumptions about the beliefs or commitments of any reader; contain nothing which might imply that one individual is superior to another on the grounds of age, gender, race, ethnicity, culture, sexual orientation, disability or health condition; and use inclusive language throughout. Authors should ensure that writing is free from bias, stereotypes, slang, reference to dominant culture and/or cultural assumptions. We advise to seek gender neutrality by using plural nouns ("clinicians, patients/clients") as default/wherever possible to avoid using "he, she," or "he/she." We recommend avoiding the use of descriptors that refer to personal attributes such as age, gender, race, ethnicity, culture, sexual orientation, disability or health condition unless they are relevant and valid. When coding terminology is used, we recommend to avoid offensive or exclusionary terms such as "master", "slave", "blacklist" and "whitelist". We suggest using alternatives that are more appropriate and (self-) explanatory such as "primary", "secondary", "blocklist" and "allowlist". These guidelines are meant as a point of reference to help identify appropriate language but are by no means exhaustive or definitive.
+              - generic [ref=e385]:
+                - heading "Reporting sex- and gender-based analyses" [level=4] [ref=e386]
+                - generic [ref=e387]:
+                  - heading "Reporting guidance" [level=5] [ref=e388]
+                  - paragraph [ref=e389]:
+                    - text: For research involving or pertaining to humans, animals or eukaryotic cells, investigators should integrate sex and gender-based analyses (SGBA) into their research design according to funder/sponsor requirements and best practices within a field. Authors should address the sex and/or gender dimensions of their research in their article. In cases where they cannot, they should discuss this as a limitation to their research's generalizability. Importantly, authors should explicitly state what definitions of sex and/or gender they are applying to enhance the precision, rigor and reproducibility of their research and to avoid ambiguity or conflation of terms and the constructs to which they refer (see Definitions section below). Authors can refer to the
+                    - link "Sex and Gender Equity in Research (SAGER) guidelines" [ref=e390] [cursor=pointer]:
+                      - /url: https://doi.org/10.1186/s41073-016-0007-6
+                    - text: and the
+                    - link "SAGER guidelines checklist" [ref=e391] [cursor=pointer]:
+                      - /url: https://doi.org/10.3897/ese.2022.e86910
+                    - text: . These offer systematic approaches to the use and editorial review of sex and gender information in study design, data analysis, outcome reporting and research interpretation - however, please note there is no single, universally agreed-upon set of guidelines for defining sex and gender.
+                  - heading "Definitions" [level=5] [ref=e392]
+                  - paragraph [ref=e393]:
+                    - text: Sex generally refers to a set of biological attributes that are associated with physical and physiological features (e.g., chromosomal genotype, hormonal levels, internal and external anatomy). A binary sex categorization (male/female) is usually designated at birth ("sex assigned at birth"), most often based solely on the visible external anatomy of a newborn. Gender generally refers to socially constructed roles, behaviors, and identities of women, men and gender-diverse people that occur in a historical and cultural context and may vary across societies and over time. Gender influences how people view themselves and each other, how they behave and interact and how power is distributed in society. Sex and gender are often incorrectly portrayed as binary (female/male or woman/man) and unchanging whereas these constructs actually exist along a spectrum and include additional sex categorizations and gender identities such as people who are intersex/have differences of sex development (DSD) or identify as non-binary. Moreover, the terms "sex" and "gender" can be ambiguous--thus it is important for authors to define the manner in which they are used. In addition to this definition guidance and the SAGER guidelines, the
+                    - link "resources on this page" [ref=e394] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/researcher/author/policies-and-guidelines/edi#2-best-practice
+                    - text: offer further insight around sex and gender in research studies.
+              - generic [ref=e395]:
+                - heading "Changes to authorship" [level=4] [ref=e396]
+                - generic [ref=e397]:
+                  - paragraph [ref=e398]: "Authors are expected to consider carefully the list and order of authors before submitting their manuscript and provide the definitive list of authors at the time of the original submission. Any addition, deletion or rearrangement of author names in the authorship list should be made only before the manuscript has been accepted and only if approved by the journal Editor. To request such a change, the Editor must receive the following from the corresponding author: (a) the reason for the change in author list and (b) written confirmation (e-mail, letter) from all authors that they agree with the addition, removal or rearrangement. In the case of addition or removal of authors, this includes confirmation from the author being added or removed."
+                  - paragraph [ref=e399]: Only in exceptional circumstances will the Editor consider the addition, deletion or rearrangement of authors after the manuscript has been accepted. While the Editor considers the request, publication of the manuscript will be suspended. If the manuscript has already been published in an online issue, any requests approved by the Editor will result in a corrigendum.
+              - generic [ref=e400]:
+                - heading "Copyright" [level=4] [ref=e401]
+                - generic [ref=e402]:
+                  - paragraph [ref=e403]:
+                    - text: Upon acceptance of an article, authors will be asked to complete a 'License Agreement' (see
+                    - link "more information" [ref=e404] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/about/policies-and-standards/copyright
+                    - text: on this). Permitted third party reuse of open access articles is determined by the author's choice of
+                    - link "user license" [ref=e405] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/about/policies/open-access-licenses
+                    - text: .
+                  - heading "Author rights" [level=5] [ref=e406]
+                  - paragraph [ref=e407]:
+                    - text: As an author you (or your employer or institution) have certain rights to reuse your work.
+                    - link "More information" [ref=e408] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/about/policies-and-standards/copyright
+                    - text: .
+              - generic [ref=e409]:
+                - heading "Responsible sharing" [level=4] [ref=e410]
+                - paragraph [ref=e412]:
+                  - text: Find out how you can
+                  - link "share your research" [ref=e413] [cursor=pointer]:
+                    - /url: https://www.elsevier.com/researcher/author/submit-your-paper/sharing-and-promoting-your-article
+                  - text: published in Elsevier journals.
+              - generic [ref=e414]:
+                - heading "Funding source" [level=4] [ref=e415]
+                - paragraph [ref=e417]: You are requested to identify who provided financial support for the conduct of the research and/or preparation of the article and to briefly describe the role of the sponsor(s), if any, in study design; in the collection, analysis and interpretation of data; in the writing of the report; and in the decision to submit the article for publication. If the funding source(s) had no such involvement, it is recommended to state this.
+              - generic [ref=e418]:
+                - heading "Open access" [level=4] [ref=e419]
+                - paragraph [ref=e421]:
+                  - text: Please visit our
+                  - link "Open Access page" [ref=e422] [cursor=pointer]:
+                    - /url: https://www.sciencedirect.com/science/journal/22148450/publish/open-access-options
+                  - text: for more information about open access publishing in this journal.
+              - generic [ref=e423]:
+                - heading "Elsevier Researcher Academy" [level=4] [ref=e424]
+                - paragraph [ref=e426]:
+                  - link "Researcher Academy" [ref=e427] [cursor=pointer]:
+                    - /url: https://researcheracademy.elsevier.com/
+                  - text: is a free e-learning platform designed to support early and mid-career researchers throughout their research journey. The "Learn" environment at Researcher Academy offers several interactive modules, webinars, downloadable guides and resources to guide you through the process of writing for research and going through peer review. Feel free to use these free resources to improve your submission and navigate the publication process with ease.
+              - generic [ref=e428]:
+                - heading "Language" [level=4] [ref=e429]
+                - paragraph [ref=e431]:
+                  - text: Please write your text in good English (American or British usage is accepted, but not a mixture of these). Authors who feel their English language manuscript may require editing to eliminate possible grammatical or spelling errors and to conform to correct scientific English may wish to use the
+                  - link "Language Editing service" [ref=e432] [cursor=pointer]:
+                    - /url: https://webshop.elsevier.com/language-editing/
+                  - text: available from Elsevier's Language Services.
+              - generic [ref=e433]:
+                - heading "Submission" [level=4] [ref=e434]
+                - paragraph [ref=e436]: Our online submission system guides you stepwise through the process of entering your article details and uploading your files. The system converts your article files to a single PDF file used in the peer-review process. Editable files (e.g., Word, LaTeX) are required to typeset your article for final publication. All correspondence, including notification of the Editor's decision and requests for revision, is sent by e-mail.
+              - generic [ref=e437]:
+                - heading "Submit your article" [level=4] [ref=e438]
+                - paragraph [ref=e440]:
+                  - text: Please submit your article via
+                  - link "https://www.editorialmanager.com/bir/default.aspx" [ref=e441] [cursor=pointer]:
+                    - /url: https://www.editorialmanager.com/bir/default.aspx
+                  - text: .
+              - generic [ref=e442]:
+                - heading "Additional information" [level=4] [ref=e443]
+                - paragraph [ref=e445]: Tables and figures may be presented with captions within the main body of the manuscript; if so, figures should additionally be uploaded as high resolution files.
+            - generic [ref=e446]:
+              - heading "Preparation" [level=3] [ref=e447]
+              - generic [ref=e448]:
+                - heading "Queries" [level=4] [ref=e449]
+                - paragraph [ref=e451]:
+                  - text: For questions about the editorial process (including the status of manuscripts under review) or for technical support on submissions, please visit our
+                  - link "Support Center" [ref=e452] [cursor=pointer]:
+                    - /url: https://service.elsevier.com/app/home/supporthub/publishing/
+                  - text: .
+              - generic [ref=e453]:
+                - heading "Peer Review" [level=4] [ref=e454]
+                - paragraph [ref=e456]:
+                  - text: This journal operates a single anonymized review process. All contributions are typically sent to a minimum of 1 independent expert reviewer to assess the scientific quality of the paper. The Editor is responsible for the final decision regarding acceptance or rejection of articles. The Editor's decision is final. Editors are not involved in decisions about papers which they have written themselves or have been written by family members or colleagues or which relate to products or services in which the editor has an interest. Any such submission is subject to all of the journal's usual procedures, with peer review handled independently of the relevant editor and their research groups.
+                  - link "More information on types of peer review" [ref=e457] [cursor=pointer]:
+                    - /url: https://www.elsevier.com/reviewers/what-is-peer-review
+                  - text: .
+              - generic [ref=e458]:
+                - heading "Double anonymized review" [level=4] [ref=e459]
+                - generic [ref=e460]:
+                  - paragraph [ref=e461]:
+                    - text: This journal uses double anonymized review, which means the identities of the authors are concealed from the reviewers, and vice versa.
+                    - link "More information" [ref=e462] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/reviewer/what-is-peer-review
+                    - text: "is available on our website. To facilitate this, please include the following separately:"
+                  - paragraph [ref=e463]: "Title page (with author details): This should include the title, authors' names, affiliations, acknowledgements and any Declaration of Interest statement, and a complete address for the corresponding author including an e-mail address."
+                  - paragraph [ref=e464]: "Anonymized manuscript (no author details): The main body of the paper (including the references, figures, tables and any acknowledgements) should not include any identifying information, such as the authors' names or affiliations."
+              - generic [ref=e465]:
+                - heading "Use of word processing software" [level=4] [ref=e466]
+                - generic [ref=e467]:
+                  - paragraph [ref=e468]:
+                    - text: It is important that the file be saved in the native format of the word processor used. The text should be in single-column format. Keep the layout of the text as simple as possible. Most formatting codes will be removed and replaced on processing the article. In particular, do not use the word processor's options to justify text or to hyphenate words. However, do use bold face, italics, subscripts, superscripts etc. When preparing tables, if you are using a table grid, use only one grid for each individual table and not a grid for each row. If no grid is used, use tabs, not spaces, to align columns. The electronic text should be prepared in a way very similar to that of conventional manuscripts (see also the
+                    - link "Guide to Publishing with Elsevier" [ref=e469] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/researcher/author/submit-your-paper
+                    - text: . Note that source files of figures, tables and text graphics will be required whether or not you embed your figures in the text. See also the section on Electronic artwork.
+                  - paragraph [ref=e470]: To avoid unnecessary errors you are strongly advised to use the 'spell-check' and 'grammar-check' functions of your word processor.
+              - generic [ref=e471]:
+                - heading "LaTeX" [level=4] [ref=e472]
+                - generic [ref=e473]:
+                  - paragraph [ref=e474]:
+                    - text: You are recommended to use the Elsevier article class
+                    - link "elsarticle.cls" [ref=e475] [cursor=pointer]:
+                      - /url: https://ctan.org/tex-archive/macros/latex/contrib/elsarticle
+                    - text: to prepare your manuscript and
+                    - link "BibTeX" [ref=e476] [cursor=pointer]:
+                      - /url: http://www.bibtex.org
+                    - text: to generate your bibliography.
+                  - paragraph [ref=e477]:
+                    - text: Our
+                    - link "LaTeX site" [ref=e478] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions
+                    - text: has detailed submission instructions, templates and other information.
+              - generic [ref=e479]:
+                - heading "Article structure" [level=4] [ref=e480]
+                - paragraph [ref=e482]: This section describes the article structure for this journal.
+              - generic [ref=e483]:
+                - heading "Sections" [level=4] [ref=e484]
+                - paragraph [ref=e486]: "Divide your article into clearly defined and numbered sections. Subsections should be numbered 1.1 (then 1.1.1, 1.1.2, ...), 1.2, etc. (the abstract is not included in section numbering). Use this numbering also for internal cross-referencing: do not just refer to 'the text'. Any subsection may be given a brief heading. Each heading should appear on its own separate line."
+              - generic [ref=e487]:
+                - heading "Introduction" [level=4] [ref=e488]
+                - paragraph [ref=e490]: State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
+              - generic [ref=e491]:
+                - heading "Material and methods" [level=4] [ref=e492]
+                - paragraph [ref=e494]: Provide sufficient details to allow the work to be reproduced by an independent researcher. Methods that are already published should be summarized, and indicated by a reference. If quoting directly from a previously published method, use quotation marks and also cite the source. Any modifications to existing methods should also be described.
+              - generic [ref=e495]:
+                - heading "Theory/calculation" [level=4] [ref=e496]
+                - paragraph [ref=e498]: A Theory section should extend, not repeat, the background to the article already dealt with in the Introduction and lay the foundation for further work. In contrast, a Calculation section represents a practical development from a theoretical basis.
+              - generic [ref=e499]:
+                - heading "Results" [level=4] [ref=e500]
+                - paragraph [ref=e502]: Results should be clear and concise.
+              - generic [ref=e503]:
+                - heading "Discussion" [level=4] [ref=e504]
+                - paragraph [ref=e506]: This should explore the significance of the results of the work, not repeat them. A combined Results and Discussion section is often appropriate. Avoid extensive citations and discussion of published literature.
+              - generic [ref=e507]:
+                - heading "Conclusions" [level=4] [ref=e508]
+                - paragraph [ref=e510]: The main conclusions of the study may be presented in a short Conclusions section, which may stand alone or form a subsection of a Discussion or Results and Discussion section.
+              - generic [ref=e511]:
+                - heading "Appendices" [level=4] [ref=e512]
+                - paragraph [ref=e514]: "If there is more than one appendix, they should be identified as A, B, etc. Formulae and equations in appendices should be given separate numbering: Eq. (A.1), Eq. (A.2), etc.; in a subsequent appendix, Eq. (B.1) and so on. Similarly for tables and figures: Table A.1; Fig. A.1, etc."
+              - generic [ref=e515]:
+                - heading "Essential title page information" [level=4] [ref=e516]
+                - generic [ref=e517]:
+                  - list [ref=e518]:
+                    - listitem [ref=e519]:
+                      - paragraph [ref=e520]:
+                        - generic [ref=e521]: Title.
+                        - text: Concise and informative. Titles are often used in information-retrieval systems. Avoid abbreviations and formulae where possible.
+                    - listitem [ref=e522]:
+                      - paragraph [ref=e523]:
+                        - generic [ref=e524]: Author names and affiliations.
+                        - text: Please clearly indicate the given name(s) and family name(s) of each author and check that all names are accurately spelled. You can add your name between parentheses in your own script behind the English transliteration. Present the authors' affiliation addresses (where the actual work was done) below the names. Indicate all affiliations with a lower-case superscript letter immediately after the author's name and in front of the appropriate address. Provide the full postal address of each affiliation, including the country name and, if available, the e-mail address of each author.
+                    - listitem [ref=e525]:
+                      - paragraph [ref=e526]:
+                        - generic [ref=e527]: Corresponding author.
+                        - text: Clearly indicate who will handle correspondence at all stages of refereeing and publication, also post-publication. This responsibility includes answering any future queries about Methodology and Materials. Ensure that the e-mail address is given and that contact details are kept up to date by the corresponding author.
+                    - listitem [ref=e528]:
+                      - paragraph [ref=e529]:
+                        - generic [ref=e530]: Present/permanent address.
+                        - text: If an author has moved since the work described in the article was done, or was visiting at the time, a 'Present address' (or 'Permanent address') may be indicated as a footnote to that author's name. The address at which the author actually did the work must be retained as the main, affiliation address. Superscript Arabic numerals are used for such footnotes.
+                  - paragraph
+              - generic [ref=e531]:
+                - heading "Abstract" [level=4] [ref=e532]
+                - paragraph [ref=e534]: A concise and factual abstract is required. The abstract should state briefly the purpose of the research, the principal results and major conclusions. An abstract is often presented separately from the article, so it must be able to stand alone. For this reason, References should be avoided, but if essential, then cite the author(s) and year(s). Also, non-standard or uncommon abbreviations should be avoided, but if essential they must be defined at their first mention in the abstract itself.
+              - generic [ref=e535]:
+                - heading "Keywords" [level=4] [ref=e536]
+                - paragraph [ref=e538]: "Immediately after the abstract, provide a maximum of 6 keywords, using American spelling and avoiding general and plural terms and multiple concepts (avoid, for example, 'and', 'of'). Be sparing with abbreviations: only abbreviations firmly established in the field may be eligible. These keywords will be used for indexing purposes."
+              - generic [ref=e539]:
+                - heading "Abbreviations" [level=4] [ref=e540]
+                - paragraph [ref=e542]: Define abbreviations that are not standard in this field in a footnote to be placed on the first page of the article. Such abbreviations that are unavoidable in the abstract must be defined at their first mention there, as well as in the footnote. Ensure consistency of abbreviations throughout the article.
+              - generic [ref=e543]:
+                - heading "Acknowledgements" [level=4] [ref=e544]
+                - paragraph [ref=e546]: Collate acknowledgements in a separate section at the end of the article before the references and do not, therefore, include them on the title page, as a footnote to the title or otherwise. List here those individuals who provided help during the research (e.g., providing language help, writing assistance or proof reading the article, etc.).
+              - generic [ref=e547]:
+                - heading "Formatting of funding sources" [level=4] [ref=e548]
+                - generic [ref=e549]:
+                  - paragraph [ref=e550]: "List funding sources in this standard way to facilitate compliance to funder's requirements:"
+                  - paragraph [ref=e551]: "Funding: This work was supported by the National Institutes of Health [grant numbers xxxx, yyyy]; the Bill & Melinda Gates Foundation, Seattle, WA [grant number zzzz]; and the United States Institutes of Peace [grant number aaaa]."
+                  - paragraph [ref=e552]: It is not necessary to include detailed descriptions on the program or type of grants and awards. When funding is from a block grant or other resources available to a university, college, or other research institution, submit the name of the institute or organization that provided the funding.
+                  - paragraph [ref=e553]: "If no funding has been provided for the research, it is recommended to include the following sentence:"
+                  - paragraph [ref=e554]: This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+              - generic [ref=e555]:
+                - heading "Nomenclature and units" [level=4] [ref=e556]
+                - paragraph [ref=e558]:
+                  - text: "Follow internationally accepted rules and conventions: use the international system of units (SI). If other quantities are mentioned, give their equivalent in SI. You are urged to consult"
+                  - 'link "IUPAC: Nomenclature of Organic Chemistry" [ref=e559] [cursor=pointer]':
+                    - /url: https://www.acdlabs.com/iupac/nomenclature/
+                  - text: for further information.
+              - generic [ref=e560]:
+                - heading "Math formulae" [level=4] [ref=e561]
+                - paragraph [ref=e563]: Please submit math equations as editable text and not as images. Present simple formulae in line with normal text where possible and use the solidus (/) instead of a horizontal line for small fractional terms, e.g., X/Y. In principle, variables are to be presented in italics. Powers of e are often more conveniently denoted by exp. Number consecutively any equations that have to be displayed separately from the text (if referred to explicitly in the text).
+              - generic [ref=e564]:
+                - heading "Footnotes" [level=4] [ref=e565]
+                - paragraph [ref=e567]: Footnotes should be used sparingly. Number them consecutively throughout the article. Many word processors can build footnotes into the text, and this feature may be used. Otherwise, please indicate the position of footnotes in the text and list the footnotes themselves separately at the end of the article. Do not include footnotes in the Reference list.
+              - generic [ref=e568]:
+                - heading "Artwork" [level=4] [ref=e569]
+                - paragraph [ref=e571]: This section describes the artwork for this journal.
+              - generic [ref=e572]:
+                - heading "Electronic artwork" [level=4] [ref=e573]
+                - generic [ref=e574]:
+                  - paragraph [ref=e575]: General points
+                  - list [ref=e576]:
+                    - listitem [ref=e577]:
+                      - paragraph [ref=e578]: Make sure you use uniform lettering and sizing of your original artwork.
+                    - listitem [ref=e579]:
+                      - paragraph [ref=e580]: Embed the used fonts if the application provides that option.
+                    - listitem [ref=e581]:
+                      - paragraph [ref=e582]: "Aim to use the following fonts in your illustrations: Arial, Courier, Times New Roman, Symbol, or use fonts that look similar."
+                    - listitem [ref=e583]:
+                      - paragraph [ref=e584]: Number the illustrations according to their sequence in the text.
+                    - listitem [ref=e585]:
+                      - paragraph [ref=e586]: Use a logical naming convention for your artwork files.
+                    - listitem [ref=e587]:
+                      - paragraph [ref=e588]: Provide captions to illustrations separately.
+                    - listitem [ref=e589]:
+                      - paragraph [ref=e590]: Size the illustrations close to the desired dimensions of the published version.
+                    - listitem [ref=e591]:
+                      - paragraph [ref=e592]: Submit each illustration as a separate file.
+                    - listitem [ref=e593]:
+                      - paragraph [ref=e594]: Ensure that color images are accessible to all, including those with impaired color vision.
+                  - paragraph [ref=e595]:
+                    - text: A detailed
+                    - link "guide on electronic artwork" [ref=e596] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions
+                    - text: is available.
+                  - heading "You are urged to visit this site; some excerpts from the detailed information are given here." [level=5] [ref=e597]
+                  - paragraph [ref=e598]: Formats
+                  - paragraph [ref=e599]: If your electronic artwork is created in a Microsoft Office application (Word, PowerPoint, Excel) then please supply 'as is' in the native document format.
+                  - paragraph [ref=e600]: "Regardless of the application used other than Microsoft Office, when your electronic artwork is finalized, please 'Save as' or convert the images to one of the following formats (note the resolution requirements for line drawings, halftones, and line/halftone combinations given below):"
+                  - paragraph [ref=e601]: "EPS (or PDF): Vector drawings, embed all used fonts."
+                  - paragraph [ref=e602]: "TIFF (or JPEG): Color or grayscale photographs (halftones), keep to a minimum of 300 dpi."
+                  - paragraph [ref=e603]: "TIFF (or JPEG): Bitmapped (pure black & white pixels) line drawings, keep to a minimum of 1000 dpi."
+                  - paragraph [ref=e604]: "TIFF (or JPEG): Combinations bitmapped line/half-tone (color or grayscale), keep to a minimum of 500 dpi."
+                  - heading "Please do not:" [level=5] [ref=e605]
+                  - list [ref=e606]:
+                    - listitem [ref=e607]:
+                      - paragraph [ref=e608]: Supply files that are optimized for screen use (e.g., GIF, BMP, PICT, WPG); these typically have a low number of pixels and limited set of colors;
+                    - listitem [ref=e609]:
+                      - paragraph [ref=e610]: Supply files that are too low in resolution;
+                    - listitem [ref=e611]:
+                      - paragraph [ref=e612]: Submit graphics that are disproportionately large for the content.
+                  - paragraph
+              - generic [ref=e613]:
+                - heading "Color artwork" [level=4] [ref=e614]
+                - paragraph [ref=e616]:
+                  - text: "Please make sure that artwork files are in an acceptable format (TIFF (or JPEG), EPS (or PDF), or MS Office files) and with the correct resolution. If, together with your accepted article, you submit usable color figures then Elsevier will ensure, at no additional charge, that these figures will appear in color online (e.g., ScienceDirect and other sites) regardless of whether or not these illustrations are reproduced in color in the printed version. For color reproduction in print, you will receive information regarding the costs from Elsevier after receipt of your accepted article. Please indicate your preference for color: in print or online only."
+                  - link "Further information on the preparation of electronic artwork" [ref=e617] [cursor=pointer]:
+                    - /url: https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions
+                  - text: .
+              - generic [ref=e618]:
+                - heading "Figure captions" [level=4] [ref=e619]
+                - paragraph [ref=e621]: Ensure that each illustration has a caption. Supply captions separately, not attached to the figure. A caption should comprise a brief title (not on the figure itself) and a description of the illustration. Keep text in the illustrations themselves to a minimum but explain all symbols and abbreviations used.
+              - generic [ref=e622]:
+                - heading "Tables" [level=4] [ref=e623]
+                - paragraph [ref=e625]: Please submit tables as editable text and not as images. Tables can be placed either next to the relevant text in the article, or on separate page(s) at the end. Number tables consecutively in accordance with their appearance in the text and place any table notes below the table body. Be sparing in the use of tables and ensure that the data presented in them do not duplicate results described elsewhere in the article. Please avoid using vertical rules and shading in table cells.
+              - generic [ref=e626]:
+                - heading "References" [level=4] [ref=e627]
+                - paragraph [ref=e629]: This section describes the references for this journal.
+              - generic [ref=e630]:
+                - heading "Citation in text" [level=4] [ref=e631]
+                - paragraph [ref=e633]: Please ensure that every reference cited in the text is also present in the reference list (and vice versa). Any references cited in the abstract must be given in full. Unpublished results and personal communications are not recommended in the reference list, but may be mentioned in the text. If these references are included in the reference list they should follow the standard reference style of the journal and should include a substitution of the publication date with either 'Unpublished results' or 'Personal communication'. Citation of a reference as 'in press' implies that the item has been accepted for publication.
+              - generic [ref=e634]:
+                - heading "Reference links" [level=4] [ref=e635]
+                - generic [ref=e636]:
+                  - paragraph [ref=e637]: Increased discoverability of research and high quality peer review are ensured by online links to the sources cited. In order to allow us to create links to abstracting and indexing services, such as Scopus, Crossref and PubMed, please ensure that data provided in the references are correct. Please note that incorrect surnames, journal/book titles, publication year and pagination may prevent link creation. When copying references, please be careful as they may already contain errors. Use of the DOI is highly encouraged.
+                  - paragraph [ref=e638]: "A DOI is guaranteed never to change, so you can use it as a permanent link to any electronic article. An example of a citation using DOI for an article not yet in an issue is: VanDecar J.C., Russo R.M., James D.E., Ambeh W.B., Franke M. (2003). Aseismic continuation of the Lesser Antilles slab beneath northeastern Venezuela. Journal of Geophysical Research, https://doi.org/10.1029/2001JB000884. Please note the format of such citations should be in the same style as all other references in the paper."
+              - generic [ref=e639]:
+                - heading "Web references" [level=4] [ref=e640]
+                - paragraph [ref=e642]: As a minimum, the full URL should be given and the date when the reference was last accessed. Any further information, if known (DOI, author names, dates, reference to a source publication, etc.), should also be given. Web references can be listed separately (e.g., after the reference list) under a different heading if desired, or can be included in the reference list.
+              - generic [ref=e643]:
+                - heading "Data references" [level=4] [ref=e644]
+                - paragraph [ref=e646]: "This journal encourages you to cite underlying or relevant datasets in your manuscript by citing them in your text and including a data reference in your Reference List. Data references should include the following elements: author name(s), dataset title, data repository, version (where available), year, and global persistent identifier. Add [dataset] immediately before the reference so we can properly identify it as a data reference. The [dataset] identifier will not appear in your published article."
+              - generic [ref=e647]:
+                - heading "Preprint references" [level=4] [ref=e648]
+                - paragraph [ref=e650]: Where a preprint has subsequently become available as a peer-reviewed publication, the formal publication should be used as the reference. If there are preprints that are central to your work or that cover crucial developments in the topic, but are not yet formally published, these may be referenced. Preprints should be clearly marked as such, for example by including the word preprint, or the name of the preprint server, as part of the reference. The preprint DOI should also be provided.
+              - generic [ref=e651]:
+                - heading "References in a special issue" [level=4] [ref=e652]
+                - paragraph [ref=e654]: Please ensure that the words 'this issue' are added to any references in the list (and any citations in the text) to other articles in the same Special Issue.
+              - generic [ref=e655]:
+                - heading "Reference management software" [level=4] [ref=e656]
+                - paragraph [ref=e658]:
+                  - text: Most Elsevier journals have their reference template available in many of the most popular reference management software products. These include all products that support
+                  - link "Citation Style Language styles" [ref=e659] [cursor=pointer]:
+                    - /url: https://citationstyles.org
+                  - text: ", such as"
+                  - link "Mendeley" [ref=e660] [cursor=pointer]:
+                    - /url: https://www.mendeley.com/reference-management/reference-manager/
+                  - text: . Using citation plug-ins from these products, authors only need to select the appropriate journal template when preparing their article, after which citations and bibliographies will be automatically formatted in the journal's style. If no template is yet available for this journal, please follow the format of the sample references and citations as shown in this Guide. If you use reference management software, please ensure that you remove all field codes before submitting the electronic manuscript.
+                  - link "More information on how to remove field codes from different reference management software" [ref=e661] [cursor=pointer]:
+                    - /url: https://service.elsevier.com/app/answers/detail/a_id/26093/
+                  - text: .
+              - generic [ref=e662]:
+                - heading "Reference style" [level=4] [ref=e663]
+                - generic [ref=e664]:
+                  - paragraph [ref=e665]:
+                    - text: "Text: Citations in the text should follow the referencing style used by the American Psychological Association. You are referred to the Publication Manual of the American Psychological Association, Seventh Edition, ISBN 978-1-4338-3215-4, copies of which may be"
+                    - link "ordered online" [ref=e666] [cursor=pointer]:
+                      - /url: https://apastyle.apa.org/products/publication-manual-7th-edition
+                    - text: .
+                  - paragraph [ref=e667]: "List: references should be arranged first alphabetically and then further sorted chronologically if necessary. More than one reference from the same author(s) in the same year must be identified by the letters 'a', 'b', 'c', etc., placed after the year of publication."
+                  - paragraph [ref=e668]: "Examples:"
+                  - paragraph [ref=e669]: "Reference to a journal publication:"
+                  - paragraph [ref=e670]: Van der Geer, J., Hanraads, J. A. J., &amp; Lupton, R. A. (2010). The art of writing a scientific article. Journal of Scientific Communications, 163, 51-59. https://doi.org/10.1016/j.sc.2010.00372.
+                  - paragraph [ref=e671]: "Reference to a journal publication with an article number:"
+                  - paragraph [ref=e672]: Van der Geer, J., Hanraads, J. A. J., &amp; Lupton, R. A. (2018). The art of writing a scientific article. Heliyon, 19, Article e00205. https://doi.org/10.1016/j.heliyon.2018.e00205.
+                  - paragraph [ref=e673]: "Reference to a book:"
+                  - paragraph [ref=e674]: Strunk, W., Jr., &amp; White, E. B. (2000). The elements of style (4th ed.). Longman (Chapter 4).
+                  - paragraph [ref=e675]: "Reference to a chapter in an edited book:"
+                  - paragraph [ref=e676]: Mettam, G. R., &amp; Adams, L. B. (2009). How to prepare an electronic version of your article. In B. S. Jones, &amp; R. Z. Smith (Eds.), Introduction to the electronic age (pp. 281-304). E-Publishing Inc.
+                  - paragraph [ref=e677]: "Reference to a website:"
+                  - paragraph [ref=e678]: Powertech Systems. (2015). Lithium-ion vs lead-acid cost analysis. Retrieved from http://www.powertechsystems.eu/home/tech-corner/lithium-ion-vs-lead-acid-cost-analysis/. Accessed January 6, 2016
+                  - paragraph [ref=e679]: "Reference to a dataset:"
+                  - paragraph [ref=e680]: "[dataset] Oguro, M., Imahiro, S., Saito, S., &amp; Nakashizuka, T. (2015). Mortality data for Japanese oak wilt disease and surrounding forest compositions. Mendeley Data, v1. https://doi.org/10.17632/xwj98nb39r.1."
+                  - paragraph [ref=e681]: "Reference to a conference paper or poster presentation:"
+                  - paragraph [ref=e682]: "Engle, E.K., Cash, T.F., &amp; Jarry, J.L. (2009, November). The Body Image Behaviours Inventory-3: Development and validation of the Body Image Compulsive Actions and Body Image Avoidance Scales. Poster session presentation at the meeting of the Association for Behavioural and Cognitive Therapies, New York, NY."
+                  - paragraph [ref=e683]: "Reference to software:"
+                  - paragraph [ref=e684]: Coon, E., Berndt, M., Jan, A., Svyatsky, D., Atchley, A., Kikinzon, E., Harp, D., Manzini, G., Shelef, E., Lipnikov, K., Garimella, R., Xu, C., Moulton, D., Karra, S., Painter, S., Jafarov, E., &amp; Molins, S. (2020, March 25). Advanced Terrestrial Simulator (ATS) v0.88 (Version 0.88). Zenodo. https://doi.org/10.5281/zenodo.3727209.
+              - generic [ref=e685]:
+                - heading "Journal abbreviations" [level=4] [ref=e686]
+                - paragraph [ref=e688]:
+                  - text: Journal names should be abbreviated according to the
+                  - link "List of Title Word Abbreviations" [ref=e689] [cursor=pointer]:
+                    - /url: https://www.issn.org/services/online-services/access-to-the-ltwa/
+                  - text: .
+            - generic [ref=e690]:
+              - heading "After acceptance" [level=3] [ref=e691]
+              - generic [ref=e692]:
+                - heading "Proofs" [level=4] [ref=e693]
+                - generic [ref=e694]:
+                  - paragraph [ref=e695]:
+                    - text: One set of page proofs (as PDF files) will be sent by e-mail to the corresponding author (if we do not have an e-mail address then paper proofs will be sent by post) or a link will be provided in the e-mail so that authors can download the files themselves. To ensure a fast publication process of the article, we kindly ask authors to provide us with their proof corrections within two days. Elsevier now provides authors with PDF proofs which can be annotated; for this you will need to
+                    - link "download the free Adobe Reader" [ref=e696] [cursor=pointer]:
+                      - /url: https://get.adobe.com/reader
+                    - text: ", version 9 (or higher). Instructions on how to annotate PDF files will accompany the proofs (also given online). The exact system requirements are given at the"
+                    - link "Adobe site" [ref=e697] [cursor=pointer]:
+                      - /url: https://helpx.adobe.com/reader/system-requirements.html
+                    - text: .
+                  - paragraph [ref=e698]: "If you do not wish to use the PDF annotations function, you may list the corrections (including replies to the Query Form) and return them to Elsevier in an e-mail. Please list your corrections quoting line number. If, for any reason, this is not possible, then mark the corrections and any other comments (including replies to the Query Form) on a printout of your proof and scan the pages and return via e-mail. Please use this proof only for checking the typesetting, editing, completeness and correctness of the text, tables and figures. Significant changes to the article as accepted for publication will only be considered at this stage with permission from the Editor. We will do everything possible to get your article published quickly and accurately. It is important to ensure that all corrections are sent back to us in one communication: please check carefully before replying, as inclusion of any subsequent corrections cannot be guaranteed. Proofreading is solely your responsibility."
+              - generic [ref=e699]:
+                - heading "Offprints" [level=4] [ref=e700]
+                - paragraph [ref=e702]:
+                  - text: The corresponding author will be notified and receive a link to the published version of the open access article on
+                  - link "ScienceDirect" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.sciencedirect.com
+                  - text: . This link is in the form of an article DOI link which can be shared via email and social networks. For an extra charge, paper offprints can be ordered via the offprint order form which is sent once the article is accepted for publication.
+            - generic [ref=e704]:
+              - heading "Author inquiries" [level=3] [ref=e705]
+              - generic [ref=e706]:
+                - heading "Author Inquiries" [level=4] [ref=e707]
+                - generic [ref=e708]:
+                  - paragraph [ref=e709]:
+                    - link "Track your submitted article" [ref=e710] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/track-submission
+                  - paragraph [ref=e711]:
+                    - link "Track your accepted article" [ref=e712] [cursor=pointer]:
+                      - /url: https://www.elsevier.com/trackarticle
+                  - paragraph [ref=e713]:
+                    - text: "For queries related to the journal, please contact:"
+                    - link "Dr. Kutan Ali" [ref=e714] [cursor=pointer]:
+                      - /url: mailto:akutan@siue.edu
+                  - paragraph [ref=e715]:
+                    - text: You are also welcome to contact the
+                    - link "Elsevier Contact Center" [ref=e716] [cursor=pointer]:
+                      - /url: https://service.elsevier.com/app/home/supporthub/publishing/
+                    - text: .
+    - contentinfo [ref=e717]:
+      - link "Elsevier home page (opens in a new tab)" [ref=e719] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=e720]
+      - generic [ref=e721]:
+        - list [ref=e723]:
+          - listitem [ref=e724]:
+            - link [ref=e725] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=e726]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=e727]
+          - listitem [ref=e729]:
+            - link "Remote access" [ref=e730] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fjournal%2Fborsa-istanbul-review%2Fpublish%2Fguide-for-authors
+          - listitem [ref=e732]:
+            - link [ref=e733] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=e734]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=e735]
+          - listitem [ref=e737]:
+            - link [ref=e738] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=e739]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=e740]
+          - listitem [ref=e742]:
+            - link [ref=e743] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=e744]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=e745]
+          - listitem [ref=e747]:
+            - button "Cookie settings" [ref=e748] [cursor=pointer]
+        - paragraph [ref=e749]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=e751] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=e752]
