@@ -1050,7 +1050,8 @@ will be inconsistent whenever $\Cov(\theta_i,\delta_i)\neq0$. Estimating it with
 FX exposure as treatment returns exactly that pathology: coefficients that are
 highly significant and wrongly signed, with firms holding more foreign-currency
 debt appearing to \emph{improve} after 2023 (implied rate $-0.108$, $p<0.0001$;
-Altman $Z''$ $+0.813$, $p=0.004$; leverage $-0.049$, $p<0.0001$); an event-study
+Altman $Z''$ \citep{altman2005} $+0.813$, $p=0.004$; leverage $-0.049$,
+$p<0.0001$); an event-study
 path growing monotonically as restatement compounds ($+0.32$, $+0.83$, $+1.18$
 across 2023--2025); and large significant pre-treatment coefficients. The result
 has every outward mark of a strong causal finding and is an accounting artefact.
@@ -1059,8 +1060,9 @@ has every outward mark of a strong causal finding and is an accounting artefact.
 
 Propositions~\ref{prop:restate} and \ref{prop:flow} imply three restrictions.
 Outcomes must be flows: we retain the log implied rate, interest coverage, EBIT
-margin and log debt growth, and discard the Altman $Z''$ score, leverage, equity
-ratios and return on assets. Exposure must predate the restatement, and we
+margin and log debt growth, and discard leverage, equity ratios, return on
+assets and the emerging-market Altman $Z''$ score of \citet{altman2005}, each of
+which combines a monetary numerator with a non-monetary stock. Exposure must predate the restatement, and we
 measure it at 2021. And the pre-period must permit a test of parallel trends;
 because EBIT margin and debt growth require no interest figure, the bundling
 problem of Section~\ref{sec:price} is irrelevant to them and the national
@@ -1073,9 +1075,11 @@ Y_{it} \;=\; \sum_{k\neq 2022}\beta_k\bigl(E_i\cdot\one\{t=k\}\bigr)
 \end{equation}
 with 2022 omitted and standard errors clustered by firm \citep{petersen2009}.
 Because treatment timing is common within country we avoid the
-negative-weighting problems of \citet{goodmanbacon2021} and
-\citet{dechaisemartin2020}; following \citet{roth2022} we report full event
-paths rather than a pre-trend test statistic.
+negative-weighting and heterogeneity problems identified by
+\citet{goodmanbacon2021}, \citet{dechaisemartin2020}, \citet{callaway2021} and
+\citet{sun2021}, so the two-way estimator remains interpretable here; following
+\citet{roth2022} we report full event paths rather than conditioning on a
+pre-trend test statistic.
 
 \section{Results}
 \label{sec:results}
