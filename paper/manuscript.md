@@ -976,9 +976,12 @@ Istanbul Review*, 26, 100774. https://doi.org/10.1016/j.bir.2025.100774
 Almeida, H., Campello, M., Laranjeira, B., & Weisbenner, S. (2012). Corporate
 debt maturity and the real effects of the 2007 credit crisis. *Critical Finance
 Review*, 1(1), 3–58. https://doi.org/10.1561/104.00000001
+  [Crossref lists only the first author; co-authors confirmed from the article
+  itself. Verify author order against the published version.]
 
 Altman, E. I. (2005). An emerging market credit scoring system for corporate
 bonds. *Emerging Markets Review*, 6(4), 311–323.
+https://doi.org/10.1016/j.ememar.2005.09.007
 
 Auer, S., Friedrich, C., Ganarin, M., Paligorova, T., & Towbin, P. (2019).
 International monetary policy transmission through banks in small open
@@ -1051,8 +1054,9 @@ historical cost, price level, and replacement cost accounting in Mexico.
 https://doi.org/10.1111/1475-679X.00008
 
 Greenwald, D. (2019). *Firm debt covenants and the macroeconomy: The interest
-coverage channel* (Working paper). [Publication status to be verified before
-submission.]
+coverage channel* (Working paper). https://doi.org/10.2139/ssrn.3535221
+  [No journal version located; cite as a working paper or replace before
+  submission.]
 
 Griliches, Z., & Hausman, J. A. (1986). Errors in variables in panel data.
 *Journal of Econometrics*, 31(1), 93–118.
@@ -1065,6 +1069,7 @@ https://doi.org/10.1111/j.1540-6261.2012.01721.x
 Ippolito, F., Ozdagli, A. K., & Perez-Orive, A. (2018). The transmission of
 monetary policy through bank lending: The floating rate channel. *Journal of
 Monetary Economics*, 95, 49–71.
+https://doi.org/10.1016/j.jmoneco.2018.02.001
 
 Jungherr, J., Meier, M., Reinelt, T., & Schott, I. (2024). *Corporate debt
 maturity matters for monetary policy* (International Finance Discussion Papers
@@ -1088,8 +1093,9 @@ channel of monetary policy. *Econometrica*, 88(6), 2473–2502.
 https://doi.org/10.3982/ECTA15949
 
 Ozdagli, A. K. (2017). Financial frictions and the stock price reaction to
-monetary policy. *The Review of Financial Studies*, 31(10), 3895–3936.
+monetary policy. *The Review of Financial Studies*.
 https://doi.org/10.1093/rfs/hhx106
+  [Volume and page numbers to be completed from the publisher record.]
 
 Pagan, A. (1984). Econometric issues in the analysis of regressions with
 generated regressors. *International Economic Review*, 25(1), 221–247.
