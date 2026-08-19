@@ -78,6 +78,7 @@ inflation accounting \sep emerging markets \sep financial statements
 \section{Introduction}
 \label{sec:intro}
 
+
 A firm that borrows at a floating rate feels a policy tightening within weeks.
 A firm that borrowed long and fixed does not feel it until it refinances. This
 asymmetry is simple, intuitive, and has become the organising principle of a
@@ -202,10 +203,14 @@ split-half reliability and first-stage prediction as cheap, decisive tests that
 any paper using an estimated firm characteristic as a regressor should report,
 and we give them a formal justification.
 
-\section{Related literature}
+\section{Related literature and analytical framework}
 \label{sec:lit}
 
-\subsection{Firm heterogeneity in monetary transmission}
+\subsection{Related literature}
+\label{sec:lit}
+
+
+\subsubsection{Firm heterogeneity in monetary transmission}
 
 That monetary policy affects firms unequally is long established.
 \citet{gertler1994} documented that small manufacturing firms bear a
@@ -241,7 +246,7 @@ with rich contractual disclosure. We ask what remains when neither is available,
 and Section~\ref{sec:framework} shows the answer is not simply ``a noisier
 version of the same design''.
 
-\subsection{Firm-level evidence on T\"{u}rkiye and comparable markets}
+\subsubsection{Firm-level evidence on T\"{u}rkiye and comparable markets}
 
 A body of firm-level work situates our exercise in the Turkish setting.
 \citet{bilgin2023} study Borsa Istanbul firms directly and, importantly for us,
@@ -269,7 +274,7 @@ what it asks of accounting data---studying maturity composition, credit type and
 financing structure, all of which are disclosed---and that the floating-rate
 question is different in kind because its treatment variable is not.
 
-\subsection{Currency mismatch in emerging markets}
+\subsubsection{Currency mismatch in emerging markets}
 
 Because T\"{u}rkiye's episode combines tightening with severe depreciation, the
 FX-mismatch literature bears directly on our measurement problem.
@@ -297,7 +302,7 @@ financial-expense field of Section~\ref{sec:price} is so damaging: in a currency
 crisis revaluation losses dwarf interest, and a measure conflating them
 attributes currency effects to monetary policy.
 
-\subsection{Accounting measurement under inflation}
+\subsubsection{Accounting measurement under inflation}
 
 Our identification problem is at bottom an accounting one, and there is a
 literature on it that monetary economics rarely cites. \citet{gordon2001}
@@ -317,7 +322,7 @@ literature what we believe is a novel application: an accounting transition
 coinciding with a treatment date and interacting with the treatment variable is
 not a nuisance to be absorbed but a threat to identification.
 
-\subsection{Measurement error and generated regressors}
+\subsubsection{Measurement error and generated regressors}
 
 Our exposure results connect to a developed econometric literature.
 \citet{pagan1984} established the consequences of using a regression-generated
@@ -334,15 +339,16 @@ applied to firm-level exposure: separating estimation error from genuine
 impermanence of the underlying characteristic. The distinction is consequential
 because the two failure modes call for opposite responses.
 
-\section{A framework for statement-based exposure measurement}
+\subsection{An analytical framework for estimated exposure}
 \label{sec:framework}
+
 
 This section formalises what is at stake when the exposure variable of a
 difference-in-differences design is estimated from accounting data rather than
 observed contractually. The framework is deliberately spare, and each result
 generates a statistic we compute in Sections~\ref{sec:price}--\ref{sec:ident}.
 
-\subsection{Setup}
+\subsubsection{Setup}
 
 Index firms by $i=1,\dots,N$ and years by $t=1,\dots,T$. Let $\pi_t$ denote the
 policy rate and $f_t$ the log exchange rate. Let $P_t=\one\{t\ge t^{*}\}$ be the
@@ -375,7 +381,7 @@ Define the \emph{reliability ratio}
 \label{eq:lambda}
 \end{equation}
 
-\subsection{Attenuation of the treatment estimand}
+\subsubsection{Attenuation of the treatment estimand}
 
 \begin{proposition}[Attenuation]
 \label{prop:atten}
@@ -406,7 +412,7 @@ uncomfortable implication: a statistically insignificant $\widehat{\beta}$ is
 consistent with \emph{any} value of $\beta$ once $\lambda$ is small. A null is
 therefore uninterpretable without an estimate of $\lambda$.
 
-\subsection{Identifying the reliability ratio}
+\subsubsection{Identifying the reliability ratio}
 
 The natural objection is that $\lambda$ is unobservable because $\theta_i$ is.
 It is not, provided two independent proxies can be constructed.
@@ -442,7 +448,7 @@ Proposition~\ref{prop:split} it \emph{is} the attenuation factor rather than
 merely a diagnostic correlated with it. Section~\ref{sec:exposure} reports
 values of $-0.219$ and $-0.080$.
 
-\subsection{Feasibility: how long a panel is required?}
+\subsubsection{Feasibility: how long a panel is required?}
 
 Corollary~\ref{cor:uninformative} raises the question of whether a longer panel
 would rescue the design. It can be answered analytically.
@@ -490,7 +496,7 @@ That verdict is contradicted by the split-half correlations, which are zero or
 negative. The contradiction is informative, and resolving it requires enriching
 \eqref{eq:proxy}.
 
-\subsection{Permanent, transitory and sampling components}
+\subsubsection{Permanent, transitory and sampling components}
 
 Suppose the quantity a firm-level regression recovers is not a fixed trait but a
 window-specific realisation,
@@ -537,7 +543,7 @@ decomposition in Section~\ref{sec:exposure} attributes 99.4\% of Vietnamese and
 none to the permanent one---so the binding problem is impermanence, and
 quarterly estimation would not solve it.
 
-\subsection{In-sample fit is not evidence}
+\subsubsection{In-sample fit is not evidence}
 
 A researcher inspecting \eqref{eq:beta} would observe a respectable $R^2$ and
 might conclude the specification has content. It does not.
@@ -564,7 +570,7 @@ With $k=2$ and a median of $T=6$ usable observations, $\E[R^2]=0.40$. Any
 reported fit near this value is uninformative. Section~\ref{sec:exposure}
 reports an observed Vietnamese median of $0.396$.
 
-\subsection{Inflation restatement as an exposure-by-post confound}
+\subsubsection{Inflation restatement as an exposure-by-post confound}
 
 We now formalise the accounting problem described in
 Section~\ref{sec:setting}. Let $A_{it}$ denote true non-monetary assets and
@@ -615,7 +621,7 @@ each of which correlates with financing structure and hence with any
 balance-sheet exposure measure. The usual defence---country-by-year fixed
 effects---absorbs $c_t$ exactly and $\delta_ic_t$ not at all.
 
-\subsection{Flow ratios are invariant}
+\subsubsection{Flow ratios are invariant}
 
 The corresponding positive result identifies what survives.
 
@@ -646,7 +652,7 @@ Proposition~\ref{prop:restate}. It also refines the specification: the implied
 rate is invariant \emph{in logs}, not in levels, and we use it accordingly.
 \end{remark}
 
-\subsection{Reading pass-through structurally}
+\subsubsection{Reading pass-through structurally}
 
 Finally, the framework gives the aggregate pass-through estimate an
 interpretation. Let the firm's realised average cost be a maturity-weighted
@@ -671,10 +677,14 @@ median short-term debt share of $0.63$, implying that even nominally short debt
 repriced only partially---evidence, though not proof, of quantity rationing or
 subsidised credit substituting for full price adjustment.
 
-\section{Institutional setting}
+\section{Institutional setting and data}
+\label{sec:data}
+
+\subsection{Institutional setting}
 \label{sec:setting}
 
-\subsection{Two monetary regimes}
+
+\subsubsection{Two monetary regimes}
 
 The Turkish tightening is the sharper of the two by an order of magnitude.
 After a period of unorthodox easing the one-week repo rate stood at 9.0\% at
@@ -692,7 +702,7 @@ within-country benchmark for what a severe Vietnamese tightening looks like.
 The comparison is therefore not treatment versus control but large dose versus
 small dose, and the appropriate prediction is proportional rather than binary.
 
-\subsection{The Turkish accounting transition}
+\subsubsection{The Turkish accounting transition}
 
 T\"{u}rkiye met the IFRS criteria for a hyperinflationary economy and was
 classified as such from April 2022, with local inflation-adjustment
@@ -709,10 +719,11 @@ already in period-end purchasing power and are not restated. Income-statement
 items are restated to period-end purchasing power by a factor common across
 firms within a period, which is the condition of Proposition~\ref{prop:flow}.
 
-\section{Data}
+\subsection{Data}
 \label{sec:data}
 
-\subsection{Sources and construction}
+
+\subsubsection{Sources and construction}
 
 The Vietnamese panel derives from an item-level dataset of statements filed by
 companies listed on the Ho Chi Minh City and Hanoi exchanges, distributed
@@ -751,7 +762,7 @@ Year & T\"{u}rkiye & Vietnam & Year & T\"{u}rkiye & Vietnam \\
 \end{tabular}
 \end{table}
 
-\subsection{Descriptive statistics}
+\subsubsection{Descriptive statistics}
 
 \begin{table}[htbp]
 \centering
@@ -779,7 +790,7 @@ short-term share of 0.85 speaks to the rollover-risk framing of
 coverage is 1.07 against Vietnam's 3.29, placing the median Turkish firm close
 to the covenant-relevant threshold \citet{greenwald2019} identifies.
 
-\subsection{Cross-validation against an independent source}
+\subsubsection{Cross-validation against an independent source}
 
 Because the subject is measurement, we test rather than assume our panels.
 
@@ -811,10 +822,14 @@ from pretax income plus interest rather than reported operating profit. Both are
 definitional. The interest-expense discrepancy in T\"{u}rkiye is not, and
 Section~\ref{sec:price} is devoted to it.
 
-\section{The price of corporate debt}
+\section{Measuring the price of debt and firm exposure}
+\label{sec:measure}
+
+\subsection{The price of corporate debt}
 \label{sec:price}
 
-\subsection{Construction and validation}
+
+\subsubsection{Construction and validation}
 
 For firm $i$ in year $t$ the implied borrowing cost is
 \begin{equation}
@@ -866,7 +881,7 @@ monotonically to 5.8\% by 2015, rises to 7.2\% in the 2023 tightening and
 subsides. Median interest coverage moves in mirror image, reaching its
 Vietnamese sample minimum of 2.05 in exactly 2023.
 
-\subsection{Pass-through}
+\subsubsection{Pass-through}
 
 Policy moved 38.5 points between end-2022 and the 2024 Turkish peak; realised
 borrowing costs moved 13.4 points, from 17.8\% to 31.2\%. By
@@ -877,7 +892,7 @@ window median interest coverage halved, from 3.36 to 1.66. Vietnam's mild cycle
 moves costs 0.8 points, with coverage dipping from 3.11 to 2.05 and recovering
 to 2.70.
 
-\subsection{A data hazard: bundled financial expense}
+\subsubsection{A data hazard: bundled financial expense}
 
 The Turkish field labelled \emph{Financial Expenses} is the only interest-like
 item available before 2021 and is the natural candidate for the long history. It
@@ -894,16 +909,17 @@ interest figure it peaks in \textbf{2024}, with policy. A researcher using it to
 study monetary transmission would recover currency shocks and report them as
 interest-rate effects, with strong significance.
 
-\section{Measuring exposure}
+\subsection{Measuring exposure}
 \label{sec:exposure}
 
-\subsection{The required object is not disclosed}
+
+\subsubsection{The required object is not disclosed}
 
 Contractual repricing basis does not appear in published statements under either
 regime. Firms disclose borrowings by maturity and sometimes currency, but not by
 repricing terms. We therefore assess the two constructible substitutes.
 
-\subsection{Revealed repricing sensitivity}
+\subsubsection{Revealed repricing sensitivity}
 
 We estimate \eqref{eq:beta} firm by firm over a window ending before treatment.
 The FX term is included jointly rather than as a nuisance control, because
@@ -975,7 +991,7 @@ treatment occurring later. Quarterly estimation would raise $T$ and shrink
 $\sigma^2_u$, which Table~\ref{tab:decomp} shows was never the binding
 constraint.
 
-\subsection{First-stage prediction}
+\subsubsection{First-stage prediction}
 
 The decisive test asks whether $\widehat{\theta}$ predicts what it purports to.
 
@@ -1000,7 +1016,7 @@ In T\"{u}rkiye the most-exposed tercile records the \emph{smallest} increase in
 realised cost. Median in-sample fit of 0.396 in Vietnam matches the null
 benchmark $k/(T-1)=0.40$ of Proposition~\ref{prop:r2} almost exactly.
 
-\subsection{Balance-sheet proxies}
+\subsubsection{Balance-sheet proxies}
 
 The measured characteristics are reliable but do not identify repricing.
 Regressing the actual change in borrowing cost on standardised pre-period
@@ -1016,10 +1032,14 @@ most short-funded tercile being the healthiest in most years ($5.02$ against
 $3.45$ in 2021). A proxy whose sign flips across two structurally similar
 markets is not measuring a single construct.
 
-\section{Identification}
+\section{Identification, results and robustness}
+\label{sec:results}
+
+\subsection{Identification}
 \label{sec:ident}
 
-\subsection{The restatement confound, empirically}
+
+\subsubsection{The restatement confound, empirically}
 
 \begin{table}[htbp]
 \centering
@@ -1056,7 +1076,7 @@ path growing monotonically as restatement compounds ($+0.32$, $+0.83$, $+1.18$
 across 2023--2025); and large significant pre-treatment coefficients. The result
 has every outward mark of a strong causal finding and is an accounting artefact.
 
-\subsection{The surviving specification}
+\subsubsection{The surviving specification}
 
 Propositions~\ref{prop:restate} and \ref{prop:flow} imply three restrictions.
 Outcomes must be flows: we retain the log implied rate, interest coverage, EBIT
@@ -1081,8 +1101,9 @@ negative-weighting and heterogeneity problems identified by
 \citet{roth2022} we report full event paths rather than conditioning on a
 pre-trend test statistic.
 
-\section{Results}
+\subsection{Results}
 \label{sec:results}
+
 
 \begin{table}[htbp]
 \centering
@@ -1150,8 +1171,9 @@ conventional two-year window would report is the difference between the 2022
 base and the 2023--25 average---a difference that exists, is significant, and
 means nothing causal.
 
-\section{Robustness}
+\subsection{Robustness}
 \label{sec:robust}
+
 
 \paragraph{Placebo treatment.} Assigning a false treatment at 2018 and
 restricting to 2015--2021 returns nothing for Vietnam: $-0.791$ ($p=0.19$) on
@@ -1179,8 +1201,12 @@ average away the transitory component at the cost of the heterogeneity that
 motivates the exercise. Machine-readable disclosure of repricing basis would
 remove the problem entirely.
 
-\section{Implications for practice}
+\section{Discussion and conclusion}
+\label{sec:conclusion}
+
+\subsection{Implications for practice}
 \label{sec:implications}
+
 
 \emph{Validate the price measure against the policy path.} A measure that cannot
 reproduce a known aggregate should not be used to estimate an unknown
@@ -1203,8 +1229,9 @@ Restricting to outcomes with long history revealed that our significant
 coefficients were decade-long trends; a two-year window would have produced a
 publishable false positive.
 
-\section{Conclusion}
+\subsection{Conclusion}
 \label{sec:conclusion}
+
 
 Published financial statements support a genuine, validated measure of the price
 of corporate debt, and it recovers monetary policy paths in a severe Turkish
