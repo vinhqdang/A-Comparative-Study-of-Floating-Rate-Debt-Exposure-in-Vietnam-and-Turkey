@@ -1,0 +1,13 @@
+country,measure,years,n,corr
+VN,short-term debt share,2016-2019,483,0.669
+VN,short-term debt share,2016-2022,458,0.606
+VN,short-term debt share,2019-2022,486,0.693
+VN,debt to assets,2016-2019,605,0.77
+VN,debt to assets,2016-2022,605,0.606
+VN,debt to assets,2019-2022,628,0.77
+TR,short-term debt share,2016-2019,287,0.5
+TR,short-term debt share,2016-2022,277,0.308
+TR,short-term debt share,2019-2022,417,0.399
+TR,debt to assets,2016-2019,357,0.779
+TR,debt to assets,2016-2022,357,0.61
+TR,debt to assets,2019-2022,467,0.687
