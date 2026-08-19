@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - text: ⚠
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content":
+        - /url: "#screen-reader-main-content"
+      - link "Skip to article":
+        - /url: "#screen-reader-main-title"
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - link "ScienceDirect home page" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=e12]
+          - generic [ref=e21]:
+            - navigation "links" [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - link "Journals & Books" [ref=e25] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+            - navigation "utilities" [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - button "Help" [ref=e33] [cursor=pointer]
+                - listitem [ref=e37]:
+                  - button "Search" [ref=e39] [cursor=pointer]
+          - link "My account" [ref=e44] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2214845026000578&from=globalheader
+          - link "Sign in" [ref=e48] [cursor=pointer]:
+            - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2214845026000578
+      - main [ref=e52]:
+        - region "Download options and search" [ref=e54]:
+          - list "PDF Options" [ref=e56]:
+            - listitem [ref=e57]:
+              - link "View PDF. Opens in a new window." [ref=e58] [cursor=pointer]:
+                - /url: /science/article/pii/S2214845026000578/pdfft?md5=ec5adeaece61415b51e5a13b67565fc4&pid=1-s2.0-S2214845026000578-main.pdf
+                - generic [ref=e66]:
+                  - text: View
+                  - strong [ref=e67]: PDF
+            - listitem [ref=e68]:
+              - button "Download full issue" [ref=e69] [cursor=pointer]
+        - generic [ref=e72]:
+          - navigation "Table of contents" [ref=e73]
+          - article [ref=e74]:
+            - generic [ref=e75]:
+              - link [ref=e77] [cursor=pointer]:
+                - /url: /journal/borsa-istanbul-review
+                - img "Society Logo" [ref=e80]
+              - generic [ref=e81]:
+                - heading [level=2] [ref=e82]:
+                  - link "Borsa Istanbul Review" [ref=e83] [cursor=pointer]:
+                    - /url: /journal/borsa-istanbul-review
+                - generic [ref=e85]:
+                  - link "Volume 26, Issue 4" [ref=e86] [cursor=pointer]:
+                    - /url: /journal/borsa-istanbul-review/vol/26/issue/4
+                  - text: ", July 2026, 100837"
+              - link "Homepage for Borsa Istanbul Review" [ref=e89] [cursor=pointer]:
+                - /url: /journal/borsa-istanbul-review/vol/26/issue/4
+                - img "Borsa Istanbul Review" [ref=e92]
+            - heading [level=1] [ref=e93]:
+              - text: "Monetary tightening and corporate default risk: Evidence from floating-rate debt exposure"
+              - link "☆" [ref=e94] [cursor=pointer]:
+                - /url: "#aep-article-footnote-id3"
+              - text: ","
+              - link "☆☆" [ref=e96] [cursor=pointer]:
+                - /url: "#aep-article-footnote-id4"
+            - generic [ref=e98]:
+              - generic [ref=e101]:
+                - generic [ref=e102]: Author links open overlay panel
+                - button "Aykut Şengül aCorrespondence author iconAuthor email or social media contact details icon" [ref=e103] [cursor=pointer]:
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: Aykut Şengül
+                    - superscript [ref=e108]: a
+                    - img "Correspondence author icon" [ref=e109]
+                    - img "Author email or social media contact details icon" [ref=e111]
+                - text: ","
+                - button "Levent Çi̇nko a bAuthor email or social media contact details icon" [ref=e113] [cursor=pointer]:
+                  - generic [ref=e115]:
+                    - generic [ref=e116]: Levent Çi̇nko
+                    - superscript [ref=e118]: a
+                    - superscript [ref=e120]: b
+                    - img "Author email or social media contact details icon" [ref=e121]
+              - button "Show more" [ref=e123] [cursor=pointer]
+              - generic [ref=e127]:
+                - button "Add to Mendeley" [ref=e128] [cursor=pointer]
+                - button "Share" [ref=e135] [cursor=pointer]
+                - button "Cite" [ref=e142] [cursor=pointer]
+            - generic [ref=e146]:
+              - link "Persistent link using digital object identifier" [ref=e147] [cursor=pointer]:
+                - /url: https://doi.org/10.1016/j.bir.2026.100837
+                - generic [ref=e148]:
+                  - text: https://doi.org/10.1016/j.bir.2026.100837
+                  - img "Opens in new window" [ref=e149]
+              - link [ref=e151] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S2214845026000578&orderBeanReset=true
+                - generic [ref=e152]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=e153]
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - text: Under a Creative Commons
+                - link [ref=e157] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+                  - generic [ref=e158]:
+                    - text: license
+                    - img "Opens in new window" [ref=e159]
+              - generic [ref=e161]: Open access
+            - generic [ref=e165]:
+              - heading "Abstract" [level=2] [ref=e166]
+              - generic [ref=e167]: "This paper provides causal estimates of how balance-sheet exposure to floating-rate debt transmits monetary tightening into corporate default risk. Leveraging the June 2023 policy shift in Türkiye and a large administrative dataset, we employ a two-part Double Machine Learning framework to disentangle selection from causation, distinguishing between the extensive margin of exposure and the intensive-margin effects. We find that while the average effect is modest, indicating aggregate resilience, treatment effects are markedly heterogeneous and economically significant for a vulnerable subset. Sensitivity is concentrated in firms with weak internal risk ratings, low liquidity, and high exposure shares, whereas exporters and manufacturers are relatively insulated. This relative resilience is consistent with standard transmission mechanisms: exporters and manufacturing firms are more likely to generate foreign-currency revenues and benefit from exchange-rate pass-through, while their working capital cycles and pricing structures allow for partial absorption of higher interest expenses, attenuating the balance-sheet impact of monetary tightening. Moving beyond estimation, we introduce 'explainable heterogeneity' by applying SHAP analysis to causal forest estimates, thereby transparently mapping firm traits to causal sensitivity."
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - button "Previous article in issue" [disabled] [ref=e171]
+              - listitem [ref=e176]:
+                - button "Next article in issue" [disabled] [ref=e177]
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - heading "Keywords" [level=2] [ref=e184]
+                - generic [ref=e185]: Corporate default;
+                - generic [ref=e186]: Double machine learning;
+                - generic [ref=e187]: Causal forests;
+                - generic [ref=e188]: Explainable AI;
+                - generic [ref=e189]: Treatment effect heterogeneity;
+                - generic [ref=e190]: Emerging markets
+              - generic [ref=e191]:
+                - heading "JEL classification" [level=2] [ref=e192]
+                - generic [ref=e193]: C21;
+                - generic [ref=e194]: C38;
+                - generic [ref=e195]: E52;
+                - generic [ref=e196]: G21;
+                - generic [ref=e197]: G33
+            - generic [ref=e198]: Loading...
+            - region "Cited by" [ref=e200]:
+              - heading "Cited by (0)" [level=2] [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - term [ref=e206]:
+                  - link [ref=e207] [cursor=pointer]:
+                    - /url: "#baep-article-footnote-id3"
+                    - superscript [ref=e210]: ☆
+                - definition [ref=e211]:
+                  - generic [ref=e212]: "Derived from the unpublished doctoral dissertation titled “Credit Risk within the Framework of Traditional and Modern Risk Management: The Application of Hybrid Machine Learning Models for Consumer and Commercial Loans”."
+              - generic [ref=e213]:
+                - term [ref=e214]:
+                  - link [ref=e215] [cursor=pointer]:
+                    - /url: "#baep-article-footnote-id4"
+                    - superscript [ref=e218]: ☆☆
+                - definition [ref=e219]:
+                  - generic [ref=e220]: The views expressed in this paper are solely those of the authors and do not represent the views of the Central Bank of the Republic of Türkiye.
+            - generic [ref=e221]: Copyright © 2026 Borsa İstanbul Anonim Şirketi. Published by Elsevier B.V.
+          - complementary "Related content" [ref=e223]:
+            - generic [ref=e224]:
+              - button [expanded] [ref=e226] [cursor=pointer]:
+                - heading "Recommended articles" [level=2] [ref=e229]
+              - generic [ref=e232]: Loading...
+    - contentinfo [ref=e234]:
+      - link "Elsevier home page (opens in a new tab)" [ref=e236] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=e237]
+      - generic [ref=e238]:
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link [ref=e242] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=e243]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=e244]
+          - listitem [ref=e246]:
+            - link "Remote access" [ref=e247] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2214845026000578
+          - listitem [ref=e249]:
+            - link [ref=e250] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=e251]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=e252]
+          - listitem [ref=e254]:
+            - link [ref=e255] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=e256]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=e257]
+          - listitem [ref=e259]:
+            - link [ref=e260] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=e261]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=e262]
+          - listitem [ref=e264]:
+            - button "Cookie settings" [ref=e265] [cursor=pointer]
+        - paragraph [ref=e266]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=e268] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=e269]
