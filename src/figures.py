@@ -73,11 +73,20 @@ def dose_response_figure():
     tab = aggregate_dose_response(df)
     tab = tab.dropna(subset=["rate_change_pp"])
 
-    fig, ax = plt.subplots(figsize=(4.6,3.6))
+    fig, ax = plt.subplots(figsize=(5.4,4.2))
     ax.scatter(tab.dose_pp, tab.rate_change_pp, s=28, color="#1f4e79", zorder=3)
-    for _,r in tab.iterrows():
+    # Manual offsets: several countries cluster tightly between 2.5 and 7.25pp
+    # dose, so a fixed offset would overlap. Alternate direction and stagger
+    # distance for the crowded cluster.
+    OFFSETS = {
+        "TR": (6, 2),   "HU": (7, -2),  "CL": (7, 4),   "BR": (7, -9),
+        "MX": (-28, 10), "PL": (10, -16), "IL": (-30, 12),
+        "KR": (-30, -6), "VN": (-8, 10),
+    }
+    for _, r in tab.iterrows():
+        dx, dy = OFFSETS.get(r.country, (5, 3))
         ax.annotate(r.country, (r.dose_pp, r.rate_change_pp),
-                    textcoords="offset points", xytext=(5,3), fontsize=7.5)
+                    textcoords="offset points", xytext=(dx, dy), fontsize=7.5)
     b = np.polyfit(tab.dose_pp, tab.rate_change_pp, 1)
     xs = np.linspace(tab.dose_pp.min(), tab.dose_pp.max(), 50)
     ax.plot(xs, np.polyval(b, xs), "--", color="#c0504d", lw=1.1, zorder=2)
