@@ -79,7 +79,7 @@ def dose_response_figure():
     # dose, so a fixed offset would overlap. Alternate direction and stagger
     # distance for the crowded cluster.
     OFFSETS = {
-        "TR": (6, 2), "PL": (9, 8), "IL": (9, -10), "KR": (-28, 4), "VN": (-8, 8),
+        "TR": (6, 2), "PL": (9, 8), "IL": (9, -10), "KR": (8, 8), "VN": (8, -12),
     }
     for _, r in tab.iterrows():
         dx, dy = OFFSETS.get(r.country, (5, 3))

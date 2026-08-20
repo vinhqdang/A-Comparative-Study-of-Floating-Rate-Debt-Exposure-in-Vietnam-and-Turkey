@@ -26,7 +26,25 @@ PROC = ROOT/"data"/"processed"; RES = ROOT/"results"; RES.mkdir(exist_ok=True)
 # Mexico dropped -- the latter two for having fewer firms, 23 and 19,
 # than the 83-firm Turkish sample already shown to produce a false
 # positive; Brazil and Chile dropped to hold the set to five).
-DOSE = {"TR":33.50, "VN":0.80, "PL":5.00, "IL":4.65, "KR":2.50}
+#
+# Dose = policy (or, for Vietnam, lending) rate at end-2021 to the TRUE
+# maximum reached at any point 2022 onward -- not the year-end value in
+# whichever year that maximum happened to occur. This distinction bound
+# TR: BIS monthly data shows CBRT held 50.0% from March through November
+# 2024, cut to 47.5% only in December; a year-end-only series (which an
+# earlier version of this script used) silently reports the December
+# figure and mislabels it "the peak," understating the true dose by
+# nearly 3pp. Verified against BIS WS_CBPOL monthly series for TR/PL/IL/
+# KR (2021-2025) and the World Bank lending-rate annual series for VN
+# (no BIS policy-rate series exists for Vietnam). PL/IL/KR's true peaks
+# happen to coincide with a year-end reading, so only TR and VN's values
+# changed from an earlier, year-end-only computation of this table.
+#   TR: 14.00 (2021-12) -> 50.00 (2024-03, held through 2024-11) = 36.00
+#   VN: 7.811 (2021)    -> 9.323 (2023, WB series ends there)     = 1.51
+#   PL: 1.75  (2021-12) -> 6.75  (2022-09)                        = 5.00
+#   IL: 0.10  (2021-12) -> 4.75  (2023-05)                        = 4.65
+#   KR: 1.00  (2021-12) -> 3.50  (2023-01)                        = 2.50
+DOSE = {"TR":36.00, "VN":1.51, "PL":5.00, "IL":4.65, "KR":2.50}
 
 
 def _w(s):
