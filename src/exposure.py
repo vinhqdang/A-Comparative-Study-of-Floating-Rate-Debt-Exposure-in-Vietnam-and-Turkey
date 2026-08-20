@@ -41,13 +41,30 @@ MIN_OBS = 6
 
 
 def fx_series() -> pd.DataFrame:
+    """Annual FX rates from Yahoo Finance.
+
+    Yahoo's VND=X series carries a single corrupted observation at end-2016
+    (2.33 instead of approximately 22,000 -- evidently a bad tick, since VND
+    was flat at roughly 22,000-22,400 through 2015-2017 and the Turkish lira
+    series over the same window has no comparable discontinuity). A value
+    implausible relative to both neighbouring years is replaced by linear
+    interpolation rather than silently propagated into a log-difference,
+    which would otherwise produce a spurious +-900% swing in the FX beta
+    regression for one year and its reversal the next.
+    """
     import yfinance as yf
     out = []
     for pair, country in (("VND=X", "VN"), ("TRY=X", "TR")):
         h = yf.Ticker(pair).history(start="2009-01-01", interval="1mo")
         a = h["Close"].resample("YE").last()
+        a.index = a.index.year
+        a = a.sort_index()
+        for yr in a.index[1:-1]:
+            prev, cur, nxt = a.loc[yr - 1], a.loc[yr], a.loc[yr + 1]
+            if cur < 0.5 * min(prev, nxt) or cur > 2.0 * max(prev, nxt):
+                a.loc[yr] = (prev + nxt) / 2
         out.append(pd.DataFrame({"country": country,
-                                 "year": a.index.year,
+                                 "year": a.index,
                                  "fx": a.values}))
     return pd.concat(out, ignore_index=True)
 

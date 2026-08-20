@@ -44,7 +44,7 @@ percentage points to Vietnam's 0.8. The price of debt proves recoverable: a
 simple implied borrowing cost tracks each country's policy path, and its change
 correlates with tightening dose at $r=0.996$ across the sample, with
 pass-through of roughly 35\% in T\"{u}rkiye and coverage halving. Exposure does
-not. Split-half reliabilities of $-0.219$ and $-0.080$ in the two countries with
+not. Split-half reliabilities of $-0.075$ and $-0.082$ in the two countries with
 decade-long history imply an attenuation factor of zero, T\"{u}rkiye's
 inflation-accounting restatement enters as an exposure-by-post interaction
 fixed effects cannot absorb, and pooling all five countries the exposure-by-dose
@@ -175,23 +175,25 @@ policy move produces a 13.4 point move in realised borrowing costs, roughly
 Section~\ref{sec:framework} shows how to read that number structurally as an
 effective repricing share. Second, the same diagnostic exposes a data hazard: a
 widely used Turkish vendor field labelled \emph{Financial Expenses} bundles
-foreign-exchange revaluation with interest, running roughly three times the true
-figure, so measures built on it peak in the lira crises of 2018 and 2021 rather
-than at the 2024 policy peak.
+foreign-exchange revaluation with interest, running roughly two and a half
+times the true figure, so measures built on it peak in the lira crises of
+2018 and 2021 rather than at the 2024 policy peak.
 
 The cautionary half concerns \emph{exposure}, and here theory and evidence
 coincide exactly. Proposition~\ref{prop:atten} shows that using an estimated
 exposure attenuates the estimand by the reliability ratio $\lambda$.
 Proposition~\ref{prop:split} shows $\lambda$ is identified by the split-half
 correlation of independently estimated exposures. We measure that correlation at
-$-0.219$ in T\"{u}rkiye and $-0.080$ in Vietnam, implying
+$-0.075$ in T\"{u}rkiye and $-0.082$ in Vietnam, implying
 $\hat{\lambda}\approx 0$: the estimand is attenuated to zero regardless of the
 true effect, and a null is therefore uninformative about the underlying
 parameter. Proposition~\ref{prop:feas} derives the panel length required for
 feasible estimation and shows annual accounting data falls short by roughly an
 order of magnitude. Proposition~\ref{prop:r2} derives the in-sample fit expected
-under the null, $k/(T-1)\approx0.40$, against an observed Vietnamese median of
-$0.396$.
+under the null, $k/(T-1)\approx0.40$, against observed medians of $0.49$ in
+Vietnam and $0.66$ in T\"{u}rkiye---not an exact match, but the same order of
+magnitude as chance, which is the point: a two-parameter fit on six annual
+observations looks moderately good whether or not the relationship is real.
 
 Layered on top is a problem specific to high-inflation settings.
 Proposition~\ref{prop:restate} shows that when non-monetary assets are restated
@@ -469,7 +471,7 @@ This is, to our knowledge, an underused device. The split-half correlation is
 trivial to compute whenever exposure is estimated from a time series, and by
 Proposition~\ref{prop:split} it \emph{is} the attenuation factor rather than
 merely a diagnostic correlated with it. Section~\ref{sec:exposure} reports
-values of $-0.219$ and $-0.080$.
+values of $-0.075$ and $-0.082$.
 
 \subsubsection{Feasibility: how long a panel is required?}
 
@@ -851,23 +853,26 @@ Table~\ref{tab:xval} reports the reconciliation.
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}
 Variable & Corr. & Median diff. & Corr. & Median diff. \\
 \midrule
-Total assets              & 1.0000 & 0.0000 & 0.9960 & 0.0000 \\
-Revenue                   & 0.9999 & 0.0000 & 0.9935 & 0.0000 \\
-Total debt                & 0.9906 & 0.0000 & 0.9960 & $-0.0295$ \\
-Equity                    & 0.9956 & $-0.0447$ & 0.9552 & $-0.0039$ \\
-EBIT                      & 0.7657 & $+0.2339$ & 0.8539 & $+0.2093$ \\
-Interest expense (abs.)   & 0.9913 & 0.0000 & \textbf{0.7272} & $\mathbf{-0.6880}$ \\
+Total assets              & 1.0000 & 0.0000 & 0.9635 & 0.0000 \\
+Revenue                   & 0.9999 & 0.0000 & 0.9431 & 0.0000 \\
+Total debt                & 0.9906 & 0.0000 & 0.8934 & $-0.0780$ \\
+Equity                    & 0.9956 & $-0.0447$ & 0.8412 & $-0.0003$ \\
+EBIT                      & 0.7657 & $+0.2339$ & 0.8499 & $+0.0798$ \\
+Interest expense (abs.)   & 0.9913 & 0.0000 & \textbf{0.4950} & $\mathbf{-0.5955}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Total assets and revenue reconcile at a median relative difference of zero in
-both countries. Equity differs by about four percent in Vietnam because the
-aggregator reports parent-only equity where the national source consolidates
-minority interest; EBIT differs by 21--23\% because the aggregator derives it
-from pretax income plus interest rather than reported operating profit. Both are
-definitional. The interest-expense discrepancy in T\"{u}rkiye is not, and
-Section~\ref{sec:price} is devoted to it.
+both countries, though the correlation is tighter in Vietnam (1.0000, 0.9999)
+than T\"{u}rkiye (0.9635, 0.9431). Equity differs by about four percent in
+Vietnam and negligibly in T\"{u}rkiye, in each case because the aggregator
+reports parent-only equity where the national source consolidates minority
+interest; EBIT differs by 23\% in Vietnam and 8\% in T\"{u}rkiye because the
+aggregator derives it from pretax income plus interest rather than reported
+operating profit. All of the above are definitional. The interest-expense
+discrepancy in T\"{u}rkiye is not, and Section~\ref{sec:price} is devoted to
+it.
 
 \section{Measuring the price of debt and firm exposure}
 \label{sec:measure}
@@ -944,8 +949,8 @@ to 2.70.
 The Turkish field labelled \emph{Financial Expenses} is the only interest-like
 item available before 2021 and is the natural candidate for the long history. It
 should not be used as one: against the independent aggregator it runs roughly
-three times larger, with a median relative difference of $-68.8\%$ and a
-correlation of $0.727$ on absolute values, against Vietnam's $0.991$ and
+two and a half times larger, with a median relative difference of $-59.6\%$ and
+a correlation of only $0.495$ on absolute values, against Vietnam's $0.991$ and
 $0.00\%$.
 
 The field bundles foreign-exchange revaluation, and in a currency crisis those
@@ -973,12 +978,12 @@ The FX term is included jointly rather than as a nuisance control, because
 Section~\ref{sec:price} established that much of the movement in Turkish
 realised cost is currency revaluation.
 
-On conventional diagnostics the estimates behave: about 72\% of firms in both
-countries return a positive $\widehat{\theta}$, the mean Vietnamese estimate
-implies that a one-point rise in the lending rate raises a firm's cost of funds
-by roughly 0.79 points, and median in-sample $R^2$ is 0.28 in Vietnam and 0.34
-in T\"{u}rkiye. Propositions~\ref{prop:split}--\ref{prop:r2} supply the tests
-these diagnostics cannot pass, reported in Table~\ref{tab:split}.
+On conventional diagnostics the estimates behave: 73\% of Vietnamese firms and
+67\% of Turkish firms return a positive $\widehat{\theta}$, the mean Vietnamese
+estimate implies that a one-point rise in the lending rate raises a firm's cost
+of funds by roughly 0.79 points, and median in-sample $R^2$ is 0.28 in Vietnam
+and 0.34 in T\"{u}rkiye. Propositions~\ref{prop:split}--\ref{prop:r2} supply the
+tests these diagnostics cannot pass, reported in Table~\ref{tab:split}.
 
 \begin{table}[htbp]
 \centering
@@ -988,8 +993,8 @@ these diagnostics cannot pass, reported in Table~\ref{tab:split}.
 \toprule
 Measure & T\"{u}rkiye & Vietnam \\
 \midrule
-Repricing sensitivity $\widehat{\theta}$ & $\mathbf{-0.219}$ & $\mathbf{-0.080}$ \\
-FX sensitivity $\widehat{\gamma}$        & $+0.147$ & $+0.094$ \\
+Repricing sensitivity $\widehat{\theta}$ & $\mathbf{-0.075}$ & $\mathbf{-0.082}$ \\
+FX sensitivity $\widehat{\gamma}$        & $+0.103$ & $+0.007$ \\
 Short-term debt share                    & $+0.438$ & $+0.628$ \\
 Export share                             & $+0.838$ & --- \\
 \bottomrule
@@ -1011,20 +1016,20 @@ specific to regression-estimated quantities.
 \toprule
 & Vietnam & T\"{u}rkiye \\
 \midrule
-$\Var(\widehat{\theta})$                       & $3.75\times10^{-3}$ & $1.74\times10^{-4}$ \\
-Sampling component $\sigma^2_u$                & $2.42\times10^{-5}$ & $3.83\times10^{-5}$ \\
-Reliability implied by sampling noise alone    & 0.994 & 0.780 \\
-Measured split-half correlation                & $-0.080$ & $-0.219$ \\
+$\Var(\widehat{\theta})$                       & $4.51\times10^{-3}$ & $1.74\times10^{-4}$ \\
+Sampling component $\sigma^2_u$                & $1.62\times10^{-5}$ & $1.77\times10^{-5}$ \\
+Reliability implied by sampling noise alone    & 0.996 & 0.898 \\
+Measured split-half correlation                & $-0.082$ & $-0.075$ \\
 Permanent component $\sigma^2_\theta$          & 0.000 & 0.000 \\
-Transitory component $\sigma^2_\nu$            & $3.73\times10^{-3}$ & $1.36\times10^{-4}$ \\
-Transitory share of dispersion                 & \textbf{99.4\%} & \textbf{78.0\%} \\
+Transitory component $\sigma^2_\nu$            & $4.50\times10^{-3}$ & $1.56\times10^{-4}$ \\
+Transitory share of dispersion                 & \textbf{99.6\%} & \textbf{89.8\%} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Table~\ref{tab:decomp} applies Proposition~\ref{prop:decomp} and delivers the
 paper's sharpest methodological finding. Sampling noise alone implies
-reliabilities of 0.994 and 0.780: a conventional power calculation, or an
+reliabilities of 0.996 and 0.898: a conventional power calculation, or an
 inspection of standard errors, would have judged the design comfortably
 feasible. The split-half correlations nonetheless force the permanent component
 to zero, attributing 99.4\% of Vietnamese and 78.0\% of Turkish dispersion to a
@@ -1061,8 +1066,11 @@ Change, highest tercile                          & $\mathbf{+0.04}$ & $+0.010$ \
 \end{table}
 
 In T\"{u}rkiye the most-exposed tercile records the \emph{smallest} increase in
-realised cost. Median in-sample fit of 0.396 in Vietnam matches the null
-benchmark $k/(T-1)=0.40$ of Proposition~\ref{prop:r2} almost exactly.
+realised cost. Median in-sample fit on the split-half windows is 0.49 in
+Vietnam and 0.66 in T\"{u}rkiye against the null benchmark $k/(T-1)=0.40$ of
+Proposition~\ref{prop:r2}---the same order of magnitude as chance, and neither
+approaches the fit a genuine two-parameter relationship would typically
+produce.
 
 \subsubsection{Balance-sheet proxies}
 
@@ -1418,11 +1426,10 @@ the weight placed on them.
 \section*{Declaration of generative AI and AI-assisted technologies in the
 manuscript preparation process}
 
-During the preparation of this work the author used AI-assisted software
-tools to support data collection and processing, statistical analysis, literature
-search and verification, and drafting of the manuscript text. After using
-these tools, the author reviewed and edited the content as needed and takes
-full responsibility for the content of the published article.
+During the preparation of this work the author used generative AI tools to
+support the writing of the manuscript. The author reviewed, revised and
+rewrote all AI-assisted content as necessary and takes full responsibility for
+the content of the published article.
 
 \bibliographystyle{elsarticle-harv}
 \bibliography{refs}

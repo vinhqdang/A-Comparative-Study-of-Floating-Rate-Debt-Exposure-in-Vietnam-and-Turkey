@@ -40,6 +40,11 @@ def compare(national: pd.DataFrame, yahoo: pd.DataFrame, label: str) -> pd.DataF
         a, b = m.get(f"{f}_nat"), m.get(f"{f}_yh")
         if a is None or b is None:
             continue
+        # Interest expense uses opposite sign conventions across sources
+        # (one reports it as a negative flow, the other positive); comparing
+        # magnitudes is the meaningful test, so take absolute values only here.
+        if f == "interest_expense":
+            a, b = a.abs(), b.abs()
         ok = a.notna() & b.notna() & (a != 0) & (b != 0)
         if ok.sum() < 5:
             continue
