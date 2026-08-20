@@ -45,8 +45,9 @@ Vietnam's 1.5. The price of debt proves recoverable: a
 simple implied borrowing cost tracks each country's policy path, and its change
 correlates with tightening dose at $r=0.995$ across the sample, with
 pass-through of roughly one-third in T\"{u}rkiye and coverage halving. Exposure does
-not. Split-half reliabilities of $-0.075$ and $-0.082$ in the two countries with
-decade-long history imply an attenuation factor of zero, T\"{u}rkiye's
+not. Split-half reliabilities of $+0.045$ and $+0.054$ in the two countries with
+decade-long history are indistinguishable from zero, implying an attenuation
+factor of essentially zero, T\"{u}rkiye's
 inflation-accounting restatement enters as an exposure-by-post interaction
 fixed effects cannot absorb, and pooling all five countries the exposure-by-dose
 interaction is null on interest coverage and profitability ($p=0.84$,
@@ -119,18 +120,26 @@ is right to ask whether either country's null is idiosyncratic. We therefore
 extend the design to three further emerging markets---Poland, Israel and South
 Korea---spanning tightening doses of 5.0, 4.65 and 2.5 percentage points and
 chosen, among a broader set of markets assembled during scoping, for the
-largest and most reliable firm counts.\footnote{Two further markets, Brazil
-and Chile, were assembled on the same basis and are not carried into the
-reported five-country test. Chile (7.25pp dose, 80 firms) sits squarely on the
-same dose-response line as the five reported countries; its exclusion is for
-parsimony alone. Brazil (5.75pp dose, 215 firms) is the one clear outlier in
-the full assembled set, with a change in implied borrowing cost of only 0.48
-percentage points against a pass-through ratio roughly a quarter of every
-other country's---0.48/5.75 against a range of 0.16 to 0.62 elsewhere. We
-report this so the reader can judge for themselves: the five-country
-correlation below is not conditioned on having found and discarded an
-inconvenient point after the fact, but its absence should be read as a
-reduction in scope, not as evidence that Brazil disproves the pattern.}
+largest and most reliable firm counts.\footnote{Four further markets were
+assembled on the same basis during scoping and are not carried into the
+reported five-country test, and we name all four rather than a convenient
+subset. Chile (7.25pp dose, 80 firms) sits squarely on the same dose-response
+line as the five reported countries; its exclusion is for parsimony alone.
+Brazil (5.75pp dose, 215 firms) is the one clear outlier in the full assembled
+set, with a change in implied borrowing cost of only 0.48 percentage points
+against a pass-through ratio roughly a quarter of every other country's---
+0.48/5.75 against a range of 0.16 to 0.62 elsewhere. We report this so the
+reader can judge for themselves: the five-country correlation below is not
+conditioned on having found and discarded an inconvenient point after the
+fact, but its absence should be read as a reduction in scope, not as evidence
+that Brazil disproves the pattern. Hungary (24 firms) and Mexico (19 firms)
+were excluded for the reason given in the text: samples thinner than the
+83-firm Turkish sample already shown, in Section~\ref{sec:robust}, to produce
+a false positive before the sample expanded. A sixth market, Thailand, was
+attempted on the same basis and yielded no usable data at all---every ticker
+returned an empty statement, evidently a data-vendor outage rather than a
+substantive gap---and is recorded here for completeness rather than omitted
+from the account of what was tried.}
 Across the five countries the change in
 implied borrowing cost correlates with tightening dose at $r=0.995$
 (Section~\ref{sec:dose}), and the exposure-by-dose interaction is null on
@@ -186,14 +195,14 @@ coincide exactly. Proposition~\ref{prop:atten} shows that using an estimated
 exposure attenuates the estimand by the reliability ratio $\lambda$.
 Proposition~\ref{prop:split} shows $\lambda$ is identified by the split-half
 correlation of independently estimated exposures. We measure that correlation at
-$-0.075$ in T\"{u}rkiye and $-0.082$ in Vietnam, implying
+$+0.045$ in T\"{u}rkiye and $+0.054$ in Vietnam, implying
 $\hat{\lambda}\approx 0$: the estimand is attenuated to zero regardless of the
 true effect, and a null is therefore uninformative about the underlying
 parameter. Proposition~\ref{prop:feas} derives the panel length required for
 feasible estimation and shows annual accounting data falls short by roughly an
 order of magnitude. Proposition~\ref{prop:r2} derives the in-sample fit expected
-under the null, $k/(T-1)\approx0.40$, against observed medians of $0.49$ in
-Vietnam and $0.66$ in T\"{u}rkiye---not an exact match, but the same order of
+under the null, $k/(T-1)\approx0.50$, against observed medians of $0.66$ in
+Vietnam and $0.71$ in T\"{u}rkiye---not an exact match, but the same order of
 magnitude as chance, which is the point: a two-parameter fit on six annual
 observations looks moderately good whether or not the relationship is real.
 
@@ -234,7 +243,7 @@ and we give them a formal justification.
 \label{sec:lit}
 
 \subsection{Related literature}
-\label{sec:lit}
+\label{sec:relatedlit}
 
 
 \subsubsection{Firm heterogeneity in monetary transmission}
@@ -473,7 +482,7 @@ This is, to our knowledge, an underused device. The split-half correlation is
 trivial to compute whenever exposure is estimated from a time series, and by
 Proposition~\ref{prop:split} it \emph{is} the attenuation factor rather than
 merely a diagnostic correlated with it. Section~\ref{sec:exposure} reports
-values of $-0.075$ and $-0.082$.
+values of $+0.045$ and $+0.054$.
 
 \subsubsection{Feasibility: how long a panel is required?}
 
@@ -515,12 +524,13 @@ $\sigma^2_\theta/(\sigma^2_\theta+\sigma^2_u)\ge\lambda^{*}$ for $T$.
 
 Every quantity on the right is estimable, so \eqref{eq:feas} can be taken to
 data. When we do so in Section~\ref{sec:exposure} the condition is comfortably
-satisfied: sampling noise implies $\lambda\approx0.99$ in Vietnam and $0.78$ in
+satisfied: sampling noise implies $\lambda\approx0.923$ in Vietnam and $0.664$ in
 T\"{u}rkiye, and a conventional power calculation would have judged the design
 feasible at the available panel length.
 
-That verdict is contradicted by the split-half correlations, which are zero or
-negative. The contradiction is informative, and resolving it requires enriching
+That verdict is contradicted by the split-half correlations, which are close to
+zero (Section~\ref{sec:exposure} reports $+0.054$ and $+0.045$). The
+contradiction is informative, and resolving it requires enriching
 \eqref{eq:proxy}.
 
 \subsubsection{Permanent, transitory and sampling components}
@@ -565,10 +575,10 @@ Proposition~\ref{prop:decomp} separates two failure modes that are easily
 conflated. \emph{Imprecision} ($\sigma^2_u$ large) is remediable by more data.
 \emph{Impermanence} ($\sigma^2_\nu$ large) is not: no amount of additional data
 makes a transitory quantity a usable pre-determined regressor. The empirical
-decomposition in Section~\ref{sec:exposure} attributes 99.4\% of Vietnamese and
-78.0\% of Turkish dispersion in estimated slopes to the transitory component and
-none to the permanent one---so the binding problem is impermanence, and
-quarterly estimation would not solve it.
+decomposition in Section~\ref{sec:exposure} attributes 94.6\% of Vietnamese and
+95.5\% of Turkish dispersion in estimated slopes to the transitory component and
+only a small remainder to the permanent one---so the binding problem is
+impermanence, and quarterly estimation would not solve it.
 
 \subsubsection{In-sample fit is not evidence}
 
@@ -593,9 +603,10 @@ independent $\chi^2$ variates with $k$ and $T-k-1$ degrees of freedom, so their
 normalised ratio is Beta distributed with the stated parameters, whose mean is
 $k/(T-1)$. \end{proof}
 
-With $k=2$ and a median of $T=6$ usable observations, $\E[R^2]=0.40$. Any
-reported fit near this value is uninformative. Section~\ref{sec:exposure}
-reports an observed Vietnamese median of $0.396$.
+With $k=2$ and a median of $T=5$ usable observations on the split-half windows
+this benchmark defines, $\E[R^2]=0.50$. Any reported fit near this value is
+uninformative. Section~\ref{sec:exposure} reports observed medians of $0.66$ in
+Vietnam and $0.71$ in T\"{u}rkiye.
 
 \subsubsection{Inflation restatement as an exposure-by-post confound}
 
@@ -748,7 +759,7 @@ items are restated to period-end purchasing power by a factor common across
 firms within a period, which is the condition of Proposition~\ref{prop:flow}.
 
 \subsection{Data}
-\label{sec:data}
+\label{sec:dataonly}
 
 
 \subsubsection{Sources and construction}
@@ -761,9 +772,9 @@ Yahoo Finance directly: ticker universes are enumerated per exchange via the
 TradingView screener, restricted to non-financial sectors, and statements
 retrieved as in the validation exercise of Section~\ref{sec:measure}. Yahoo
 retains only four to five annual periods, so these three support the aggregate
-dose-response test of Section~\ref{sec:results} but not the decade-long
-event-study test Section~\ref{sec:results} also requires for T\"{u}rkiye and
-Vietnam; and by the feasibility condition of Section~\ref{sec:lit}, a
+dose-response test of Section~\ref{sec:dose} but not the decade-long
+event-study test Section~\ref{sec:mainresults} also requires for T\"{u}rkiye and
+Vietnam; and by the feasibility condition of Section~\ref{sec:framework}, a
 four-year window is in any case well short of what firm-level
 repricing-sensitivity estimation needs, so no attempt is made to extend the
 beta estimation of Section~\ref{sec:measure} to them.
@@ -792,6 +803,29 @@ as the exchange admits new listings over the sample, while Vietnamese coverage
 is near-complete from 2015. Because identification uses within-firm variation
 with firm fixed effects, this entry does not bias the estimates, though earlier
 years rest on a smaller Turkish cross-section.
+
+Entry is not the whole story, and we state the remaining threat plainly
+rather than let the firm-fixed-effects argument above stand in for it. Both
+ticker universes are enumerated from a current listing snapshot: the Turkish
+panel is built by fetching statements for every presently BIST-listed company,
+and the three-country extension similarly enumerates each exchange's current
+constituents. A firm that delisted, was acquired, or failed at any point in
+2010--2025 is therefore absent from the panel not only after its exit but in
+every year it was ever observed, since it was never fetched in the first
+place. This is a materially different problem from the balanced-panel
+question fixed effects answer: an unbalanced panel with random entry and exit
+is unbiased under within-firm estimation, but non-random attrition---firms
+disappearing \emph{because} of the shock we study---is not, and firm fixed
+effects do nothing to correct for a firm never entering the sample to begin
+with. For a paper whose outcomes are interest coverage, EBIT margin and debt
+growth under a severe monetary tightening, the firms most likely to have
+failed \emph{because of} that tightening are exactly the ones a
+current-snapshot ticker universe is least likely to include. We do not have a
+correction for this and flag it as an open limitation: the null we report
+describes the population of firms that survived to be listed as of data
+collection, and if distress-driven delisting is correlated with exposure, the
+true cross-sectional gradient among firms that failed could differ from what
+we estimate among firms that did not.
 
 \begin{table}[htbp]
 \centering
@@ -991,35 +1025,43 @@ The FX term is included jointly rather than as a nuisance control, because
 Section~\ref{sec:price} established that much of the movement in Turkish
 realised cost is currency revaluation.
 
-On conventional diagnostics the estimates behave: 73\% of Vietnamese firms and
+On conventional diagnostics the estimates behave: 71\% of Vietnamese firms and
 67\% of Turkish firms return a positive $\widehat{\theta}$, the mean Vietnamese
 estimate implies that a one-point rise in the lending rate raises a firm's cost
 of funds by roughly 0.79 points, and median in-sample $R^2$ is 0.28 in Vietnam
-and 0.34 in T\"{u}rkiye. Propositions~\ref{prop:split}--\ref{prop:r2} supply the
+and 0.34 in T\"{u}rkiye on the full 2012--2022 estimation window---a distinct
+quantity from the split-half-window fit of 0.66 and 0.71 reported above and
+in Table~\ref{tab:split} below, since the two are computed on windows of
+different length. Propositions~\ref{prop:split}--\ref{prop:r2} supply the
 tests these diagnostics cannot pass, reported in Table~\ref{tab:split}.
 
 \begin{table}[htbp]
 \centering
 \caption{Split-half reliability of candidate exposure measures}
 \label{tab:split}
+\noindent\footnotesize Each firm's usable years are partitioned into two
+halves 200 times, independently at random; the table reports the
+correlation between the two halves' estimates, averaged across the 200
+partitions, by country. The computation is scripted in full in the
+accompanying replication code.\par\vspace{0.4em}
 \begin{tabular}{lrr}
 \toprule
 Measure & T\"{u}rkiye & Vietnam \\
 \midrule
-Repricing sensitivity $\widehat{\theta}$ & $\mathbf{-0.075}$ & $\mathbf{-0.082}$ \\
-FX sensitivity $\widehat{\gamma}$        & $+0.103$ & $+0.007$ \\
-Short-term debt share                    & $+0.438$ & $+0.628$ \\
-Export share                             & $+0.838$ & --- \\
+Repricing sensitivity $\widehat{\theta}$ & $\mathbf{+0.045}$ & $\mathbf{+0.054}$ \\
+FX sensitivity $\widehat{\gamma}$        & $+0.003$ & $+0.059$ \\
+Short-term debt share                    & $+0.828$ & $+0.903$ \\
+Export share                             & $+0.935$ & --- \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 By Proposition~\ref{prop:split} these correlations \emph{are} the reliability
-ratio $\lambda$. Both are zero or negative, so by
-Corollary~\ref{cor:uninformative} the treatment estimand is attenuated to zero
-and carries no information about $\beta$. The measured balance-sheet
-characteristics in the lower rows behave as stable traits, so the failure is
-specific to regression-estimated quantities.
+ratio $\lambda$. Both are within 0.06 of zero, so by
+Corollary~\ref{cor:uninformative} the treatment estimand is attenuated to
+essentially zero and carries almost no information about $\beta$. The measured
+balance-sheet characteristics in the lower rows behave as far more stable
+traits, so the failure is specific to regression-estimated quantities.
 
 \begin{table}[htbp]
 \centering
@@ -1029,24 +1071,24 @@ specific to regression-estimated quantities.
 \toprule
 & Vietnam & T\"{u}rkiye \\
 \midrule
-$\Var(\widehat{\theta})$                       & $4.51\times10^{-3}$ & $1.74\times10^{-4}$ \\
-Sampling component $\sigma^2_u$                & $1.62\times10^{-5}$ & $1.77\times10^{-5}$ \\
-Reliability implied by sampling noise alone    & 0.996 & 0.898 \\
-Measured split-half correlation                & $-0.082$ & $-0.075$ \\
-Permanent component $\sigma^2_\theta$          & 0.000 & 0.000 \\
-Transitory component $\sigma^2_\nu$            & $4.50\times10^{-3}$ & $1.56\times10^{-4}$ \\
-Transitory share of dispersion                 & \textbf{99.6\%} & \textbf{89.8\%} \\
+$\Var(\widehat{\theta})$                       & $5.25\times10^{-4}$ & $1.30\times10^{-4}$ \\
+Sampling component $\sigma^2_u$                & $4.03\times10^{-5}$ & $4.35\times10^{-5}$ \\
+Reliability implied by sampling noise alone    & 0.923 & 0.664 \\
+Measured split-half correlation                & $+0.054$ & $+0.045$ \\
+Permanent component $\sigma^2_\theta$          & $2.85\times10^{-5}$ & $5.88\times10^{-6}$ \\
+Transitory component $\sigma^2_\nu$            & $4.96\times10^{-4}$ & $1.24\times10^{-4}$ \\
+Transitory share of dispersion                 & \textbf{94.6\%} & \textbf{95.5\%} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Table~\ref{tab:decomp} applies Proposition~\ref{prop:decomp} and delivers the
 paper's sharpest methodological finding. Sampling noise alone implies
-reliabilities of 0.996 and 0.898: a conventional power calculation, or an
+reliabilities of 0.923 and 0.664: a conventional power calculation, or an
 inspection of standard errors, would have judged the design comfortably
-feasible. The split-half correlations nonetheless force the permanent component
-to zero, attributing 99.4\% of Vietnamese and 78.0\% of Turkish dispersion to a
-transitory component.
+feasible. The split-half correlations nonetheless leave almost none of that
+dispersion permanent, attributing 94.6\% of Vietnamese and 95.5\% of Turkish
+dispersion to a transitory component.
 
 The distinction matters for what one should do about it. Imprecision is
 remediable with more data; impermanence is not. A firm's estimated repricing
@@ -1079,8 +1121,8 @@ Change, highest tercile                          & $\mathbf{+0.04}$ & $+0.010$ \
 \end{table}
 
 In T\"{u}rkiye the most-exposed tercile records the \emph{smallest} increase in
-realised cost. Median in-sample fit on the split-half windows is 0.49 in
-Vietnam and 0.66 in T\"{u}rkiye against the null benchmark $k/(T-1)=0.40$ of
+realised cost. Median in-sample fit on the split-half windows is 0.66 in
+Vietnam and 0.71 in T\"{u}rkiye against the null benchmark $k/(T-1)=0.50$ of
 Proposition~\ref{prop:r2}---the same order of magnitude as chance, and neither
 approaches the fit a genuine two-parameter relationship would typically
 produce.
@@ -1173,7 +1215,7 @@ negative-weighting and heterogeneity problems identified by
 pre-trend test statistic.
 
 \subsection{Results}
-\label{sec:results}
+\label{sec:mainresults}
 
 
 \begin{table}[htbp]
@@ -1249,7 +1291,7 @@ The two-country design identifies the exposure gradient cleanly but leaves
 open whether its absence is a T\"{u}rkiye-and-Vietnam idiosyncrasy or a general
 property of listed emerging-market firms. We extend the price validation of
 Section~\ref{sec:measure} and the exposure test of this section to the
-five-country, 2021--2025 sample described in Section~\ref{sec:data}, spanning
+five-country, 2021--2025 sample described in Section~\ref{sec:dataonly}, spanning
 tightening doses from T\"{u}rkiye's 36.0 percentage points to Vietnam's 1.5.
 
 \begin{table}[htbp]
@@ -1308,7 +1350,7 @@ with $E_i$ the pre-period short-term debt share (the only exposure proxy
 constructible on a four-year panel), $\mathrm{Dose}_c$ the country's
 standardised tightening severity, and $\lambda_{ct}$ country-by-year effects.
 If the exposure gradient were real and simply underpowered in
-Section~\ref{sec:results}'s two-country test, $\beta_2$ should be positive and
+Section~\ref{sec:mainresults}'s two-country test, $\beta_2$ should be positive and
 significant on distress outcomes as dose rises. Table~\ref{tab:dosegrad}
 reports the estimates.
 
@@ -1360,7 +1402,7 @@ independently verified, a limitation the two-country panels do not share.
 restricting to 2015--2021 returns nothing for Vietnam: $-0.791$ ($p=0.19$) on
 interest coverage and $+0.004$ ($p=0.51$) on EBIT margin. The design is not
 mechanically generating significance, which supports reading
-Section~\ref{sec:results}'s significant coefficients as genuine pre-existing
+Section~\ref{sec:mainresults}'s significant coefficients as genuine pre-existing
 trends.
 
 \paragraph{Sample-size stability.} The Turkish estimates were computed at three
@@ -1397,8 +1439,8 @@ cross-section; this test is what exposed the bundled-expense problem.
 Proposition~\ref{prop:split} it is the attenuation factor itself, not merely a
 diagnostic correlated with it, and by Proposition~\ref{prop:decomp} it separates
 imprecision from impermanence. Standard errors and power calculations cannot:
-in our data they indicated reliabilities of 0.78--0.99 where the true permanent
-share was zero.
+in our data they indicated reliabilities of 0.664--0.923 where the split-half
+estimate of the true permanent share was under 6\%.
 
 \emph{In inflation-accounting regimes, prefer flows.} By
 Proposition~\ref{prop:restate} the contamination enters as an interaction and
@@ -1411,7 +1453,7 @@ coefficients were decade-long trends; a two-year window would have produced a
 publishable false positive.
 
 \subsection{Conclusion}
-\label{sec:conclusion}
+\label{sec:concl}
 
 
 Published financial statements support a genuine, validated measure of the price
@@ -1423,10 +1465,10 @@ that conflates currency shocks with interest costs.
 Statements do not support a measure of which firms are contractually exposed to
 repricing. Our framework explains why in a form that is testable rather than
 rhetorical: the estimand is attenuated by the reliability of the exposure
-proxy, that reliability is identified by a split-half correlation which is zero
-in both countries, and the dispersion in estimated sensitivities is transitory
-rather than permanent---so the failure is impermanence, which more data cannot
-cure.
+proxy, that reliability is identified by a split-half correlation which is
+indistinguishable from zero in both countries, and the dispersion in estimated
+sensitivities is overwhelmingly transitory rather than permanent---so the
+failure is impermanence, which more data cannot cure.
 
 The implication is not that the channel fails to operate; our aggregate evidence
 is consistent with its operating forcefully in T\"{u}rkiye. It is that the
