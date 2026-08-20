@@ -263,7 +263,11 @@ investment response. \citet{ozdagli2018} shows that financial frictions shape
 the stock price reaction to policy, and \citet{greenwald2019} identifies an
 interest coverage channel operating through debt covenants---directly relevant
 to our outcome set, since coverage is one of the few distress measures that
-survives Proposition~\ref{prop:flow}.
+survives Proposition~\ref{prop:flow}. \citet{jeenas2019} shows that firms with
+less liquid balance sheets cut investment more sharply after a monetary
+contraction because they are more exposed to fluctuations in the cost of new
+borrowing---the same repricing exposure this paper tries, and fails, to recover
+from firm-level accounting data.
 
 Two strands bear closely on our design. The first concerns \emph{contractual}
 repricing: \citet{ippolito2018} identify the floating rate channel using
@@ -315,13 +319,20 @@ question is different in kind because its treatment variable is not.
 Because T\"{u}rkiye's episode combines tightening with severe depreciation, the
 FX-mismatch literature bears directly on our measurement problem.
 \citet{eichengreen1999} framed the ``original sin'' of borrowing in foreign
-currency. The empirical record is more nuanced than the framing suggests:
-\citet{bleakley2008} find that firms holding dollar debt did not systematically
-underperform during depreciations, because they tended to hold dollar revenues
-too, while \citet{aguiar2005} documents contractionary balance-sheet effects in
-Mexico. \citet{kalemli2016} reconcile these by showing that the damaging
-combination is unhedged FX debt together with a banking crisis restricting
-credit supply.
+currency, and \citet{eichengreenhausmannpanizza2003,eichengreenhausmannpanizza2005}
+subsequently distinguish it from the related but distinct problem of debt
+intolerance and trace its consequences for output and capital-flow volatility.
+\citet{salomaovarela2022} model the firm-level counterpart directly, showing
+that foreign-currency borrowing arises from a dynamic trade-off between
+currency risk and growth rather than a uniform exposure, which is itself a
+reason to expect the cross-firm heterogeneity our design tries and fails to
+recover. The empirical record is more nuanced than the original framing
+suggests: \citet{bleakley2008} find that firms holding dollar debt did not
+systematically underperform during depreciations, because they tended to hold
+dollar revenues too, while \citet{aguiar2005} documents contractionary
+balance-sheet effects in Mexico. \citet{kalemli2016} reconcile these by
+showing that the damaging combination is unhedged FX debt together with a
+banking crisis restricting credit supply.
 
 \citet{bruno2015a,bruno2015b} establish the risk-taking channel linking exchange
 rates, bank leverage and global liquidity; \citet{du2022} connect sovereign
@@ -368,7 +379,20 @@ rather than attenuate measurement error---directly relevant, since
 first-differencing in \eqref{eq:beta} removes the fixed effect but magnifies the
 noise-to-signal ratio. Classical attenuation biases coefficients toward zero,
 exactly the pattern our null exhibits, which is why we regard a first-stage
-validity test as obligatory rather than optional.
+validity test as obligatory rather than optional. \citet{hausman2001} surveys
+the broader consequences of mismeasured variables on both sides of a
+regression, including why the standard instrumental-variables fix for
+attenuation is unavailable precisely when the instrument is itself only weakly
+correlated with the true regressor---the situation our split-half correlation
+diagnoses directly, so we do not pursue an errors-in-variables correction:
+instrumenting with one half of the estimation window for the other would
+require exactly the reliability the data reject. \citet{boundbrownmathiowetz2001}
+review the wider empirical record on measurement error in survey and
+administrative data and note that classical assumptions---error uncorrelated
+with the true value and independent across variables---are themselves
+frequently violated in ways that can push bias in either direction, which is
+part of why we treat the split-half correlation as a direct test rather than
+inferring reliability from auxiliary assumptions about the error structure.
 
 Proposition~\ref{prop:decomp} extends this in a direction we have not seen
 applied to firm-level exposure: separating estimation error from genuine
@@ -482,7 +506,22 @@ This is, to our knowledge, an underused device. The split-half correlation is
 trivial to compute whenever exposure is estimated from a time series, and by
 Proposition~\ref{prop:split} it \emph{is} the attenuation factor rather than
 merely a diagnostic correlated with it. Section~\ref{sec:exposure} reports
-values of $+0.045$ and $+0.054$.
+values of $+0.045$ and $+0.054$, with 95\% confidence intervals of
+$[-0.074,\,0.164]$ in T\"{u}rkiye and $[-0.033,\,0.142]$ in Vietnam (Fisher
+$z$-transform, computed from 200 independent random half/half partitions of
+each firm's usable years and the median number of firms entering a partition).
+
+\begin{remark}[Corollary~\ref{cor:uninformative} as a test]
+\label{rem:test}
+Corollary~\ref{cor:uninformative}'s condition is testable rather than merely
+descriptive. Both confidence intervals contain zero, so the null
+$H_0:\lambda=0$ cannot be rejected in either country; more decisively, both
+intervals' upper bounds sit far below any conventional reliability threshold
+(commonly $0.70$--$0.80$ in psychometric practice), so $H_0:\lambda\ge0.5$ is
+rejected at the 5\% level in both countries. The design does not merely fail
+to demonstrate reliability---it affirmatively rejects it at any level that
+would license treating $\widehat{\theta}$ as informative.
+\end{remark}
 
 \subsubsection{Feasibility: how long a panel is required?}
 
@@ -692,6 +731,23 @@ Proposition~\ref{prop:restate}. It also refines the specification: the implied
 rate is invariant \emph{in logs}, not in levels, and we use it accordingly.
 \end{remark}
 
+\begin{remark}[A limit of the invariance argument]
+\label{rem:monetarygainloss}
+Proposition~\ref{prop:flow} assumes every flow is restated by the same
+firm-invariant factor $\psi_t$. IAS~29/TMS~29 restatement introduces one
+further line that does not fit this template: a net monetary gain or loss,
+recognised in income and equal to the erosion or accretion of purchasing
+power on the firm's net monetary position (monetary assets less monetary
+liabilities) over the period. This gain or loss is a function of each firm's
+own net monetary position, not a common multiplicative factor, so a flow
+measure that includes it---as EBIT can, depending on where the vendor's
+statement places the line---is not covered by the proof above. We do not
+observe the net monetary position separately in our data and cannot rule out
+some residual contamination of the Turkish EBIT margin on this channel; the
+implied borrowing cost is unaffected, since interest expense and average debt
+are both defined independently of the net monetary position.
+\end{remark}
+
 \subsubsection{Reading pass-through structurally}
 
 Finally, the framework gives the aggregate pass-through estimate an
@@ -735,7 +791,10 @@ exceeded 60\% at its height and the lira depreciated from roughly 18.7 per US
 dollar at end-2022 to 43.0 at end-2025.
 
 Vietnam's experience is far milder. The State Bank raised policy rates in late
-2022 amid stress in the domestic corporate bond market and reversed through
+2022 amid stress in the domestic corporate bond market---a crisis of fraudulent
+issuance and mass defaults that froze new issuance and, \citet{huynhphan2024}
+show, tightened the cost and availability of bank debt for listed firms more
+broadly, independent of the policy-rate move itself---and reversed through
 2023. The average bank lending rate rose from 8.0\% in 2022 to 9.3\% in
 2023---against 17.0\% at the peak of the 2011 inflation episode, a useful
 within-country benchmark for what a severe Vietnamese tightening looks like.
@@ -1448,7 +1507,9 @@ estimate of the true permanent share was under 6\%.
 \emph{In inflation-accounting regimes, prefer flows.} By
 Proposition~\ref{prop:restate} the contamination enters as an interaction and
 fixed effects do not address it; by Proposition~\ref{prop:flow} ratios of flows
-escape it.
+escape it, with the qualification of Remark~\ref{rem:monetarygainloss}: a flow
+outcome that itself bundles the IAS~29 net monetary gain or loss is only
+partially protected.
 
 \emph{Extend the pre-period until parallel trends can genuinely be tested.}
 Restricting to outcomes with long history revealed that our significant

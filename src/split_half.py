@@ -203,6 +203,35 @@ def _corr(df, c1, c2, by):
     return out
 
 
+def _corr_with_uncertainty(sp: pd.DataFrame, c1: str, c2: str) -> pd.DataFrame:
+    """Two independent uncertainty measures around the average split-half
+    correlation, by country: (i) an analytic 95% CI via the Fisher
+    z-transform, treating each split's correlation as drawn from N firms
+    (N = the median firm count actually entering that correlation, since a
+    handful of firms lack both halves' estimates); and (ii) the empirical
+    standard deviation of the correlation across the N_SPLITS partitions,
+    which instead measures how much the arbitrary choice of partition alone
+    moves the estimate, holding the firm sample fixed. The two are not
+    interchangeable: (i) is silent on partition-choice sensitivity, and (ii)
+    is silent on firm-sampling uncertainty."""
+    rows = []
+    for country, g in sp.groupby("country"):
+        per_split = g.groupby("split").apply(lambda s: _split_corr(s, c1, c2))
+        per_split = per_split.dropna()
+        n_used = g.groupby("split").apply(
+            lambda s: (s[c1].notna() & s[c2].notna()).sum())
+        n_med = int(n_used.reindex(per_split.index).median())
+        r_bar = float(per_split.mean())
+        z = np.arctanh(np.clip(per_split, -0.999, 0.999))
+        z_bar, se_z = float(z.mean()), 1 / np.sqrt(max(n_med - 3, 1))
+        lo, hi = np.tanh(z_bar - 1.96 * se_z), np.tanh(z_bar + 1.96 * se_z)
+        rows.append({"country": country, "r_mean": r_bar,
+                     "n_firms_median": n_med,
+                     "fisher_ci_lo": float(lo), "fisher_ci_hi": float(hi),
+                     "across_split_sd": float(per_split.std(ddof=1))})
+    return pd.DataFrame(rows).set_index("country")
+
+
 def split_half_table(sp: pd.DataFrame) -> pd.DataFrame:
     by = {c: g for c, g in sp.groupby("country")}
     rows = {
@@ -264,6 +293,11 @@ def main():
     print(f"\nnull benchmark k/(T-1), k=2, median half-length "
           f"T={int(pd.concat([sp.n_1, sp.n_2]).median())}: "
           f"{2/(pd.concat([sp.n_1, sp.n_2]).median()-1):.3f}")
+
+    print("\n=== Uncertainty around the repricing-sensitivity split-half correlation ===")
+    unc = _corr_with_uncertainty(sp, "theta_1", "theta_2")
+    print(unc.round(4).to_string())
+    unc.to_csv(RES / "split_half_uncertainty.csv")
 
 
 if __name__ == "__main__":
