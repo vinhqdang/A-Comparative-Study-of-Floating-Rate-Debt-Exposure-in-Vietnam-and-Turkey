@@ -20,8 +20,13 @@ from linearmodels.panel import PanelOLS
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PROC = ROOT/"data"/"processed"; RES = ROOT/"results"; RES.mkdir(exist_ok=True)
 
-DOSE = {"TR":33.50, "VN":0.80, "HU":10.60, "CL":7.25, "BR":5.75, "MX":5.75,
-        "PL":5.00, "IL":4.65, "KR":2.50, "TH":2.00}
+# Five-country sample: the two decade-long anchors plus the three
+# additional markets with the largest, most reliable firm counts among
+# the seven fetched after the desk rejection (Brazil, Chile, Hungary and
+# Mexico dropped -- the latter two for having fewer firms, 23 and 19,
+# than the 83-firm Turkish sample already shown to produce a false
+# positive; Brazil and Chile dropped to hold the set to five).
+DOSE = {"TR":33.50, "VN":0.80, "PL":5.00, "IL":4.65, "KR":2.50}
 
 
 def _w(s):

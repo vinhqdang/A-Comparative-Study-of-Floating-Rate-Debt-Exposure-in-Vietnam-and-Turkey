@@ -79,9 +79,7 @@ def dose_response_figure():
     # dose, so a fixed offset would overlap. Alternate direction and stagger
     # distance for the crowded cluster.
     OFFSETS = {
-        "TR": (6, 2),   "HU": (7, -2),  "CL": (7, 4),   "BR": (7, -9),
-        "MX": (-28, 10), "PL": (10, -16), "IL": (-30, 12),
-        "KR": (-30, -6), "VN": (-8, 10),
+        "TR": (6, 2), "PL": (9, 8), "IL": (9, -10), "KR": (-28, 4), "VN": (-8, 8),
     }
     for _, r in tab.iterrows():
         dx, dy = OFFSETS.get(r.country, (5, 3))
@@ -93,7 +91,7 @@ def dose_response_figure():
     corr = np.corrcoef(tab.dose_pp, tab.rate_change_pp)[0,1]
     ax.set_xlabel("Policy tightening, 2021 to peak (pp)")
     ax.set_ylabel("Change in median implied\nborrowing cost (pp)")
-    ax.set_title(f"Dose-response across 9 countries (r = {corr:.2f})", fontsize=9)
+    ax.set_title(f"Dose-response across {len(tab)} countries (r = {corr:.3f})", fontsize=9)
     fig.tight_layout(); fig.savefig(FIG/"dose_response.pdf")
     print("wrote", FIG/"dose_response.pdf")
 
