@@ -5,7 +5,7 @@ warnings.filterwarnings("ignore")
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import pandas as pd
+import pandas as pd, numpy as np
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FIG = ROOT/"paper"/"tex"/"figs"; FIG.mkdir(parents=True, exist_ok=True)
@@ -62,3 +62,32 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def dose_response_figure():
+    """Scatter of policy dose against the change in implied borrowing cost,
+    across the full cross-country sample."""
+    import sys as _s
+    _s.path.insert(0, str(ROOT/"src"))
+    from analysis_dose import load_all, DOSE, aggregate_dose_response
+    df = load_all()
+    tab = aggregate_dose_response(df)
+    tab = tab.dropna(subset=["rate_change_pp"])
+
+    fig, ax = plt.subplots(figsize=(4.6,3.6))
+    ax.scatter(tab.dose_pp, tab.rate_change_pp, s=28, color="#1f4e79", zorder=3)
+    for _,r in tab.iterrows():
+        ax.annotate(r.country, (r.dose_pp, r.rate_change_pp),
+                    textcoords="offset points", xytext=(5,3), fontsize=7.5)
+    b = np.polyfit(tab.dose_pp, tab.rate_change_pp, 1)
+    xs = np.linspace(tab.dose_pp.min(), tab.dose_pp.max(), 50)
+    ax.plot(xs, np.polyval(b, xs), "--", color="#c0504d", lw=1.1, zorder=2)
+    corr = np.corrcoef(tab.dose_pp, tab.rate_change_pp)[0,1]
+    ax.set_xlabel("Policy tightening, 2021 to peak (pp)")
+    ax.set_ylabel("Change in median implied\nborrowing cost (pp)")
+    ax.set_title(f"Dose-response across 9 countries (r = {corr:.2f})", fontsize=9)
+    fig.tight_layout(); fig.savefig(FIG/"dose_response.pdf")
+    print("wrote", FIG/"dose_response.pdf")
+
+if __name__ == "__main__":
+    main()
+    dose_response_figure()

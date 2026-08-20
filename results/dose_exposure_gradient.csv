@@ -1,0 +1,4 @@
+outcome,n,firms,treat_coef,treat_p,treat_dose_coef,treat_dose_p
+icr,2633,603,-0.9794,0.0692,0.0212,0.9338
+ebit_margin,2723,603,-0.0089,0.0983,-0.0091,0.389
+implied_rate,2762,610,0.0081,0.0704,0.0322,0.0482

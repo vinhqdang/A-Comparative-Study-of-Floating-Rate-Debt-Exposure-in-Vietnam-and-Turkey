@@ -28,8 +28,7 @@
 \begin{frontmatter}
 
 \title{What Financial Statements Can and Cannot Reveal About Monetary
-Transmission to Corporate Balance Sheets: Evidence from Vietnam and
-T\"{u}rkiye}
+Transmission to Corporate Balance Sheets: A Nine-Country Emerging-Market Test}
 
 %% Double anonymized review: author information is in the separate title page.
 
@@ -38,17 +37,21 @@ Firms holding floating-rate debt bear the brunt of monetary tightening---a
 finding built almost entirely on supervisory credit registries. Most emerging
 markets have none; they have published financial statements. Can these
 substitute? We develop a measurement framework in which exposure is estimated
-rather than observed, and test its predictions on harmonised panels of 693
-Vietnamese and 585 Turkish listed non-financial firms over 2010--2025,
-exploiting a contrast in dose: T\"{u}rkiye tightened from 9\% to 47.5\%, Vietnam
-mildly and briefly. The price of debt proves recoverable. A simple implied
-borrowing cost reproduces each central bank's policy path unprompted, yielding
-pass-through of roughly 35\% while median interest coverage halves. Exposure
-does not. Split-half reliabilities of $-0.219$ and $-0.080$ imply an attenuation
-factor of zero, and T\"{u}rkiye's inflation-accounting restatement enters as an
-exposure-by-post interaction that fixed effects cannot absorb. No exposure
-gradient survives. The contractual object these designs require is absent from
-the accounting record.
+rather than observed, and test its predictions on harmonised panels of listed
+non-financial firms in nine emerging markets over 2010--2025 (2021--2025 for
+seven of the nine), spanning tightening doses from T\"{u}rkiye's 33.5
+percentage points to Vietnam's 0.8. The price of debt proves recoverable: a
+simple implied borrowing cost tracks each country's policy path, and its change
+correlates with tightening dose at $r=0.983$ across the sample, with
+pass-through of roughly 35\% in T\"{u}rkiye and coverage halving. Exposure does
+not. Split-half reliabilities of $-0.219$ and $-0.080$ in the two countries with
+decade-long history imply an attenuation factor of zero, T\"{u}rkiye's
+inflation-accounting restatement enters as an exposure-by-post interaction
+fixed effects cannot absorb, and pooling all nine countries the exposure-by-dose
+interaction is null on interest coverage and profitability ($p=0.93$,
+$p=0.39$) while significant only on the price measure already shown to move
+with dose mechanically. The contractual object these designs require is absent
+from the accounting record.
 \end{abstract}
 
 \begin{keyword}
@@ -101,20 +104,36 @@ estimand. The framework delivers four propositions, each of which generates a
 sharp, falsifiable prediction about statistics we can compute. Sections
 \ref{sec:setting}--\ref{sec:robust} take those predictions to data.
 
-The empirical design is comparative. Vietnam and T\"{u}rkiye share the
-structural features that make the floating-rate channel plausible:
-bank-dominated corporate finance, thin corporate bond markets, heavy reliance on
-short-maturity credit, and substantial listed non-financial sectors. What they
-do not share is the monetary experience of 2021--2025. T\"{u}rkiye executed one
-of the decade's most severe tightenings, from 9.0\% to 47.5\%, under inflation
-exceeding 60\%. Vietnam tightened modestly in late 2022 and reversed within a
-year.
+The empirical design is comparative and, where the data permit, decade-long.
+Vietnam and T\"{u}rkiye anchor the study: they share the structural features
+that make the floating-rate channel plausible---bank-dominated corporate
+finance, thin corporate bond markets, heavy reliance on short-maturity credit,
+substantial listed non-financial sectors---and diverge sharply in monetary
+experience. T\"{u}rkiye executed one of the decade's most severe tightenings,
+from 9.0\% to 47.5\%, under inflation exceeding 60\%; Vietnam tightened
+modestly in late 2022 and reversed within a year. Both countries carry the
+history needed to test the identifying assumption directly, back to 2010--11.
 
-This contrast is the paper's instrument. It supplies a strong dose and a weak
-one, and it imposes a discipline single-country studies cannot: a measurement
-strategy that works should register both, in proportion. A method reporting
-similar magnitudes in both, or registering Vietnam more strongly than
-T\"{u}rkiye, has failed a test it would never have faced alone.
+A two-point contrast, however sharp, is still only two points, and a referee
+is right to ask whether either country's null is idiosyncratic. We therefore
+extend the design to seven further emerging markets---Brazil, Chile, Hungary,
+Israel, Mexico, Poland and South Korea---covering the full range of monetary
+tightening observed globally over 2021--2025, from Hungary's 10.6 percentage
+points down to Korea's 2.5. Across all nine countries the change in
+implied borrowing cost correlates with tightening dose at $r=0.983$
+(Section~\ref{sec:dose}), and the exposure-by-dose interaction is null on
+distress and profitability outcomes regardless of how severely a country
+tightened. The two-country design supplies the depth---a decade of history,
+a testable pre-trend, an inflation-accounting stress test; the nine-country
+extension supplies the breadth, showing the conclusion is not an artefact of
+which two countries were chosen.
+
+This dose gradient is the paper's instrument throughout. It imposes a
+discipline a single-country study cannot: a measurement strategy that works
+should register a stronger response where tightening was more severe, in
+proportion. A method that fails to register the gradient, or that finds a
+firm-level exposure effect that itself fails to scale with dose, has failed a
+test it would never have faced with one country alone.
 
 Our diagnostic standard throughout is \emph{validation against an external
 benchmark}. We do not ask whether a measure is statistically well behaved; we
@@ -712,6 +731,24 @@ firms within a period, which is the condition of Proposition~\ref{prop:flow}.
 
 \subsubsection{Sources and construction}
 
+Two countries anchor the study and supply its decade-long identification
+tests: Vietnam and T\"{u}rkiye, described below. Seven further countries---
+Brazil, Chile, Hungary, Israel, Mexico, Poland and South Korea---extend the
+2021--2025 window across the range of monetary tightening observed globally in
+that cycle, from Hungary's 10.6 percentage points down to Korea's 2.5,
+bracketing T\"{u}rkiye above and Vietnam below. These seven are built from
+Yahoo Finance directly: ticker universes are enumerated per exchange via the
+TradingView screener, restricted to non-financial sectors, and statements
+retrieved as in the validation exercise of Section~\ref{sec:measure}. Yahoo
+retains only four to five annual periods, so these seven support the aggregate
+dose-response test of Section~\ref{sec:results} but not the decade-long
+event-study test Section~\ref{sec:results} also requires for T\"{u}rkiye and
+Vietnam; and by the feasibility condition of Section~\ref{sec:lit}, a
+four-year window is in any case well short of what firm-level
+repricing-sensitivity estimation needs, so no attempt is made to extend the
+beta estimation of Section~\ref{sec:measure} to them.
+
+
 The Vietnamese panel derives from an item-level dataset of statements filed by
 companies listed on the Ho Chi Minh City and Hanoi exchanges, distributed
 through a public research repository in long format with standardised item
@@ -1157,6 +1194,104 @@ differences between firm types, not responses to monetary policy. What a
 conventional two-year window would report is the difference between the 2022
 base and the 2023--25 average---a difference that exists, is significant, and
 means nothing causal.
+
+\subsection{Cross-country evidence: dose-response and pooled exposure}
+\label{sec:dose}
+
+The two-country design identifies the exposure gradient cleanly but leaves
+open whether its absence is a T\"{u}rkiye-and-Vietnam idiosyncrasy or a general
+property of listed emerging-market firms. We extend the price validation of
+Section~\ref{sec:measure} and the exposure test of this section to the full
+nine-country, 2021--2025 sample described in Section~\ref{sec:data}, spanning
+tightening doses from T\"{u}rkiye's 33.5 percentage points to Vietnam's 0.8.
+
+\begin{table}[htbp]
+\centering
+\caption{Dose-response across nine countries, 2022 to 2023--24}
+\label{tab:dose}
+\begin{tabular}{lrrrrr}
+\toprule
+Country & Dose (pp) & Firms & $\Delta$ Implied rate (pp) & ICR pre & ICR post \\
+\midrule
+T\"{u}rkiye & 33.50 & 559 & 10.59 & 3.36 & 2.45 \\
+Hungary     & 10.60 &  23 &  3.51 & 6.28 & 4.41 \\
+Chile       &  7.25 &  80 &  2.24 & 4.15 & 2.75 \\
+Brazil      &  5.75 & 215 &  0.48 & 2.48 & 2.05 \\
+Mexico      &  5.75 &  19 &  1.94 & 3.62 & 2.59 \\
+Poland      &  5.00 & 521 &  1.59 & 4.72 & 2.91 \\
+Israel      &  4.65 & 274 &  1.90 & 4.81 & 3.29 \\
+South Korea &  2.50 & 290 &  1.56 & 6.19 & 4.16 \\
+Vietnam     &  0.80 & 570 &  0.13 & 2.91 & 2.23 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The change in implied borrowing cost correlates with policy dose at
+$r=0.983$ across the nine countries, and median interest coverage falls in
+every single one, from a 33-fold range of tightening severity down to
+Vietnam's near-negligible dose. Figure~\ref{fig:dose} plots the relationship.
+This is, to our knowledge, the tightest cross-country validation of a
+statement-based transmission measure reported to date, and it extends
+Section~\ref{sec:measure}'s two-country result to a design with genuine
+cross-sectional variation in treatment intensity rather than two points.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.62\textwidth]{figs/dose_response.pdf}
+\caption{Change in median implied borrowing cost against policy tightening
+dose, nine countries, 2022 to 2023--24. The measure is constructed from firm
+statements alone.}
+\label{fig:dose}
+\end{figure}
+
+We then pool all nine countries and estimate the triple interaction
+\begin{equation}
+Y_{ict} \;=\; \beta_1\bigl(E_i P_t\bigr) \;+\;
+\beta_2\bigl(E_i P_t \cdot \mathrm{Dose}_c\bigr) \;+\;
+\alpha_i \;+\; \lambda_{ct} \;+\; \varepsilon_{ict},
+\label{eq:tripledose}
+\end{equation}
+with $E_i$ the pre-period short-term debt share (the only exposure proxy
+constructible on a four-year panel), $\mathrm{Dose}_c$ the country's
+standardised tightening severity, and $\lambda_{ct}$ country-by-year effects.
+If the exposure gradient were real and simply underpowered in
+Section~\ref{sec:results}'s two-country test, $\beta_2$ should be positive and
+significant on distress outcomes as dose rises.
+
+\begin{table}[htbp]
+\centering
+\caption{Pooled exposure $\times$ dose interaction, nine countries}
+\label{tab:dosegrad}
+\begin{tabular}{lrrrr}
+\toprule
+Outcome & Firms & $\beta_1$ ($p$) & $\beta_2$ ($p$) \\
+\midrule
+Interest coverage  & 603 & $-0.979$ (0.069) & $\phantom{-}0.021$ (0.934) \\
+EBIT margin        & 603 & $-0.009$ (0.098) & $-0.009$ (0.389) \\
+Implied rate       & 610 & $\phantom{-}0.008$ (0.070) & $\phantom{-}0.032$ (0.048) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The dose interaction is null on both distress outcomes: interest coverage
+($p=0.934$) and EBIT margin ($p=0.389$) show no evidence that the exposure
+gradient steepens with tightening severity. It is significant only for the
+implied rate itself ($p=0.048$)---which is the mechanical restatement, at firm
+level, of the aggregate result already established in Table~\ref{tab:dose},
+not a new finding about cross-sectional exposure. Scaling the test across a
+range of monetary shocks that spans more than an order of magnitude produces
+the same conclusion as the two-country design: the price of debt responds to
+dose, the firm-level exposure gradient does not.
+
+We emphasise the limits of this extension. The short-term debt share is the
+proxy shown in Section~\ref{sec:exposure} to conflate repricing exposure with
+credit quality, and the four-year panel available for seven of these nine
+countries is, by the feasibility condition of
+Proposition~\ref{prop:feas}, too short to support the reliability-tested
+repricing beta of Section~\ref{sec:exposure}. This subsection therefore
+corroborates the two-country null under a cruder exposure measure and a wider
+dose range; it does not repeat the decade-long identification test, which
+remains specific to T\"{u}rkiye and Vietnam.
 
 \subsection{Robustness}
 \label{sec:robust}
