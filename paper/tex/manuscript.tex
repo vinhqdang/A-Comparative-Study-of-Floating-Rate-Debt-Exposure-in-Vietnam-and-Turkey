@@ -43,8 +43,9 @@ Israel and South Korea---over 2010--2025 (2021--2025 for the latter three),
 spanning tightening doses from T\"{u}rkiye's 36.0 percentage points to
 Vietnam's 1.5. The price of debt proves recoverable: a
 simple implied borrowing cost tracks each country's policy path, and its change
-correlates with tightening dose at $r=0.995$ across the sample, with
-pass-through of roughly one-third in T\"{u}rkiye and coverage halving. Exposure does
+tracks tightening dose across the sample---a pattern we read qualitatively
+given only five countries---with pass-through of roughly one-third in
+T\"{u}rkiye and coverage halving. Exposure does
 not. Split-half reliabilities of $+0.045$ and $+0.054$ in the two countries with
 decade-long history are indistinguishable from zero, implying an attenuation
 factor of essentially zero, T\"{u}rkiye's
@@ -1534,6 +1535,25 @@ indistinguishable from zero in both countries, and the dispersion in estimated
 sensitivities is overwhelmingly transitory rather than permanent---so the
 failure is impermanence, which more data cannot cure.
 
+A sceptical reading of this null deserves airing rather than dismissal. The
+panel we estimate exposure from is not a random sample of firms subject to
+monetary tightening; it is the sample of firms that were listed, filed
+statements, and survived long enough to enter a decade-plus estimation window.
+If the firms most exposed to repricing risk are disproportionately the ones
+that delisted, merged or failed before or during the tightening we study---the
+attrition problem flagged as an open limitation in
+Section~\ref{sec:dataonly}---then a genuine cross-sectional exposure gradient
+could exist in the population of Turkish and Vietnamese firms while being
+invisible in the surviving, listed subset we observe. We cannot rule this out
+with the data at hand, and we doubt it can be ruled out by any design built
+solely on published statements: the same institutional gap that keeps
+contractual exposure from being observed also keeps the researcher from
+characterising who is missing from the observed sample. This is a second,
+independent route to caution about the null, distinct from the measurement-
+reliability argument above---not a reason to doubt that argument, but a reason
+not to over-read the null as proof the exposure channel is dormant rather than
+merely unobservable from where we stand.
+
 The implication is not that the channel fails to operate; our aggregate evidence
 is consistent with its operating forcefully in T\"{u}rkiye. It is that the
 cross-sectional question---\emph{which} firms bear the adjustment---requires
@@ -1541,6 +1561,21 @@ contractual data. Researchers without registry access should direct effort
 toward the aggregate and price-side questions statements can answer, and toward
 making repricing terms disclosable, rather than toward proxies that cannot carry
 the weight placed on them.
+
+A result independent of either verdict deserves its own emphasis before
+closing. The inflation-accounting confound we formalise
+(Proposition~\ref{prop:restate}) and its remedy
+(Proposition~\ref{prop:flow}) are not specific to T\"{u}rkiye's tightening or
+to floating-rate exposure. Any difference-in-differences design that combines
+a treatment date with an accounting regime restating non-monetary items by a
+vintage-dependent factor---IAS~29/TMS~29 hyperinflation accounting, but
+equally a large one-off revaluation elsewhere---inherits the same
+exposure-by-post interaction that two-way fixed effects cannot absorb, and the
+same fix: outcomes built from a ratio of two flows are invariant to it, in
+logs. We regard this as the paper's most exportable methodological result,
+independent of what a reader concludes about the exposure-measurement question
+above, and applicable well beyond the two countries and the specific channel
+studied here.
 
 \section*{Declaration of generative AI and AI-assisted technologies in the
 manuscript preparation process}
