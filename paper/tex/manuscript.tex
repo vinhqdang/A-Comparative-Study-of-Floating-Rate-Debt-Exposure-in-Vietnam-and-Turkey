@@ -782,6 +782,11 @@ foreign-currency position.
 Both panels are restricted to non-financial firms, since banks, insurers and
 brokers file on incompatible templates. We require strictly positive total debt
 and assets, the transmission channel being undefined otherwise.
+Table~\ref{tab:coverage} reports firm counts by year: Turkish coverage rises
+as the exchange admits new listings over the sample, while Vietnamese coverage
+is near-complete from 2015. Because identification uses within-firm variation
+with firm fixed effects, this entry does not bias the estimates, though earlier
+years rest on a smaller Turkish cross-section.
 
 \begin{table}[htbp]
 \centering
@@ -802,6 +807,8 @@ Year & T\"{u}rkiye & Vietnam & Year & T\"{u}rkiye & Vietnam \\
 \end{table}
 
 \subsubsection{Descriptive statistics}
+
+Table~\ref{tab:desc} summarises the two anchor panels over 2015--2025.
 
 \begin{table}[htbp]
 \centering
@@ -832,6 +839,7 @@ to the covenant-relevant threshold \citet{greenwald2019} identifies.
 \subsubsection{Cross-validation against an independent source}
 
 Because the subject is measurement, we test rather than assume our panels.
+Table~\ref{tab:xval} reports the reconciliation.
 
 \begin{table}[htbp]
 \centering
@@ -882,7 +890,7 @@ year. By Proposition~\ref{prop:flow}, $\log r_{it}$ is contaminated only by an
 additive time effect under restatement, and we use logs throughout.
 
 The measure is not calibrated to any policy series, so recovering one is a
-genuine test.
+genuine test. Table~\ref{tab:validate} reports it.
 
 \begin{table}[htbp]
 \centering
@@ -970,7 +978,7 @@ countries return a positive $\widehat{\theta}$, the mean Vietnamese estimate
 implies that a one-point rise in the lending rate raises a firm's cost of funds
 by roughly 0.79 points, and median in-sample $R^2$ is 0.28 in Vietnam and 0.34
 in T\"{u}rkiye. Propositions~\ref{prop:split}--\ref{prop:r2} supply the tests
-these diagnostics cannot pass.
+these diagnostics cannot pass, reported in Table~\ref{tab:split}.
 
 \begin{table}[htbp]
 \centering
@@ -1032,7 +1040,8 @@ constraint.
 
 \subsubsection{First-stage prediction}
 
-The decisive test asks whether $\widehat{\theta}$ predicts what it purports to.
+The decisive test asks whether $\widehat{\theta}$ predicts what it purports to,
+reported in Table~\ref{tab:firststage}.
 
 \begin{table}[htbp]
 \centering
@@ -1079,6 +1088,8 @@ markets is not measuring a single construct.
 
 
 \subsubsection{The restatement confound, empirically}
+
+Table~\ref{tab:restate} reports the Turkish median balance-sheet aggregates.
 
 \begin{table}[htbp]
 \centering
@@ -1169,7 +1180,7 @@ VN & Short-term share / debt growth     & 522 & $0.059$  & 0.019 & 0.00 \\
 \end{table}
 
 Four coefficients reach conventional significance. The event studies show none
-is a treatment effect.
+is a treatment effect; Table~\ref{tab:event} reports the sharpest case.
 
 \begin{table}[htbp]
 \centering
@@ -1277,7 +1288,8 @@ constructible on a four-year panel), $\mathrm{Dose}_c$ the country's
 standardised tightening severity, and $\lambda_{ct}$ country-by-year effects.
 If the exposure gradient were real and simply underpowered in
 Section~\ref{sec:results}'s two-country test, $\beta_2$ should be positive and
-significant on distress outcomes as dose rises.
+significant on distress outcomes as dose rises. Table~\ref{tab:dosegrad}
+reports the estimates.
 
 \begin{table}[htbp]
 \centering
@@ -1402,6 +1414,15 @@ contractual data. Researchers without registry access should direct effort
 toward the aggregate and price-side questions statements can answer, and toward
 making repricing terms disclosable, rather than toward proxies that cannot carry
 the weight placed on them.
+
+\section*{Declaration of generative AI and AI-assisted technologies in the
+manuscript preparation process}
+
+During the preparation of this work the author used AI-assisted software
+tools to support data collection and processing, statistical analysis, literature
+search and verification, and drafting of the manuscript text. After using
+these tools, the author reviewed and edited the content as needed and takes
+full responsibility for the content of the published article.
 
 \bibliographystyle{elsarticle-harv}
 \bibliography{refs}
