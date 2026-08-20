@@ -122,9 +122,10 @@ def full_window_estimates(d: pd.DataFrame) -> pd.DataFrame:
 
 
 def _one_split(d: pd.DataFrame, rng: np.random.Generator) -> pd.DataFrame:
-    """One random half/half partition of each firm's own available
-    diff-years into two equal-size groups; regression measures re-estimated
-    on each half, trait measures averaged on each half."""
+    """One random partition of each firm's own available diff-years into two
+    groups of equal size (the odd one out, when the year count is odd, falls
+    in the second group); regression measures re-estimated on each half,
+    trait measures averaged on each half."""
     rows = []
     for firm, g in d.groupby("firm"):
         years = np.sort(g.year.unique())
@@ -172,6 +173,11 @@ def split_half_estimates(d: pd.DataFrame, seed: int = 0) -> pd.DataFrame:
 
 
 def _clip(s: pd.Series) -> pd.Series:
+    """Winsorise at the 2nd/98th percentile, matching exposure.py's own
+    convention. Each side of a split-half pair is clipped against its own
+    quantiles rather than a quantile pooled across both halves, so an
+    outlier estimate on one half cannot be carried over to distort the
+    other half's clipping threshold."""
     return s.clip(s.quantile(0.02), s.quantile(0.98)) if s.notna().sum() > 20 else s
 
 
