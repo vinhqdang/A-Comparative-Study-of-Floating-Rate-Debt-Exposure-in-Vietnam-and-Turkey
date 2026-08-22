@@ -116,6 +116,21 @@ def main():
     src = re.sub(r"\\eqref\{([^}]+)\}", eqref_sub, src)
     src = re.sub(r"\\ref\{([^}]+)\}", ref_sub, src)
 
+    # --- Prefix table/figure captions with their resolved number ---
+    # Word has no auto-numbering field here (this is a flattened LaTeX
+    # source, not a live document), so a caption reading only "Firms per
+    # year" gives a reader nothing to match against a body-text mention of
+    # "Table 1" -- belt-and-suspenders alongside the lead-in sentences.
+    def caption_sub(m):
+        word = "Table" if m.group("label").startswith("tab:") else "Figure"
+        number = label_map.get(m.group("label"), "?")
+        return f"\\caption{{{word} {number}: {m.group('text')}}}\n\\label{{{m.group('label')}}}"
+
+    src = re.sub(
+        r"\\caption\{(?P<text>.*?)\}\s*\n\\label\{(?P<label>tab:[^}]+|fig:[^}]+)\}",
+        caption_sub, src, flags=re.S,
+    )
+
     # --- Drop now-unused \label{...} ---
     src = re.sub(r"\\label\{[^}]+\}", "", src)
 
